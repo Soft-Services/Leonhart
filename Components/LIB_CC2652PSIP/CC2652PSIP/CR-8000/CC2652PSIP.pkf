@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "CC2652PSIP"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "CC2652PSIP")
+        (spec "default")
+    )
+)

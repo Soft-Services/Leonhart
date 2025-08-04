@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AM6254ATCGHAALW
+D Microprocessors - MPU Human-machine-interaction SoC with Arm Cortex-A53-based edge AI and full-HD dual display
+K
+F https://www.ti.com/lit/ds/symlink/am623.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1699949527929&ref_url=https%253A%252F%252Fwww.mouser.jp%252F
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=AM6231ASGGGAALW
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=425
+Version=2.1
+Released=2023-04-06 02:26:10
+Downloaded=2025-07-31 18:44:42
+3D=Y

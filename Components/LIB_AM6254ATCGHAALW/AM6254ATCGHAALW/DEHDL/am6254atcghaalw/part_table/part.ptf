@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AM6254ATCGHAALW'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "AM6254ATCGHAALW" (!) = "", "BGA425C50P25X25_1300X1300X89", "BGA", "595-AM6254ATCGHAALW", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/AM6254ATCGHAALW?qs=3Rah4i%252BhyCEL0QsorpBJwA%3D%3D", "AM6254ATCGHAALW", "https://www.arrow.com/en/products/am6254atcghaalw/texas-instruments?utm_currency=USD&region=nac", "Microprocessors - MPU Human-machine-interaction SoC with Arm Cortex-A53-based edge AI and full-HD dual display", "https://www.ti.com/lit/ds/symlink/am623.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1699949527929&ref_url=https%253A%252F%252Fwww.mouser.jp%252F", "0.89 mm"
+END_PART
+
+END.

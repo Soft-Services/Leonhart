@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CC2652P1FRGZR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-11-19-06:02:08)
+    (mountForm default
+        (footprintRef "QFN50P700X700X100-49N-D")
+        (spec "System")
+    )
+)

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AM6254ATCGHAALW"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-12-07-15:26:00)
+    (mountForm default
+        (footprintRef "BGA425C50P25X25_1300X1300X89")
+        (spec "System")
+    )
+)

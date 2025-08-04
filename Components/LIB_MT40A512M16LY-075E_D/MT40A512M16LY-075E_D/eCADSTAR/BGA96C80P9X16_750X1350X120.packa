@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MT40A512M16LY-075E_D"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-07-03-06:55:43)
+    (mountForm default
+        (footprintRef "BGA96C80P9X16_750X1350X120")
+        (spec "System")
+    )
+)

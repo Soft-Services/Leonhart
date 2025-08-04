@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MT40A512M16LY-075E_D
+D  VDD = VDDQ = 1.2V +/-60mV
+K
+F https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr4/4gb_auto_ddr4_sdram.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=CC2652P1FRGZR
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=49
+Version=1.1
+Released=2020-10-16 07:06:56
+Downloaded=2025-07-28 01:48:51
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AM6231ASGGGAALW'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "AM6231ASGGGAALW" (!) = "", "BGA425C50P25X25_1300X1300X89", "BGA", "", "", "AM6231ASGGGAALW", "https://www.arrow.com/en/products/am6231asgggaalw/texas-instruments?utm_currency=USD&region=nac", "Microprocessors - MPU Internet of Things (IoT) and gateway SoC with Arm Cortex-A53-based object and gesture recognition", "https://www.ti.com/lit/ds/symlink/am623.pdf?ts=1680690589118&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FAM623%253FkeyMatch%253DAM6231ASGGGAALW%2526tisearch%253Dsearch-everything%2526usecase%253DOPN", "0.89 mm"
+END_PART
+
+END.

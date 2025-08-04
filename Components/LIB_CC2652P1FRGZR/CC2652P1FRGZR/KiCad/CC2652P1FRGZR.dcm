@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CC2652P1FRGZR
+D RF Microcontrollers - MCU SimpleLink Arm Cortex-M4F multiprotocol 2.4 GHz wireless MCU with integrated power amplifier 48-VQFN -40 to 85
+K
+F https://www.ti.com/lit/ds/symlink/cc2652p.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CC2652P1FRGZR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "CC2652P1FRGZR" (!) = "", "QFN50P700X700X100-49N-D", "Quad Flat No-Lead", "595-CC2652P1FRGZR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CC2652P1FRGZR?qs=Cb2nCFKsA8p3CBXHu0QqCg%3D%3D", "CC2652P1FRGZR", "https://www.arrow.com/en/products/cc2652p1frgzr/texas-instruments?utm_currency=USD&region=nac", "RF Microcontrollers - MCU SimpleLink Arm Cortex-M4F multiprotocol 2.4 GHz wireless MCU with integrated power amplifier 48-VQFN -40 to 85", "https://www.ti.com/lit/ds/symlink/cc2652p.pdf", "1 mm"
+END_PART
+
+END.

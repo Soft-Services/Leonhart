@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=AM6254ATCGHAALW
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=425
+Version=1.1
+Released=2023-11-14 10:44:53
+Downloaded=2025-07-31 17:57:52
+3D=Y

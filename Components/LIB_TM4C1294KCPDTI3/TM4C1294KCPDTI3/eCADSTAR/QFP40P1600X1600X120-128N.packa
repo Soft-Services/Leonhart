@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TM4C1294KCPDTI3"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "QFP40P1600X1600X120-128N")
+        (spec "System")
+    )
+)

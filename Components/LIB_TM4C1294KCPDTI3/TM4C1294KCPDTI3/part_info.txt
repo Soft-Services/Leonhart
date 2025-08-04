@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TM4C1294KCPDTI3
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=128
+Version=2.1
+Released=2020-09-20 13:12:21
+Downloaded=2025-07-30 04:36:59
+3D=Y

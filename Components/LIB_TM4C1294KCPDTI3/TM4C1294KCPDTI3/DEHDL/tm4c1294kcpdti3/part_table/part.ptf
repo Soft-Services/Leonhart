@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TM4C1294KCPDTI3'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TM4C1294KCPDTI3" (!) = "", "QFP40P1600X1600X120-128N", "Quad Flat Packages", "595-TM4C1294KCPDTI3", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TM4C1294KCPDTI3?qs=NRIcxvoDUtdSWKDr717T9Q%3D%3D", "TM4C1294KCPDTI3", "https://www.arrow.com/en/products/tm4c1294kcpdti3/texas-instruments?utm_currency=USD&region=nac", "IoT enabled High performance 32-bit ARM Cortex-M4F based MCU", "http://www.ti.com/lit/gpn/TM4C1294KCPDT", "1.2 mm"
+END_PART
+
+END.

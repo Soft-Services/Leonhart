@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MT40A512M16LY_075E_D'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Micron", "MT40A512M16LY-075E:D" (!) = "", "BGA96C80P9X16_750X1350X120", "BGA", "", "", "", "", " VDD = VDDQ = 1.2V +/-60mV", "https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr4/4gb_auto_ddr4_sdram.pdf", "1.2 mm"
+END_PART
+
+END.

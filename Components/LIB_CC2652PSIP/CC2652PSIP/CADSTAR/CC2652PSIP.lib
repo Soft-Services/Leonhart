@@ -1,0 +1,20 @@
+.CC2652PSIP :1 ;SimpleLink multiprotocol 2.4-GHz wireless system-in-package module with integrated power amplifier
+CC2652PSIP
+*STM IC
+*NGS
+*PLB 1="DIO_26" 2="DIO_27" 3="DIO_28" 4="NRESET" 5="GND_1" 6="NC_1" 7="DIO_29" 8="DIO_30" 9="GND_2" 10="GND_3" 11="GND_4" 12="GND_5" 13="GND_6" 14="NC_2" 15="NC_3" 16="GND_7" 17="GND_8" 18="RF" 19="GND_9" 20="DIO_2" 21="DIO_1" 22="DIO_4" 23="DIO_5" 24="DIO_6" 25="DIO_7" 26="DIO_8" 27="DIO_9" 28="DIO_10" 29="DIO_11" 30="DIO_12" 31="DIO_13" 32="DIO_14" 33="DIO_15" 34="JTAG_TMSC" 35="JTAG_TCKC" 36="DIO_16" 37="DIO_17" 38="DIO_31" 39="DIO_18" 40="DIO_19" &
+41="DIO_20" 42="DIO_21" 43="DIO_22" 44="DIO_23" 45="DIO_24" 46="VDDS" 47="VDDS_PU" 48="DIO_25" 49="GND_10" 50="GND_11" 51="GND_12" 52="GND_13" 53="GND_14" 54="GND_15" 55="GND_16" 56="GND_17" 57="GND_18" 58="GND_19" 59="GND_20" 60="GND_21" 61="GND_22" 62="GND_23" 63="GND_24" 64="GND_25" 65="GND_26" 66="GND_27" 67="GND_28" 68="GND_29" 69="GND_30" 70="GND_31" 71="GND_32" 72="GND_33" 73="GND_34"
+*MXP 73
+*DFN CC2652PSIP
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (CC2652PSIP)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/cc2652psip.pdf?ts=1656508207463&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCC2652PSIP)
+~!Height (1.51mm)
+~!3D_Model (CC2652PSIP)
+CC2652PSIP
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 25.1!U 26.1!U 27.1!U 28.1!U 29.1!U 30.1!U 31.1!U 32.1!U 33.1!U 34.1!U 35.1!U 36.1!U 37.1!U 38.1!U 39.1!U 40.1!U 41.1!U 42.1!U 43.1!U 44.1!U 45.1!U 46.1!U 47.1!U 48.1!U 49.1!U 50.1!U 51.1!U 52.1!U 53.1!U 54.1!U 55.1!U 56.1!U 57.1!U 58.1!U 59.1!U 60.1!U 61.1!U 62.1!U 63.1!U 64.1!U 65.1!U 66.1!U &
+67.1!U 68.1!U 69.1!U 70.1!U 71.1!U 72.1!U 73.1!U 

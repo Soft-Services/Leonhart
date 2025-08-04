@@ -1,0 +1,9 @@
+Manufacturer=Micron
+PartNumber=MT40A512M16LY-075E:D
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=96
+Version=2.1
+Released=2022-12-28 10:53:04
+Downloaded=2025-08-04 16:35:32
+3D=Y

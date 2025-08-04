@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CC2652PSIP
+D SimpleLink multiprotocol 2.4-GHz wireless system-in-package module with integrated power amplifier
+K
+F https://www.ti.com/lit/ds/symlink/cc2652psip.pdf?ts=1656508207463&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCC2652PSIP
+$ENDCMP
+#
+#End Doc Library
