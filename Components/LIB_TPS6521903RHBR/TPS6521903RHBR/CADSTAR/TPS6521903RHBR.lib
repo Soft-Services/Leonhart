@@ -1,0 +1,18 @@
+.TPS6521903RHBR :1 ;Power Management Specialised - PMIC Integrated power management (PMIC) for Arm Cortex- A53 processors and FPGAs 32-VQFN -40 to 105
+QFN50P500X500X100-33N-D
+*STM IC
+*NGS
+*PLB 1="FB_B1" 2="LX_B1_1" 3="LX_B1_2" 4="PVIN_B1_1" 5="PVIN_B1_2" 6="PVIN_LDO1" 7="VLDO1" 8="GPO1" 9="SDA" 10="SCL" 11="NINT" 12="VSEL_SD/VSEL_DDR" 13="VSYS" 14="VDD1P8" 15="AGND" 16="GPIO" 17="GPO2" 18="NRSTOUT" 19="VLDO2" 20="PVIN_LDO2" 21="VLDO3" 22="PVIN_LDO34" 23="VLDO4" 24="FB_B3" 25="EN/PB/VSENSE" 26="PVIN_B3" 27="LX_B3" 28="MODE/RESET" 29="LX_B2" 30="PVIN_B2" 31="MODE/STBY" 32="FB_B2" 33="GND"
+*MXP 33
+*DFN TPS6521903RHBR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS6521903RHBR)
+~!Mouser Part Number (595-TPS6521903RHBR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS6521903RHBR?qs=63Lh8XYXgjvRr0StD1bCRQ%3D%3D)
+~!Arrow Part Number (TPS6521903RHBR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tps6521903rhbr/texas-instruments?region=nac)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/tps65219.pdf?ts=1707802117638&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS65219)
+~!Height (1mm)
+~!3D_Model (TPS6521903RHBR)
+TPS6521903RHBR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 33.1!U 32.1!U 31.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPS6521903RHBR
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=33
+Version=1.1
+Released=2024-02-13 12:54:25
+Downloaded=2025-08-05 21:56:59
+3D=Y

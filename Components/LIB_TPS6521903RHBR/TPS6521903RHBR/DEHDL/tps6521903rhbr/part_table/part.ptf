@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS6521903RHBR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPS6521903RHBR" (!) = "", "QFN50P500X500X100-33N-D", "Quad Flat No-Lead", "595-TPS6521903RHBR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS6521903RHBR?qs=63Lh8XYXgjvRr0StD1bCRQ%3D%3D", "TPS6521903RHBR", "https://www.arrow.com/en/products/tps6521903rhbr/texas-instruments?region=nac", "Power Management Specialised - PMIC Integrated power management (PMIC) for Arm Cortex- A53 processors and FPGAs 32-VQFN -40 to 105", "https://www.ti.com/lit/ds/symlink/tps65219.pdf?ts=1707802117638&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS65219", "1 mm"
+END_PART
+
+END.
