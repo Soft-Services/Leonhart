@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MT40A1G16TB-062E_IT_F"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-02-01-11:13:13)
+    (mountForm default
+        (footprintRef "BGA96C80P9X16_750X1300X120")
+        (spec "System")
+    )
+)

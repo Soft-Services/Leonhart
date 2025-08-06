@@ -924,7 +924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bae4be68-8688-4e88-a003-a30e82fbeee9")
-		(property "Reference" "U2"
+		(property "Reference" "U701"
 			(at 111.3633 177.8 0)
 			(effects
 				(font
@@ -1109,6 +1109,14 @@
 		)
 		(pin "25"
 			(uuid "ddf0aaf6-1a4f-48c2-b619-a5c2ac750fc5")
+		)
+		(instances
+			(project ""
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/6c7f2037-3077-4980-ab71-7ff032fdfd6e"
+					(reference "U701")
+					(unit 1)
+				)
+			)
 		)
 	)
 )

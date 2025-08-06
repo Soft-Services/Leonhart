@@ -8,4 +8,5 @@
   (lib (name "AM6231ASGGGAALW")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_AM6231ASGGGAALW/AM6231ASGGGAALW/KiCad/AM6231ASGGGAALW.kicad_sym")(options "")(descr ""))
   (lib (name "MT40A512M16LY-075E_D")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_MT40A512M16LY-075E_D/MT40A512M16LY-075E_D/KiCad/MT40A512M16LY-075E_D.kicad_sym")(options "")(descr ""))
   (lib (name "TPS6521903RHBR")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_TPS6521903RHBR/TPS6521903RHBR/KiCad/TPS6521903RHBR.kicad_sym")(options "")(descr ""))
+  (lib (name "MT40A1G16TB-062E_IT_F")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_MT40A1G16TB-062E_IT_F/MT40A1G16TB-062E_IT_F/KiCad/MT40A1G16TB-062E_IT_F.kicad_sym")(options "")(descr ""))
 )

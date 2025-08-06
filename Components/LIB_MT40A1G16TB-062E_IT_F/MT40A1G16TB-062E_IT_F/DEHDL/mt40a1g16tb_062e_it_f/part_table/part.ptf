@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MT40A1G16TB_062E_IT_F'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Micron", "MT40A1G16TB-062E IT:F" (!) = "", "BGA96C80P9X16_750X1300X120", "BGA", "340-531431-TRAY", "https://www.mouser.co.uk/ProductDetail/Micron/MT40A1G16TB-062E-ITF?qs=Wj%2FVkw3K%252BMA17qGkqaCFgw%3D%3D", "MT40A1G16TB-062E IT:F", "https://www.arrow.com/en/products/mt40a1g16tb-062e-itf/micron-technology?utm_currency=USD&region=nac", "DRAM DDR4 16G 1GX16 FBGA IT", "https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr4/16gb_ddr4_sdram.pdf", "1.2 mm"
+END_PART
+
+END.

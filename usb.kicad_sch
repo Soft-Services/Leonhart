@@ -923,8 +923,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bae4be68-8688-4e88-a003-a30e82fbeee9")
-		(property "Reference" "U6"
+		(uuid "44a72655-7ecb-4ba0-9795-884069dc172b")
+		(property "Reference" "U801"
 			(at 111.3633 177.8 0)
 			(effects
 				(font
@@ -1113,7 +1113,7 @@
 		(instances
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/e2459660-886d-4599-a9e6-b9bb7931d0e6"
-					(reference "U6")
+					(reference "U801")
 					(unit 1)
 				)
 			)

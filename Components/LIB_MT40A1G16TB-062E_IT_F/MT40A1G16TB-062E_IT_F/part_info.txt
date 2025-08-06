@@ -1,0 +1,9 @@
+Manufacturer=Micron
+PartNumber=MT40A1G16TB-062E IT:F
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=96
+Version=1.1
+Released=2023-02-01 11:13:13
+Downloaded=2025-08-06 22:02:36
+3D=Y

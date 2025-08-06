@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MT40A1G16TB-062E_IT_F
+D DRAM DDR4 16G 1GX16 FBGA IT
+K
+F https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr4/16gb_ddr4_sdram.pdf
+$ENDCMP
+#
+#End Doc Library
