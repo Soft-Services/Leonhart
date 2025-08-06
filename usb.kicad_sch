@@ -1112,14 +1112,6 @@
 		)
 		(instances
 			(project "Leonhart"
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/0f49ee45-e999-4887-835b-49de9bc4f6ff"
-					(reference "U7")
-					(unit 1)
-				)
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5ce8c427-fcc7-46d6-9710-77fc43565e4a"
-					(reference "U8")
-					(unit 1)
-				)
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/e2459660-886d-4599-a9e6-b9bb7931d0e6"
 					(reference "U6")
 					(unit 1)
