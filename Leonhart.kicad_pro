@@ -634,23 +634,35 @@
     ],
     [
       "5bbf73b3-d883-47e7-ac01-c5b0358ac807",
-      "Host System (MCU)"
+      "Host System [1]"
     ],
     [
       "4037e4ca-7763-453b-96d1-7d8342daaa99",
-      "Zigbee"
+      "Zigbee [2]"
     ],
     [
       "ab846a80-6f2e-4d25-9090-1f6af1d6fbdd",
-      "Thread"
+      "Thread [3]"
     ],
     [
       "13a7821e-2ee3-4360-911d-96166c961e5a",
-      "Power Circuitry"
+      "Power Circuitry [4]"
     ],
     [
       "6c7f2037-3077-4980-ab71-7ff032fdfd6e",
-      "Ethernet"
+      "Ethernet [6]"
+    ],
+    [
+      "e2459660-886d-4599-a9e6-b9bb7931d0e6",
+      "USB [7]"
+    ],
+    [
+      "0f49ee45-e999-4887-835b-49de9bc4f6ff",
+      "Memory [5]"
+    ],
+    [
+      "5ce8c427-fcc7-46d6-9710-77fc43565e4a",
+      "Miscellaneous [8]"
     ]
   ],
   "text_variables": {}
