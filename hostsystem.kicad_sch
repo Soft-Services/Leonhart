@@ -12515,7 +12515,7 @@
 	)
 	(symbol
 		(lib_id "SoftServicesSymbolLibrary:AM6231ASGGGAALW")
-		(at 222.25 257.81 0)
+		(at 196.85 119.38 0)
 		(unit 10)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12524,7 +12524,7 @@
 		(fields_autoplaced yes)
 		(uuid "486aa940-d865-465b-a0d3-03590a0b1098")
 		(property "Reference" "U101"
-			(at 222.25 227.33 0)
+			(at 196.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12532,7 +12532,7 @@
 			)
 		)
 		(property "Value" "AM6231ASGGGAALW"
-			(at 222.25 229.87 0)
+			(at 196.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12540,7 +12540,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 257.81 0)
+			(at 196.85 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12549,7 +12549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 257.81 0)
+			(at 196.85 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12558,7 +12558,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 257.81 0)
+			(at 196.85 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)

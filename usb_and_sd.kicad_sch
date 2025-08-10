@@ -11917,16 +11917,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 356.87) (xy 100.33 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "112ba977-36e1-4fa6-8b84-7ba38d73b5e1")
-	)
-	(wire
-		(pts
 			(xy 158.115 85.09) (xy 179.07 85.09)
 		)
 		(stroke
@@ -12144,6 +12134,16 @@
 			(type default)
 		)
 		(uuid "2d90ae59-63aa-4c34-8076-1b3d406e45ca")
+	)
+	(wire
+		(pts
+			(xy 364.49 280.67) (xy 364.49 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec39f39-4498-4664-8e44-ad965001b589")
 	)
 	(wire
 		(pts
@@ -12984,6 +12984,16 @@
 			(type default)
 		)
 		(uuid "8585635d-c046-4795-9526-ec7bfec7bd17")
+	)
+	(wire
+		(pts
+			(xy 359.41 280.67) (xy 364.49 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865d924e-3472-4ae8-bf0a-7d0b204f77e6")
 	)
 	(wire
 		(pts
@@ -13837,16 +13847,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 360.68) (xy 105.41 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f84bcc6f-7d9b-4285-9a16-2ce3c09465cf")
-	)
-	(wire
-		(pts
 			(xy 236.22 288.29) (xy 236.22 290.83)
 		)
 		(stroke
@@ -13874,6 +13874,18 @@
 			(type default)
 		)
 		(uuid "fdcf9000-a9a0-43b1-adf8-cfaf6928b5db")
+	)
+	(label "Use Pinmux to find GPIO for SD_PWR_EN"
+		(at 69.85 355.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "181102c1-b7b3-4bfa-93a8-33f99ab49ab6")
 	)
 	(label "SD_D2"
 		(at 135.89 265.43 180)
@@ -15929,6 +15941,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 364.49 284.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6113c29b-988f-4ea9-8388-494e5fca71ed")
+		(property "Reference" "#PWR0727"
+			(at 364.49 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 364.49 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 364.49 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3264704-1f80-420c-90ce-d92a4f15b753")
+		)
+		(instances
+			(project ""
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/e2459660-886d-4599-a9e6-b9bb7931d0e6"
+					(reference "#PWR0727")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 246.38 82.55 0)
 		(mirror y)
@@ -16329,74 +16407,6 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/e2459660-886d-4599-a9e6-b9bb7931d0e6"
 					(reference "D708")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 109.22 360.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c07dd04-d993-44a3-8e8f-203d4f4c6252")
-		(property "Reference" "R712"
-			(at 109.22 354.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 109.22 356.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 362.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 360.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 109.22 360.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff8c1bc2-9ac8-470a-8742-d24ded47e6e0")
-		)
-		(pin "2"
-			(uuid "6516891c-79f3-446c-8042-d21fcfa73cb6")
-		)
-		(instances
-			(project ""
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/e2459660-886d-4599-a9e6-b9bb7931d0e6"
-					(reference "R712")
 					(unit 1)
 				)
 			)
@@ -16955,72 +16965,6 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/e2459660-886d-4599-a9e6-b9bb7931d0e6"
 					(reference "C703")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 100.33 356.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5890c96-0090-4e8f-ae54-24cd84e89b7a")
-		(property "Reference" "#PWR0720"
-			(at 100.33 360.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD_3V3"
-			(at 100.33 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 100.33 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97c20dfe-0de5-4fd7-959f-d084f8c51fb1")
-		)
-		(instances
-			(project ""
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/e2459660-886d-4599-a9e6-b9bb7931d0e6"
-					(reference "#PWR0720")
 					(unit 1)
 				)
 			)

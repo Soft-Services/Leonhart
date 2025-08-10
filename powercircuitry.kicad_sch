@@ -12318,7 +12318,7 @@
 	)
 	(wire
 		(pts
-			(xy 496.57 111.76) (xy 496.57 107.95)
+			(xy 497.84 111.76) (xy 497.84 107.95)
 		)
 		(stroke
 			(width 0)
@@ -15088,7 +15088,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 115.57) (xy 508 115.57)
+			(xy 461.01 115.57) (xy 509.27 115.57)
 		)
 		(stroke
 			(width 0)
@@ -15658,7 +15658,7 @@
 	)
 	(wire
 		(pts
-			(xy 519.43 115.57) (xy 519.43 119.38)
+			(xy 520.7 115.57) (xy 520.7 119.38)
 		)
 		(stroke
 			(width 0)
@@ -16088,7 +16088,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 107.95) (xy 485.14 107.95)
+			(xy 461.01 107.95) (xy 486.41 107.95)
 		)
 		(stroke
 			(width 0)
@@ -16868,7 +16868,7 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 107.95) (xy 485.14 104.14)
+			(xy 486.41 107.95) (xy 486.41 104.14)
 		)
 		(stroke
 			(width 0)
@@ -17648,7 +17648,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 111.76) (xy 496.57 111.76)
+			(xy 461.01 111.76) (xy 497.84 111.76)
 		)
 		(stroke
 			(width 0)
@@ -18958,7 +18958,7 @@
 	)
 	(wire
 		(pts
-			(xy 508 115.57) (xy 508 111.76)
+			(xy 509.27 115.57) (xy 509.27 111.76)
 		)
 		(stroke
 			(width 0)
@@ -20098,7 +20098,7 @@
 	)
 	(wire
 		(pts
-			(xy 519.43 119.38) (xy 474.98 119.38)
+			(xy 520.7 119.38) (xy 474.98 119.38)
 		)
 		(stroke
 			(width 0)
@@ -21227,16 +21227,15 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 496.57 107.95 0)
+		(at 486.41 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "064368f4-fb79-4547-9bb1-d7a5884bff1b")
 		(property "Reference" "#PWR0465"
-			(at 496.57 111.76 0)
+			(at 486.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21244,16 +21243,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SoC_VDDSHV5_SDIO"
-			(at 496.57 102.87 0)
+		(property "Value" "SoC_VDDSHV4_SDIO"
+			(at 476.758 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 496.57 107.95 0)
+			(at 486.41 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21262,7 +21262,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 496.57 107.95 0)
+			(at 486.41 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21271,7 +21271,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 496.57 107.95 0)
+			(at 486.41 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23249,7 +23249,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0c59c533-a979-4873-bffc-a329d94738d2")
 		(property "Reference" "#PWR0525"
 			(at 575.31 553.72 0)
@@ -23260,12 +23259,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SoC_VDDSHV5_SDIO"
-			(at 575.31 544.83 0)
+		(property "Value" "SoC_VDDSHV4_SDIO"
+			(at 568.452 544.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -24674,7 +24674,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 485.14 104.14 0)
+		(at 497.84 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24683,7 +24683,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e4fc46f-1784-4d6a-ba29-bcf35f5d5092")
 		(property "Reference" "#PWR0464"
-			(at 485.14 107.95 0)
+			(at 497.84 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24692,7 +24692,7 @@
 			)
 		)
 		(property "Value" "SoC_DVDD1V8"
-			(at 485.14 99.06 0)
+			(at 497.84 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24700,7 +24700,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 485.14 104.14 0)
+			(at 497.84 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24709,7 +24709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 485.14 104.14 0)
+			(at 497.84 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24718,7 +24718,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 485.14 104.14 0)
+			(at 497.84 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26035,7 +26035,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 508 111.76 0)
+		(at 509.27 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26044,7 +26044,7 @@
 		(fields_autoplaced yes)
 		(uuid "31915ef0-3ffd-4d53-8335-fd172012cca2")
 		(property "Reference" "#PWR0466"
-			(at 508 115.57 0)
+			(at 509.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26053,7 +26053,7 @@
 			)
 		)
 		(property "Value" "SoC_DVDD1V8"
-			(at 508 106.68 0)
+			(at 509.27 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26061,7 +26061,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 508 111.76 0)
+			(at 509.27 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26070,7 +26070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 508 111.76 0)
+			(at 509.27 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26079,7 +26079,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 508 111.76 0)
+			(at 509.27 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34010,7 +34010,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8ecf559a-27d8-4e13-bcd6-1c1a52d130b0")
 		(property "Reference" "#PWR0546"
 			(at 594.36 548.64 0)
@@ -34021,12 +34020,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SoC_VDDSHV5_SDIO"
-			(at 594.36 539.75 0)
+		(property "Value" "SoC_VDDSHV4_SDIO"
+			(at 587.248 538.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -35893,7 +35893,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 519.43 115.57 0)
+		(at 520.7 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35902,7 +35902,7 @@
 		(fields_autoplaced yes)
 		(uuid "a30d8e63-0ca5-4e22-a341-3782283633c5")
 		(property "Reference" "#PWR0467"
-			(at 519.43 119.38 0)
+			(at 520.7 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35911,7 +35911,7 @@
 			)
 		)
 		(property "Value" "SoC_DVDD3V3"
-			(at 519.43 110.49 0)
+			(at 520.7 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35919,7 +35919,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 519.43 115.57 0)
+			(at 520.7 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35928,7 +35928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 519.43 115.57 0)
+			(at 520.7 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35937,7 +35937,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 519.43 115.57 0)
+			(at 520.7 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38816,7 +38816,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cd6abc22-a48a-4a69-bbcf-9505bb9b7af3")
 		(property "Reference" "#PWR0440"
 			(at 234.95 135.89 0)
@@ -38828,7 +38827,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 134.62 0)
+			(at 236.728 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
