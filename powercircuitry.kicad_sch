@@ -10317,7 +10317,7 @@
 	(text_box "SoC Decoupling+Power Caps"
 		(exclude_from_sim no)
 		(at 305.435 311.785 0)
-		(size 350.52 259.08)
+		(size 454.66 259.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -14548,6 +14548,16 @@
 	)
 	(wire
 		(pts
+			(xy 661.67 464.82) (xy 661.67 462.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4569f3ca-438e-48ca-815c-9f481eed1e3d")
+	)
+	(wire
+		(pts
 			(xy 368.3 417.83) (xy 368.3 415.29)
 		)
 		(stroke
@@ -15168,6 +15178,16 @@
 	)
 	(wire
 		(pts
+			(xy 690.88 494.03) (xy 679.45 494.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56241266-aab6-4010-8adf-93e2bb2811aa")
+	)
+	(wire
+		(pts
 			(xy 474.98 125.73) (xy 461.01 125.73)
 		)
 		(stroke
@@ -15425,6 +15445,16 @@
 			(type default)
 		)
 		(uuid "5dc8e27a-7f8b-4928-a4af-31e007774ec6")
+	)
+	(wire
+		(pts
+			(xy 671.83 464.82) (xy 661.67 464.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dcee7b7-86dc-4c7e-9f76-cbe665696cba")
 	)
 	(wire
 		(pts
@@ -15725,6 +15755,16 @@
 			(type default)
 		)
 		(uuid "658a37e1-8d9f-4644-b682-c134211fe3c0")
+	)
+	(wire
+		(pts
+			(xy 690.88 464.82) (xy 679.45 464.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "660daac9-c753-42dd-b932-0306e873964b")
 	)
 	(wire
 		(pts
@@ -16968,6 +17008,16 @@
 	)
 	(wire
 		(pts
+			(xy 690.88 491.49) (xy 690.88 494.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1f4c1f-8cf7-4a8e-9ca1-6938cc92a3b5")
+	)
+	(wire
+		(pts
 			(xy 388.62 110.49) (xy 394.97 110.49)
 		)
 		(stroke
@@ -16995,6 +17045,16 @@
 			(type default)
 		)
 		(uuid "8bc762a5-72cf-448a-aa73-4573bb96358b")
+	)
+	(wire
+		(pts
+			(xy 690.88 462.28) (xy 690.88 464.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bea794b-371d-4200-b6ff-e2aca0259b27")
 	)
 	(wire
 		(pts
@@ -17385,6 +17445,16 @@
 			(type default)
 		)
 		(uuid "93eda704-4fde-4081-923a-6aa9ff3a5835")
+	)
+	(wire
+		(pts
+			(xy 671.83 494.03) (xy 661.67 494.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "943b6dfd-940a-4211-8ff7-c53e7172716a")
 	)
 	(wire
 		(pts
@@ -20548,6 +20618,16 @@
 	)
 	(wire
 		(pts
+			(xy 661.67 494.03) (xy 661.67 491.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb64ed6-8780-4a18-9c58-8e66d6691b53")
+	)
+	(wire
+		(pts
 			(xy 392.43 247.65) (xy 387.35 247.65)
 		)
 		(stroke
@@ -23509,6 +23589,72 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
+		(at 690.88 491.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "140d0a40-6cdf-4010-88c5-73f12d1a815f")
+		(property "Reference" "#PWR0559"
+			(at 690.88 495.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SoC_DVDD1V8"
+			(at 690.88 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 690.88 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 690.88 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 690.88 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "195f5cdd-c619-4fe3-bb79-894c7956cf13")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
+					(reference "#PWR0559")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
 		(at 110.49 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25060,6 +25206,74 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
 					(reference "C415")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 675.64 494.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2770175a-ac60-4609-a777-1bbdeaee32e5")
+		(property "Reference" "FB413"
+			(at 675.5892 486.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120R"
+			(at 675.5892 488.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 675.64 495.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 675.64 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 675.64 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de635f94-2358-431b-86dc-90ddc1f1a3e9")
+		)
+		(pin "2"
+			(uuid "603a6b58-e871-4f78-bd14-c60115f7e3f1")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
+					(reference "FB413")
 					(unit 1)
 				)
 			)
@@ -27812,6 +28026,74 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
 					(reference "#PWR0409")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 675.64 464.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47e91e4a-1b03-47a4-92dd-a5124de4b131")
+		(property "Reference" "FB412"
+			(at 675.5892 457.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120R"
+			(at 675.5892 459.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 675.64 466.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 675.64 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 675.64 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74b19fc8-ce5e-4bc2-8c93-5c54b0b4ae67")
+		)
+		(pin "2"
+			(uuid "f22cbd10-999a-4781-8bbd-6ec912bd35f5")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
+					(reference "FB412")
 					(unit 1)
 				)
 			)
@@ -35683,7 +35965,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a562fa39-22d5-4280-952a-8e12c3eda503")
 		(property "Reference" "#PWR0429"
 			(at 203.2 139.7 0)
@@ -35694,12 +35975,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDDA_0V85"
-			(at 203.2 130.81 0)
+		(property "Value" "VDDR_CORE"
+			(at 198.628 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -38329,6 +38611,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 661.67 462.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca47cd64-7bd2-4cf3-ae5d-d9c5e9c5b9c8")
+		(property "Reference" "#PWR0556"
+			(at 661.67 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_3V3"
+			(at 661.67 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 661.67 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 661.67 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 661.67 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8634b22-dde3-4550-b94c-9bdf32e2f770")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
+					(reference "#PWR0556")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 120.65 254 0)
 		(unit 1)
@@ -39548,6 +39896,72 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
+		(at 661.67 491.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da9348ca-125f-4475-a9a7-6f8cd7358dc9")
+		(property "Reference" "#PWR0558"
+			(at 661.67 495.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_1V8"
+			(at 661.67 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 661.67 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 661.67 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 661.67 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dffac425-3dbf-480c-8276-4ca2ac1ae5c9")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
+					(reference "#PWR0558")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
 		(at 170.18 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -40490,6 +40904,72 @@
 			(project ""
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
 					(reference "#PWR0403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 690.88 462.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e58171bc-ae6c-4cb2-88b9-ddcc7b843113")
+		(property "Reference" "#PWR0557"
+			(at 690.88 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SoC_DVDD3V3"
+			(at 690.88 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 690.88 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 690.88 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 690.88 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9d1c33c-a342-4fda-85f1-d50d0dacd353")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
+					(reference "#PWR0557")
 					(unit 1)
 				)
 			)
