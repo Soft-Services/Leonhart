@@ -8500,9 +8500,225 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 547.37 347.98)
+		(uuid "0835e977-a75b-4ce7-95ff-a89e8340fe42")
+	)
+	(no_connect
+		(at 547.37 243.84)
+		(uuid "0cc2749f-208e-4454-832e-ee76d3f631bb")
+	)
+	(no_connect
+		(at 547.37 237.49)
+		(uuid "1311ac0d-2ece-4726-aec1-10784e1841ac")
+	)
+	(no_connect
+		(at 547.37 248.92)
+		(uuid "1617e07b-6ca4-416d-bf5b-ef3de1bdb52b")
+	)
+	(no_connect
+		(at 547.37 222.25)
+		(uuid "1e5c74b4-22f9-4baf-81c4-62b573c27970")
+	)
+	(no_connect
+		(at 547.37 219.71)
+		(uuid "1f307694-fa3e-4b77-98fc-a6eefd8e3eb8")
+	)
+	(no_connect
+		(at 547.37 400.05)
+		(uuid "213193bf-276a-4bd4-bf22-f4217f757ba2")
+	)
+	(no_connect
+		(at 547.37 344.17)
+		(uuid "24695e3a-2b46-48a7-bc52-42a090fb81af")
+	)
+	(no_connect
+		(at 547.37 281.94)
+		(uuid "28b31369-8243-44d3-b066-bc58595ccadc")
+	)
+	(no_connect
+		(at 547.37 234.95)
+		(uuid "2926f128-bbf7-4904-a2c0-7ab64c5bbf69")
+	)
+	(no_connect
+		(at 547.37 232.41)
+		(uuid "2dfeb1db-a10c-4a36-b49a-e3da9aa1b414")
+	)
+	(no_connect
+		(at 547.37 252.73)
+		(uuid "30f30a6c-0e4a-4122-9704-9fc1c97504e8")
+	)
+	(no_connect
+		(at 547.37 307.34)
+		(uuid "310507c4-d339-4fd6-bda5-fe954ca975a1")
+	)
+	(no_connect
+		(at 547.37 297.18)
+		(uuid "36f9f6a9-3875-4871-a08a-c9396d569811")
+	)
+	(no_connect
+		(at 547.37 215.9)
+		(uuid "4094da2a-6726-462a-b408-9a27feb0220b")
+	)
+	(no_connect
+		(at 547.37 363.22)
+		(uuid "4abb6691-3348-4b1c-aa35-ec4abe600212")
+	)
+	(no_connect
+		(at 547.37 246.38)
+		(uuid "4ae6d046-0f9c-4242-9b89-ad8bd570338c")
+	)
+	(no_connect
+		(at 547.37 316.23)
+		(uuid "4e8586a9-e67a-4dac-ad64-396501e3f69a")
+	)
+	(no_connect
+		(at 547.37 224.79)
+		(uuid "50086269-0001-47c1-8576-7b727bac1b22")
+	)
+	(no_connect
+		(at 547.37 354.33)
+		(uuid "5596f2a1-9cf8-4ee8-819b-324205878389")
+	)
+	(no_connect
+		(at 547.37 328.93)
+		(uuid "6357ec10-b1a5-4621-936e-84e699499d8f")
+	)
+	(no_connect
+		(at 547.37 313.69)
+		(uuid "642d4b69-4305-4b64-892d-7cf48ddaa9e5")
+	)
+	(no_connect
+		(at 547.37 241.3)
+		(uuid "65640fea-a070-48b3-8652-c0f3cb9d478a")
+	)
+	(no_connect
+		(at 547.37 320.04)
+		(uuid "6635c0f8-d98a-4d8b-ae1c-aa54ab946ce3")
+	)
+	(no_connect
+		(at 547.37 360.68)
+		(uuid "674428af-f4fa-48ec-89e6-1615d830e382")
+	)
+	(no_connect
+		(at 547.37 271.78)
+		(uuid "70fdefae-c49a-4447-bab9-fa00f445e886")
+	)
+	(no_connect
+		(at 547.37 394.97)
+		(uuid "7507394c-d4ea-4c53-864b-d47740bd73de")
+	)
+	(no_connect
+		(at 547.37 284.48)
+		(uuid "77d27e4a-30fa-48e3-92c0-94b4244d6cc9")
+	)
+	(no_connect
+		(at 547.37 275.59)
+		(uuid "7c7192c8-3edf-4615-a075-002cea67b342")
+	)
+	(no_connect
+		(at 547.37 290.83)
+		(uuid "839f9354-1613-4158-b306-60a82a4a1336")
+	)
+	(no_connect
+		(at 547.37 356.87)
+		(uuid "86688be8-5f07-426b-af1a-aead81b72664")
+	)
+	(no_connect
+		(at 547.37 278.13)
+		(uuid "8ac60734-edfd-48f6-b38e-7f6c78caa3ff")
+	)
+	(no_connect
+		(at 547.37 412.75)
+		(uuid "9ca16d5c-c0b0-49f9-8f9d-9c5f5d44f152")
+	)
+	(no_connect
+		(at 547.37 410.21)
+		(uuid "a19fc8a6-c145-4d73-bcd0-6c3f309ab291")
+	)
+	(no_connect
+		(at 547.37 229.87)
+		(uuid "a87bb7d3-18fb-4da0-9b55-3684ec00f266")
+	)
+	(no_connect
+		(at 547.37 269.24)
+		(uuid "a8b90666-a0f7-4cf7-bd69-c1fa97318f34")
+	)
+	(no_connect
+		(at 547.37 256.54)
+		(uuid "ac4a1bf9-6eb7-404a-bc41-2fe930540046")
+	)
+	(no_connect
+		(at 547.37 350.52)
+		(uuid "af253751-313c-49af-a472-8e9a842daa10")
+	)
+	(no_connect
+		(at 547.37 309.88)
+		(uuid "b4921a38-46fd-410e-989f-32314cffb850")
+	)
+	(no_connect
+		(at 547.37 303.53)
+		(uuid "b5bc2639-e459-414a-a4b4-29ae3888f427")
+	)
+	(no_connect
+		(at 547.37 341.63)
+		(uuid "c974516e-356f-468a-85a3-63ded0f66527")
+	)
+	(no_connect
+		(at 547.37 379.73)
+		(uuid "ceed2fe6-b26e-4df4-ac21-7e2095188c8e")
+	)
+	(no_connect
+		(at 547.37 294.64)
+		(uuid "d502459d-60f2-4c45-a6e0-e2ecefb41119")
+	)
+	(no_connect
+		(at 547.37 403.86)
+		(uuid "d6620b38-5a52-4a9f-8acf-04a7186e08ff")
+	)
+	(no_connect
+		(at 547.37 369.57)
+		(uuid "d71a218f-1c41-4b9f-8c2c-a4e3c7bbef79")
+	)
+	(no_connect
+		(at 547.37 322.58)
+		(uuid "dabcc9b1-6dc6-4908-a8de-14421d32d8af")
+	)
+	(no_connect
+		(at 547.37 227.33)
+		(uuid "dcb91b02-a95a-456d-9dce-077357babe48")
+	)
+	(no_connect
+		(at 547.37 326.39)
+		(uuid "e1c58ee1-ffca-4f90-99c4-5872fe13ade5")
+	)
+	(no_connect
+		(at 547.37 397.51)
+		(uuid "e43e7b7e-8389-4eca-ad64-1ec15f02241c")
+	)
+	(no_connect
+		(at 547.37 392.43)
+		(uuid "e5c3a87a-052a-4702-88c7-4a7b9b60e158")
+	)
+	(no_connect
+		(at 547.37 300.99)
+		(uuid "ec20ff36-6b47-4aed-b893-7696adba30e2")
+	)
+	(no_connect
+		(at 547.37 367.03)
+		(uuid "f2dbd7e6-8c50-4b17-a49f-c44b96005596")
+	)
+	(no_connect
+		(at 547.37 406.4)
+		(uuid "f83402db-1725-4e57-88bb-de7d2a3c617e")
+	)
+	(no_connect
+		(at 547.37 288.29)
+		(uuid "fc1b7b03-1bde-4c3b-879e-19e261524497")
+	)
 	(symbol
 		(lib_id "SoftServicesSymbolLibrary:AM6231ASGGGAALW")
-		(at 574.04 276.86 0)
+		(at 577.85 298.45 0)
 		(unit 14)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8511,7 +8727,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ec7cb69-b81e-4e7c-bbc5-6b3d473d1923")
 		(property "Reference" "U101"
-			(at 600.71 276.2249 0)
+			(at 604.52 297.8149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8520,7 +8736,7 @@
 			)
 		)
 		(property "Value" "AM6231ASGGGAALW"
-			(at 600.71 278.7649 0)
+			(at 604.52 300.3549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8529,7 +8745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 574.04 276.86 0)
+			(at 577.85 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8538,7 +8754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 574.04 276.86 0)
+			(at 577.85 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8547,7 +8763,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 574.04 276.86 0)
+			(at 577.85 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17864,16 +18080,16 @@
 	)
 	(symbol
 		(lib_id "SoftServicesSymbolLibrary:AM6231ASGGGAALW")
-		(at 299.72 262.89 0)
+		(at 575.31 402.59 0)
+		(mirror y)
 		(unit 11)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9e54d783-9761-454c-85bb-750da5a0e2cd")
 		(property "Reference" "U101"
-			(at 299.72 245.11 0)
+			(at 610.108 399.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17881,7 +18097,7 @@
 			)
 		)
 		(property "Value" "AM6231ASGGGAALW"
-			(at 299.72 247.65 0)
+			(at 610.108 402.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17889,7 +18105,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 299.72 262.89 0)
+			(at 575.31 402.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17898,7 +18114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 299.72 262.89 0)
+			(at 575.31 402.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17907,7 +18123,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 299.72 262.89 0)
+			(at 575.31 402.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19201,7 +19417,7 @@
 	)
 	(symbol
 		(lib_id "SoftServicesSymbolLibrary:AM6231ASGGGAALW")
-		(at 72.39 359.41 0)
+		(at 577.85 360.68 0)
 		(unit 15)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19210,7 +19426,7 @@
 		(fields_autoplaced yes)
 		(uuid "b09324fb-ad95-4b2e-b3a2-ace52eaa8e8f")
 		(property "Reference" "U101"
-			(at 97.79 358.1399 0)
+			(at 603.25 359.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19219,7 +19435,7 @@
 			)
 		)
 		(property "Value" "AM6231ASGGGAALW"
-			(at 97.79 360.6799 0)
+			(at 603.25 361.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19228,7 +19444,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 359.41 0)
+			(at 577.85 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19237,7 +19453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 359.41 0)
+			(at 577.85 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19246,7 +19462,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 359.41 0)
+			(at 577.85 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21877,7 +22093,7 @@
 	)
 	(symbol
 		(lib_id "SoftServicesSymbolLibrary:AM6231ASGGGAALW")
-		(at 476.25 148.59 0)
+		(at 576.58 236.22 0)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21886,7 +22102,7 @@
 		(fields_autoplaced yes)
 		(uuid "eefd4e69-34a1-4c8b-bfbc-ec58a050ce55")
 		(property "Reference" "U101"
-			(at 500.38 147.3199 0)
+			(at 600.71 234.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21895,7 +22111,7 @@
 			)
 		)
 		(property "Value" "AM6231ASGGGAALW"
-			(at 500.38 149.8599 0)
+			(at 600.71 237.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21904,7 +22120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 476.25 148.59 0)
+			(at 576.58 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21913,7 +22129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 476.25 148.59 0)
+			(at 576.58 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21922,7 +22138,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 476.25 148.59 0)
+			(at 576.58 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
