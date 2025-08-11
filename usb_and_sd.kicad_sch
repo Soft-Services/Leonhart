@@ -11387,6 +11387,18 @@
 		)
 		(uuid "7895de53-43da-4a31-a5b0-8c81a5ddc02c")
 	)
+	(text "Check datasheet for if CLK pullup is needed"
+		(exclude_from_sim no)
+		(at 237.236 233.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "8b6666fc-e235-4a0c-8cb3-b396ee58082d")
+	)
 	(text "UART 2"
 		(exclude_from_sim no)
 		(at 160.528 289.052 0)
@@ -11754,6 +11766,10 @@
 	(no_connect
 		(at 231.14 97.79)
 		(uuid "9f15070d-a44f-4aa4-af8d-43888d81deb7")
+	)
+	(no_connect
+		(at 119.38 320.04)
+		(uuid "a452b270-e5a4-478f-a884-b00756c491e7")
 	)
 	(no_connect
 		(at 119.38 311.15)

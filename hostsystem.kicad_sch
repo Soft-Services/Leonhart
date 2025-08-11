@@ -8744,7 +8744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AM6231ASGGGAALW:BGA425C50P25X25_1300X1300X89"
 			(at 577.85 298.45 0)
 			(effects
 				(font
@@ -10081,7 +10081,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AM6231ASGGGAALW:BGA425C50P25X25_1300X1300X89"
 			(at 170.18 359.41 0)
 			(effects
 				(font
@@ -11418,7 +11418,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AM6231ASGGGAALW:BGA425C50P25X25_1300X1300X89"
 			(at 403.86 264.16 0)
 			(effects
 				(font
@@ -12731,7 +12731,7 @@
 	)
 	(symbol
 		(lib_id "SoftServicesSymbolLibrary:AM6231ASGGGAALW")
-		(at 196.85 119.38 0)
+		(at 224.79 240.03 0)
 		(unit 10)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12740,7 +12740,7 @@
 		(fields_autoplaced yes)
 		(uuid "486aa940-d865-465b-a0d3-03590a0b1098")
 		(property "Reference" "U101"
-			(at 196.85 88.9 0)
+			(at 224.79 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12748,15 +12748,15 @@
 			)
 		)
 		(property "Value" "AM6231ASGGGAALW"
-			(at 196.85 91.44 0)
+			(at 224.79 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 196.85 119.38 0)
+		(property "Footprint" "AM6231ASGGGAALW:BGA425C50P25X25_1300X1300X89"
+			(at 224.79 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12765,7 +12765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 119.38 0)
+			(at 224.79 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12774,7 +12774,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 119.38 0)
+			(at 224.79 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14092,7 +14092,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AM6231ASGGGAALW:BGA425C50P25X25_1300X1300X89"
 			(at 66.04 257.81 0)
 			(effects
 				(font
@@ -15405,7 +15405,7 @@
 	)
 	(symbol
 		(lib_id "SoftServicesSymbolLibrary:AM6231ASGGGAALW")
-		(at 556.26 146.05 0)
+		(at 307.34 257.81 0)
 		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15414,7 +15414,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e0de197-0903-46ff-ba5a-b93726166201")
 		(property "Reference" "U101"
-			(at 556.895 102.87 0)
+			(at 307.975 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15422,15 +15422,15 @@
 			)
 		)
 		(property "Value" "AM6231ASGGGAALW"
-			(at 556.895 105.41 0)
+			(at 307.975 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 556.26 146.05 0)
+		(property "Footprint" "AM6231ASGGGAALW:BGA425C50P25X25_1300X1300X89"
+			(at 307.34 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15439,7 +15439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 556.26 146.05 0)
+			(at 307.34 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15448,7 +15448,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 556.26 146.05 0)
+			(at 307.34 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16767,7 +16767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AM6231ASGGGAALW:BGA425C50P25X25_1300X1300X89"
 			(at 143.51 257.81 0)
 			(effects
 				(font
@@ -18104,7 +18104,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AM6231ASGGGAALW:BGA425C50P25X25_1300X1300X89"
 			(at 575.31 402.59 0)
 			(effects
 				(font
@@ -19443,7 +19443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AM6231ASGGGAALW:BGA425C50P25X25_1300X1300X89"
 			(at 577.85 360.68 0)
 			(effects
 				(font
@@ -20780,7 +20780,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AM6231ASGGGAALW:BGA425C50P25X25_1300X1300X89"
 			(at 365.76 377.19 0)
 			(effects
 				(font
@@ -22119,7 +22119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AM6231ASGGGAALW:BGA425C50P25X25_1300X1300X89"
 			(at 576.58 236.22 0)
 			(effects
 				(font
@@ -23458,7 +23458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AM6231ASGGGAALW:BGA425C50P25X25_1300X1300X89"
 			(at 250.19 373.38 0)
 			(effects
 				(font
