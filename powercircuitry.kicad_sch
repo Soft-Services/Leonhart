@@ -9306,7 +9306,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9324,7 +9324,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9342,7 +9342,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9360,7 +9360,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9378,7 +9378,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9396,7 +9396,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -24680,7 +24680,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1e4fc46f-1784-4d6a-ba29-bcf35f5d5092")
 		(property "Reference" "#PWR0464"
 			(at 497.84 111.76 0)
@@ -24691,12 +24690,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SoC_DVDD1V8"
-			(at 497.84 102.87 0)
+		(property "Value" "SoC_DVDD3V3"
+			(at 491.236 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -29450,6 +29450,86 @@
 		)
 	)
 	(symbol
+		(lib_id "SoftServicesSymbolLibrary:TLV62592DMQR")
+		(at 97.79 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59b7cf5e-7678-435c-ad49-1c4e40808398")
+		(property "Reference" "U401"
+			(at 97.79 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV62592DMQR"
+			(at 97.79 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e52d3f1a-3a25-4016-9bf4-26e1de2ac8c0")
+		)
+		(pin "2"
+			(uuid "e15b9115-926e-4f8f-abad-5bbf294851c7")
+		)
+		(pin "6"
+			(uuid "6ab94cfe-fc02-48ba-906d-5919c1ad74d1")
+		)
+		(pin "4"
+			(uuid "2a35229f-e0af-4547-94d7-594ca8d9e2e6")
+		)
+		(pin "1"
+			(uuid "f9beccc7-7afc-40b0-bdfe-bd1e95f80901")
+		)
+		(pin "3"
+			(uuid "3e9c6d7a-6c42-4261-8604-842348787449")
+		)
+		(instances
+			(project ""
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
+					(reference "U401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 378.46 544.83 0)
 		(unit 1)
@@ -29912,86 +29992,6 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
 					(reference "C484")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SoftServicesSymbolLibrary:TLV62592DMQR")
-		(at 97.79 233.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fbc9656-d557-4a0b-b1cb-aeadb275c36e")
-		(property "Reference" "U401"
-			(at 97.79 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV62592DMQR"
-			(at 97.79 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "cd56f65c-bd5d-4023-85ab-9abc7ce1b2ee")
-		)
-		(pin ""
-			(uuid "5b0204df-6bbc-4d20-99cd-08e8a803997f")
-		)
-		(pin ""
-			(uuid "910be174-1d2d-4f72-aa46-a26f4ff9e088")
-		)
-		(pin ""
-			(uuid "c99ad204-0550-407c-a4c3-b3fe99a59935")
-		)
-		(pin ""
-			(uuid "7f369824-6c7b-4e29-ba84-5cc17084e771")
-		)
-		(pin ""
-			(uuid "c27540ab-e10d-49ed-9f45-7a60dd276215")
-		)
-		(instances
-			(project ""
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
-					(reference "U401")
 					(unit 1)
 				)
 			)
