@@ -8509,10 +8509,6 @@
 		(uuid "0cc2749f-208e-4454-832e-ee76d3f631bb")
 	)
 	(no_connect
-		(at 547.37 237.49)
-		(uuid "1311ac0d-2ece-4726-aec1-10784e1841ac")
-	)
-	(no_connect
 		(at 547.37 248.92)
 		(uuid "1617e07b-6ca4-416d-bf5b-ef3de1bdb52b")
 	)
@@ -8535,14 +8531,6 @@
 	(no_connect
 		(at 547.37 281.94)
 		(uuid "28b31369-8243-44d3-b066-bc58595ccadc")
-	)
-	(no_connect
-		(at 547.37 234.95)
-		(uuid "2926f128-bbf7-4904-a2c0-7ab64c5bbf69")
-	)
-	(no_connect
-		(at 547.37 232.41)
-		(uuid "2dfeb1db-a10c-4a36-b49a-e3da9aa1b414")
 	)
 	(no_connect
 		(at 547.37 252.73)
@@ -8637,10 +8625,6 @@
 		(uuid "a19fc8a6-c145-4d73-bcd0-6c3f309ab291")
 	)
 	(no_connect
-		(at 547.37 229.87)
-		(uuid "a87bb7d3-18fb-4da0-9b55-3684ec00f266")
-	)
-	(no_connect
 		(at 547.37 269.24)
 		(uuid "a8b90666-a0f7-4cf7-bd69-c1fa97318f34")
 	)
@@ -8715,6 +8699,104 @@
 	(no_connect
 		(at 547.37 288.29)
 		(uuid "fc1b7b03-1bde-4c3b-879e-19e261524497")
+	)
+	(wire
+		(pts
+			(xy 539.75 229.87) (xy 547.37 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc75b6a9-0ea4-4b11-9dfd-2718206b754f")
+	)
+	(global_label "CC_UART6_RTSn"
+		(shape input)
+		(at 539.75 234.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07d60f72-2b23-4faf-b220-f990ff18cc7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 521.8273 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CC_UART6_CTSn"
+		(shape input)
+		(at 539.75 237.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "848b40af-fe5a-4a6d-8317-0c6402661fa5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 521.8273 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CC_UART6_TXD"
+		(shape input)
+		(at 539.75 232.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab27deee-dd0e-4761-a3f4-f7ebec2b5be4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 522.9763 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CC_UART6_RXD"
+		(shape input)
+		(at 539.75 229.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdc9bb3a-6163-4a8c-9a31-306bebf8ad29")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 522.6739 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "SoftServicesSymbolLibrary:AM6231ASGGGAALW")

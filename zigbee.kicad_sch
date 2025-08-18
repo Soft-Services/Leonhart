@@ -5741,7 +5741,7 @@
 		)
 		(uuid "aa117a90-a560-4b35-8f6d-60bd755c16a7")
 	)
-	(global_label "CC_UART_RXD"
+	(global_label "CC2652_UART6_RXD"
 		(shape input)
 		(at 76.2 251.46 180)
 		(fields_autoplaced yes)
@@ -5753,7 +5753,7 @@
 		)
 		(uuid "49bdb8a7-a93d-46dc-bfd6-0b23facc88d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.3334 251.46 0)
+			(at 54.2859 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5785,7 +5785,7 @@
 			)
 		)
 	)
-	(global_label "CC_UART_TXD"
+	(global_label "CC2652_UART6_TXD"
 		(shape input)
 		(at 76.2 248.92 180)
 		(fields_autoplaced yes)
@@ -5797,7 +5797,7 @@
 		)
 		(uuid "8b2659ae-f3a5-45e9-a7ef-31e779057d6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6358 248.92 0)
+			(at 54.5883 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5851,7 +5851,7 @@
 			)
 		)
 	)
-	(global_label "CC_UART_RTSn"
+	(global_label "CC2652_UART6_RTSn"
 		(shape input)
 		(at 153.67 233.68 0)
 		(fields_autoplaced yes)
@@ -5863,7 +5863,7 @@
 		)
 		(uuid "ee87975f-8811-4dc0-8471-2235ee84c726")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.3832 233.68 0)
+			(at 176.4307 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5873,7 +5873,7 @@
 			)
 		)
 	)
-	(global_label "CC_UART_CTSn"
+	(global_label "CC2652_UART6_CTSn"
 		(shape input)
 		(at 153.67 231.14 0)
 		(fields_autoplaced yes)
@@ -5885,7 +5885,7 @@
 		)
 		(uuid "fa1e29d0-c91d-4c3e-9abd-3fb11cf6eabd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.3832 231.14 0)
+			(at 176.4307 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
