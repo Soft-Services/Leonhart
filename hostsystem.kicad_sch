@@ -8702,17 +8702,87 @@
 	)
 	(wire
 		(pts
-			(xy 539.75 229.87) (xy 547.37 229.87)
+			(xy 227.33 406.4) (xy 234.95 406.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc75b6a9-0ea4-4b11-9dfd-2718206b754f")
+		(uuid "232b8087-91fc-4240-b21a-050beca3b670")
 	)
-	(global_label "CC_UART6_RTSn"
+	(wire
+		(pts
+			(xy 227.33 422.91) (xy 234.95 422.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d92401-da05-4c72-a62f-3fc209a1897e")
+	)
+	(wire
+		(pts
+			(xy 227.33 416.56) (xy 234.95 416.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dab3589-84a9-4fec-bde2-778f5f5d3804")
+	)
+	(wire
+		(pts
+			(xy 227.33 434.34) (xy 234.95 434.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e2dce42-9d04-42bf-87de-b07315317579")
+	)
+	(wire
+		(pts
+			(xy 227.33 426.72) (xy 234.95 426.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9d5c72-e1fe-4c27-99e9-42827a2b07df")
+	)
+	(wire
+		(pts
+			(xy 227.33 430.53) (xy 234.95 430.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fee79f0-7408-4320-b056-b36604b0d7be")
+	)
+	(wire
+		(pts
+			(xy 227.33 412.75) (xy 234.95 412.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4b39f72-88a1-4d5a-b900-b72f5be29e6f")
+	)
+	(wire
+		(pts
+			(xy 227.33 402.59) (xy 234.95 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb609af0-f60f-42dc-a528-e034728a2c66")
+	)
+	(global_label "SoC_WARM_RESETz"
 		(shape input)
-		(at 539.75 234.95 180)
+		(at 227.33 430.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8720,9 +8790,9 @@
 			)
 			(justify right)
 		)
-		(uuid "07d60f72-2b23-4faf-b220-f990ff18cc7d")
+		(uuid "2a45e682-e911-4e50-9d61-5054382ef6b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 521.8273 234.95 0)
+			(at 206.7465 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8732,9 +8802,9 @@
 			)
 		)
 	)
-	(global_label "CC_UART6_CTSn"
+	(global_label "RESETSTATz"
 		(shape input)
-		(at 539.75 237.49 180)
+		(at 227.33 434.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8742,9 +8812,9 @@
 			)
 			(justify right)
 		)
-		(uuid "848b40af-fe5a-4a6d-8317-0c6402661fa5")
+		(uuid "3123df25-6191-478d-8124-de4a04227477")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 521.8273 237.49 0)
+			(at 213.3383 434.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8754,9 +8824,9 @@
 			)
 		)
 	)
-	(global_label "CC_UART6_TXD"
+	(global_label "PORz_OUT"
 		(shape input)
-		(at 539.75 232.41 180)
+		(at 227.33 426.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8764,9 +8834,9 @@
 			)
 			(justify right)
 		)
-		(uuid "ab27deee-dd0e-4761-a3f4-f7ebec2b5be4")
+		(uuid "71600d0a-9149-4f6c-89b7-67efdf18af70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 522.9763 232.41 0)
+			(at 214.85 426.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8776,9 +8846,9 @@
 			)
 		)
 	)
-	(global_label "CC_UART6_RXD"
+	(global_label "MCU_RESETSTATz"
 		(shape input)
-		(at 539.75 229.87 180)
+		(at 227.33 412.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8786,9 +8856,97 @@
 			)
 			(justify right)
 		)
-		(uuid "cdc9bb3a-6163-4a8c-9a31-306bebf8ad29")
+		(uuid "78f5a933-87b6-4af6-b39c-18ee146b163c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 522.6739 229.87 0)
+			(at 208.3188 412.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CPSW_RGMII_INTn{slash}PRU_INTn"
+		(shape input)
+		(at 227.33 422.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c3e5908-f662-46db-a088-be9e2f05b08f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.7353 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_RESETz"
+		(shape input)
+		(at 227.33 416.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8abad21-e474-43f4-abf6-2d74ac42f186")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.5521 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_PORz"
+		(shape input)
+		(at 227.33 406.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2c81b73-65ab-43d1-8526-7d6d0b8e67fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.4267 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_SAFETY_ERRORz_1V8"
+		(shape input)
+		(at 227.33 402.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2afe858-a919-40a3-80d8-2423de6faeb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.973 402.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22177,7 +22335,7 @@
 	)
 	(symbol
 		(lib_id "SoftServicesSymbolLibrary:AM6231ASGGGAALW")
-		(at 250.19 373.38 0)
+		(at 266.7 419.1 0)
 		(unit 17)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22186,7 +22344,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2204be2-af8d-4f2a-9bff-68916116d4e3")
 		(property "Reference" "U101"
-			(at 278.13 371.1574 0)
+			(at 294.64 416.8774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22195,7 +22353,7 @@
 			)
 		)
 		(property "Value" "AM6231ASGGGAALW"
-			(at 278.13 373.6974 0)
+			(at 294.64 419.4174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22204,7 +22362,7 @@
 			)
 		)
 		(property "Footprint" "AM6231ASGGGAALW:BGA425C50P25X25_1300X1300X89"
-			(at 250.19 373.38 0)
+			(at 266.7 419.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22213,7 +22371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 373.38 0)
+			(at 266.7 419.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22222,7 +22380,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 373.38 0)
+			(at 266.7 419.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
