@@ -8792,16 +8792,6 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 382.27) (xy 415.29 382.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8eb1e76-aefb-4d66-88dc-bbecd4a71aa0")
-	)
-	(wire
-		(pts
 			(xy 227.33 412.75) (xy 234.95 412.75)
 		)
 		(stroke
@@ -8830,7 +8820,7 @@
 		)
 		(uuid "eb609af0-f60f-42dc-a528-e034728a2c66")
 	)
-	(global_label "NRF_SPI0_D0"
+	(global_label "nRF_SPI0_MISO"
 		(shape input)
 		(at 415.29 374.65 0)
 		(fields_autoplaced yes)
@@ -8842,7 +8832,7 @@
 		)
 		(uuid "06bdb51d-495c-4eaf-8d68-b205aaa7779d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 430.6728 374.65 0)
+			(at 432.608 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8896,7 +8886,29 @@
 			)
 		)
 	)
-	(global_label "NRF_SPI0_CLK"
+	(global_label "EXTINTn"
+		(shape input)
+		(at 227.33 422.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3add8898-23ee-41a9-a297-341f56d057e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.9668 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nRF_SPI0_CLK"
 		(shape input)
 		(at 415.29 372.11 0)
 		(fields_autoplaced yes)
@@ -8908,7 +8920,7 @@
 		)
 		(uuid "53aeef64-c2a3-4b3f-9deb-1c318817834a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 431.7614 372.11 0)
+			(at 431.5799 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8918,7 +8930,7 @@
 			)
 		)
 	)
-	(global_label "NRF_SPI0_D1"
+	(global_label "nRF_SPI0_MOSI"
 		(shape input)
 		(at 415.29 377.19 0)
 		(fields_autoplaced yes)
@@ -8930,7 +8942,7 @@
 		)
 		(uuid "587c1c14-dfe8-4813-9933-f561b86f9c70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 430.6728 377.19 0)
+			(at 432.608 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8940,7 +8952,7 @@
 			)
 		)
 	)
-	(global_label "NRF_SPI0_CS0"
+	(global_label "nRF_SPI0_CS0"
 		(shape input)
 		(at 415.29 379.73 0)
 		(fields_autoplaced yes)
@@ -8952,7 +8964,7 @@
 		)
 		(uuid "6c6572eb-5ffb-48c0-b045-bd4c2349b1e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 431.8823 379.73 0)
+			(at 431.7008 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9006,28 +9018,6 @@
 			)
 		)
 	)
-	(global_label "CPSW_RGMII_INTn{slash}PRU_INTn"
-		(shape input)
-		(at 227.33 422.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7c3e5908-f662-46db-a088-be9e2f05b08f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.7353 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCU_RESETz"
 		(shape input)
 		(at 227.33 416.56 180)
@@ -9068,28 +9058,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NRF_SPI0_CS1"
-		(shape input)
-		(at 415.29 382.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c1605e8b-467c-429e-b86a-b18318ddc7ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 431.8823 382.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)

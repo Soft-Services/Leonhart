@@ -10928,28 +10928,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "SOC DDR4 Interface and DDR4 Device"
-		(exclude_from_sim no)
-		(at 30.48 80.01 0)
-		(size 361.95 204.47)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "2034b551-66fd-4978-a19c-2f6c3fb84a11")
-	)
 	(text_box "Decoupling Capacitors + Revelant Circuitry"
 		(exclude_from_sim no)
 		(at 402.59 80.01 0)
@@ -11121,12 +11099,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50a6cf99-5495-49e0-8bb8-0407072436ef")
-	)
-	(junction
-		(at 429.26 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57f00a85-2c9f-42b6-b3b6-be210fc5cb04")
 	)
 	(junction
 		(at 429.26 182.88)
@@ -13174,16 +13146,6 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 148.59) (xy 429.26 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "961b9c69-fb75-44eb-9f11-83109e555b39")
-	)
-	(wire
-		(pts
 			(xy 416.56 106.68) (xy 416.56 109.22)
 		)
 		(stroke
@@ -13734,16 +13696,6 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 151.13) (xy 441.96 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3f6e51f-5b4e-45f7-8ab0-326c11a15192")
-	)
-	(wire
-		(pts
 			(xy 284.48 232.41) (xy 284.48 236.22)
 		)
 		(stroke
@@ -13814,7 +13766,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 151.13) (xy 429.26 151.13)
+			(xy 416.56 151.13) (xy 441.96 151.13)
 		)
 		(stroke
 			(width 0)
