@@ -8306,7 +8306,7 @@
 		(dnp no)
 		(uuid "675dd143-f0cd-427e-b1a3-1effb90dd2d4")
 		(property "Reference" "R206"
-			(at 135.382 235.966 90)
+			(at 140.97 236.474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8314,7 +8314,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 145.796 235.966 90)
+			(at 140.716 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9048,7 +9048,7 @@
 		(dnp no)
 		(uuid "850a9473-4625-45ab-a0c9-553af72a43fb")
 		(property "Reference" "R204"
-			(at 79.502 253.746 90)
+			(at 85.09 254.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9056,7 +9056,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 89.916 253.746 90)
+			(at 84.836 251.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9830,7 +9830,7 @@
 		(dnp no)
 		(uuid "a3eb96af-efbc-4dfe-80f0-2b457a4ba793")
 		(property "Reference" "R205"
-			(at 135.382 228.854 90)
+			(at 140.97 228.346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9838,7 +9838,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 145.796 228.854 90)
+			(at 140.716 231.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10167,7 +10167,7 @@
 		(dnp no)
 		(uuid "b9a4784e-34c8-4dcc-abc2-2d664e9aa43b")
 		(property "Reference" "R203"
-			(at 79.502 246.634 90)
+			(at 85.09 246.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10175,7 +10175,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 89.916 246.634 90)
+			(at 84.836 248.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)

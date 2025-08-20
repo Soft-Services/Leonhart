@@ -8792,6 +8792,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 220.98) (xy 269.24 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a44c79e-8d66-4a80-813e-359820c9d7fb")
+	)
+	(wire
+		(pts
 			(xy 227.33 412.75) (xy 234.95 412.75)
 		)
 		(stroke
@@ -8819,6 +8829,16 @@
 			(type default)
 		)
 		(uuid "eb609af0-f60f-42dc-a528-e034728a2c66")
+	)
+	(wire
+		(pts
+			(xy 256.54 217.17) (xy 269.24 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa3c0b1b-dee8-4f4e-a85f-6961ecc21221")
 	)
 	(global_label "nRF_SPI0_MISO"
 		(shape input)
@@ -8860,6 +8880,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETH_MDIO"
+		(shape input)
+		(at 269.24 220.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "309b003c-9a18-4e30-ad8d-cd9890a4bf87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.2966 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9014,6 +9056,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETH_MDC"
+		(shape input)
+		(at 269.24 217.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93d2f12f-5047-49b3-9121-d0e67e49e45c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.6313 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
