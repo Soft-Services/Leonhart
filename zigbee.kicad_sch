@@ -8313,7 +8313,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "22R"
 			(at 140.716 233.68 90)
 			(effects
 				(font
@@ -10174,7 +10174,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "22R"
 			(at 84.836 248.92 90)
 			(effects
 				(font

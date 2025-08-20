@@ -19916,7 +19916,7 @@
 		(dnp no)
 		(uuid "4e6526b8-dd8e-438e-a116-f99ccc8a85a7")
 		(property "Reference" "R706"
-			(at 96.012 105.664 90)
+			(at 101.6 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19924,7 +19924,7 @@
 			)
 		)
 		(property "Value" "499R"
-			(at 106.426 105.664 90)
+			(at 101.6 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
