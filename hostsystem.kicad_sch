@@ -9355,6 +9355,26 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 416.56) (xy 185.42 416.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de92680-e755-41e2-8da1-0ab3aff39148")
+	)
+	(wire
+		(pts
+			(xy 167.64 419.1) (xy 185.42 419.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6725da-aeb1-42dc-85ea-b338eef290da")
+	)
+	(wire
+		(pts
 			(xy 217.17 487.68) (xy 163.83 487.68)
 		)
 		(stroke
@@ -9666,6 +9686,28 @@
 			)
 		)
 	)
+	(global_label "GPIO0_60_eMMC_RSTn"
+		(shape input)
+		(at 185.42 419.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70c2a6ba-1720-49c3-84f7-4cff604c08ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.2693 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PORz_OUT"
 		(shape input)
 		(at 306.07 496.57 180)
@@ -9837,6 +9879,28 @@
 		(uuid "bf43be80-6154-4371-abae-d150c775ce4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 207.0317 403.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO0_59_ETH_RSTn"
+		(shape input)
+		(at 185.42 416.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e906a73c-7e3f-4223-a037-35d9d085304a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.455 416.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
