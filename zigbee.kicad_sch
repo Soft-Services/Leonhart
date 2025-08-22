@@ -4177,7 +4177,7 @@
 		)
 		(uuid "18843d03-7c18-4568-86ca-0e410a98a531")
 	)
-	(text "CC2652P IO Interface"
+	(text "CC2652P I/O Interface"
 		(exclude_from_sim no)
 		(at 274.828 243.586 0)
 		(effects
