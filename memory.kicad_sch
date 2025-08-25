@@ -13694,6 +13694,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 196.85) (xy 381 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fbb7c5f-2bf1-4d9a-bd31-4ccbf0ebd6f9")
+	)
+	(wire
+		(pts
 			(xy 448.31 209.55) (xy 448.31 212.09)
 		)
 		(stroke
@@ -13841,16 +13851,6 @@
 			(type default)
 		)
 		(uuid "afaa1362-5645-49a8-b975-6c5672e8dd0d")
-	)
-	(wire
-		(pts
-			(xy 358.775 196.85) (xy 381.635 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b05246d2-58d4-40dc-b914-4418b65d3b9b")
 	)
 	(wire
 		(pts
@@ -15130,18 +15130,6 @@
 		)
 		(uuid "4e945fb9-9bb9-4546-8e40-8f167280357a")
 	)
-	(label "DDR_LDM"
-		(at 381.635 196.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "50845711-d0c5-4913-889b-e191af4eb190")
-	)
 	(label "DDR_DQ4"
 		(at 381 143.51 180)
 		(effects
@@ -15669,6 +15657,18 @@
 			(justify left bottom)
 		)
 		(uuid "bf1ebf17-65f4-47cf-bcad-bda307a5a4b6")
+	)
+	(label "DDR_LDM"
+		(at 381 196.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "c08d3a0d-2c0e-40d8-87fe-40f84469cb31")
 	)
 	(label "DDR_A1"
 		(at 213.36 132.08 0)

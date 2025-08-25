@@ -11476,12 +11476,6 @@
 		(uuid "4b0613ff-9d78-45f8-85da-4f59cd1b6ab5")
 	)
 	(junction
-		(at 170.18 288.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bb90690-697f-46f6-93e9-f570a2ea5a45")
-	)
-	(junction
 		(at 182.88 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12629,7 +12623,7 @@
 	)
 	(wire
 		(pts
-			(xy 626.11 74.93) (xy 600.71 74.93)
+			(xy 617.22 74.93) (xy 600.71 74.93)
 		)
 		(stroke
 			(width 0)
@@ -13496,16 +13490,6 @@
 			(type default)
 		)
 		(uuid "a6c5e99d-941a-406a-91d7-f0d1b03c9c05")
-	)
-	(wire
-		(pts
-			(xy 170.18 285.75) (xy 170.18 288.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7161c9f-8fe6-4b22-8ae5-a6ba7c578b11")
 	)
 	(wire
 		(pts
@@ -14521,18 +14505,6 @@
 		)
 		(uuid "45c59137-f24a-4b96-94ea-cf03fca689ae")
 	)
-	(label "ETH_MDIO"
-		(at 626.11 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "50e73dcc-701a-483a-b073-f78743afabbd")
-	)
 	(label "ETH_RD0"
 		(at 553.72 74.93 180)
 		(effects
@@ -14785,18 +14757,6 @@
 		)
 		(uuid "c6634232-663c-4332-8196-7e5085038c2a")
 	)
-	(label "ETH_MDC"
-		(at 245.11 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "cf21abba-6b04-404d-a01f-d1a1922f2697")
-	)
 	(label "ETH_PHY_RD0"
 		(at 245.11 142.24 0)
 		(effects
@@ -14820,18 +14780,6 @@
 			(justify left bottom)
 		)
 		(uuid "d5a87d9a-12aa-4fa5-aea2-a25141da0ec8")
-	)
-	(label "ETH_MDIO"
-		(at 245.11 185.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd2cef6d-df5d-47f6-a6be-304a9f497d5e")
 	)
 	(label "ETH_RD1"
 		(at 553.72 78.74 180)
@@ -14937,7 +14885,53 @@
 			)
 		)
 	)
-	(global_label "GPIO0_15_ETH_RSTn"
+	(global_label "ETH_MDIO"
+		(shape input)
+		(at 617.22 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "4b96b0a3-2c57-44e0-9259-ed1fe3b1a790")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 629.2766 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETH_MDIO"
+		(shape input)
+		(at 245.11 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "5304bc7b-3c2f-4ffd-a244-514c5cf76caf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.0534 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETH_RSTn"
 		(shape input)
 		(at 142.24 288.29 180)
 		(fields_autoplaced yes)
@@ -14949,7 +14943,7 @@
 		)
 		(uuid "5e535ae3-1052-4a1d-abdb-113cf914fb32")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.205 288.29 0)
+			(at 130.244 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14959,7 +14953,30 @@
 			)
 		)
 	)
-	(global_label "GPIO0_17_ETH_INTB"
+	(global_label "ETH_MDC"
+		(shape input)
+		(at 245.11 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "62626c43-b71c-439a-ac67-4373c12f760b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.7187 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETH_INTn"
 		(shape input)
 		(at 142.24 308.61 180)
 		(fields_autoplaced yes)
@@ -14972,7 +14989,7 @@
 		)
 		(uuid "9d75fc97-15d3-4f4b-87ee-edadb8f93a4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.6282 308.61 0)
+			(at 130.7882 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)

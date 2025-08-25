@@ -2162,6 +2162,140 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SRF2012_900YA_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SRF2012_900YA"
+				(at 0 8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SRF2012_900YA_1_1_1"
+				(rectangle
+					(start -6.35 4.445)
+					(end 6.35 -4.445)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SoftServicesSymbolLibrary:AM6231ASGGGAALW"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -13543,7 +13677,7 @@
 			(symbol "SRF2012_900YA_1_1"
 				(rectangle
 					(start -6.35 4.445)
-					(end 6.985 -4.445)
+					(end 6.35 -4.445)
 					(stroke
 						(width 0)
 						(type solid)
@@ -13589,7 +13723,7 @@
 					)
 				)
 				(pin passive line
-					(at 9.525 2.54 180)
+					(at 8.89 2.54 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -13607,7 +13741,7 @@
 					)
 				)
 				(pin passive line
-					(at 9.525 -2.54 180)
+					(at 8.89 -2.54 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -15280,16 +15414,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 191.77) (xy 173.355 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cb2c332-479c-47ea-a3aa-7b7611b20265")
-	)
-	(wire
-		(pts
 			(xy 631.19 137.16) (xy 631.19 140.97)
 		)
 		(stroke
@@ -15377,16 +15501,6 @@
 			(type default)
 		)
 		(uuid "10ea81d6-401b-4c50-a04a-317728354747")
-	)
-	(wire
-		(pts
-			(xy 151.765 149.86) (xy 172.72 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "127c926a-f7ff-49b5-a652-49219af9df9f")
 	)
 	(wire
 		(pts
@@ -17660,6 +17774,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 191.77) (xy 203.2 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0657b80-2585-463d-9849-14364b30c410")
+	)
+	(wire
+		(pts
 			(xy 576.58 374.65) (xy 576.58 383.54)
 		)
 		(stroke
@@ -17677,6 +17801,16 @@
 			(type default)
 		)
 		(uuid "a0a9838e-3df6-492f-8a7a-0bc6049d7aa3")
+	)
+	(wire
+		(pts
+			(xy 151.13 144.78) (xy 184.15 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a16c9b16-a17a-42ee-96c2-05df9431c4e8")
 	)
 	(wire
 		(pts
@@ -18070,6 +18204,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 149.86) (xy 172.72 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3bc0266-2020-4c21-92c0-08d03ccb6e6d")
+	)
+	(wire
+		(pts
 			(xy 609.6 325.12) (xy 609.6 326.39)
 		)
 		(stroke
@@ -18137,16 +18281,6 @@
 			(type default)
 		)
 		(uuid "c6a3a9c3-c9ed-466e-90e3-244a78ed3948")
-	)
-	(wire
-		(pts
-			(xy 151.765 144.78) (xy 184.15 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c701eda8-a48d-471b-a79f-d3f90cb324a4")
 	)
 	(wire
 		(pts
@@ -18720,16 +18854,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.355 196.85) (xy 207.01 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecea2420-13b1-4a87-8cfb-a409193474a7")
-	)
-	(wire
-		(pts
 			(xy 588.01 163.83) (xy 510.54 163.83)
 		)
 		(stroke
@@ -18947,6 +19071,16 @@
 			(type default)
 		)
 		(uuid "fce00524-7d3f-4832-a0e3-303fe85a369e")
+	)
+	(wire
+		(pts
+			(xy 172.72 196.85) (xy 207.01 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd795e51-c0f0-4aaf-b32a-672061e2721b")
 	)
 	(wire
 		(pts
@@ -19496,7 +19630,7 @@
 			)
 		)
 	)
-	(global_label "GPIO0_16_eMMC_RSTn"
+	(global_label "eMMC_RSTn"
 		(shape input)
 		(at 506.73 195.58 180)
 		(fields_autoplaced yes)
@@ -19508,7 +19642,7 @@
 		)
 		(uuid "75b0f178-98b9-470e-98d2-b1d8b5702cc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 482.8807 195.58 0)
+			(at 492.9197 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19559,6 +19693,80 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SoftServicesSymbolLibrary:SRF2012_900YA")
+		(at 163.83 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "059a4ae8-39da-4897-a7bf-c0f1c6baf179")
+		(property "Reference" "L7002"
+			(at 163.83 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SRF2012_900YA"
+			(at 163.83 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "161970c0-307e-4c19-91a2-e504bd71fb61")
+		)
+		(pin "2"
+			(uuid "50ad70ff-3996-45f7-9a77-9d318963305b")
+		)
+		(pin "3"
+			(uuid "249cd424-609b-46cc-b4c1-5a32bde99483")
+		)
+		(pin "1"
+			(uuid "dee90480-0ade-4fdb-b4dc-a38e58ee9908")
+		)
+		(instances
+			(project ""
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/e2459660-886d-4599-a9e6-b9bb7931d0e6"
+					(reference "L7002")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -19761,6 +19969,81 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/e2459660-886d-4599-a9e6-b9bb7931d0e6"
 					(reference "R7003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SRF2012_900YA_1")
+		(lib_id "SoftServicesSymbolLibrary:SRF2012_900YA")
+		(at 142.24 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a9f1a08-cba5-42ff-9d18-401fa672e365")
+		(property "Reference" "L7001"
+			(at 142.24 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SRF2012_900YA"
+			(at 142.24 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d73d127-1200-43e8-bb27-f02ad0635de4")
+		)
+		(pin "3"
+			(uuid "2969250a-f1db-4b9e-80e5-743108cf7720")
+		)
+		(pin "4"
+			(uuid "d60ad8ec-a8dc-441f-95a0-f6613ccce125")
+		)
+		(pin "1"
+			(uuid "a0d365e3-bbeb-41dd-85dd-6e2af23dc093")
+		)
+		(instances
+			(project ""
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/e2459660-886d-4599-a9e6-b9bb7931d0e6"
+					(reference "L7001")
 					(unit 1)
 				)
 			)
@@ -25316,80 +25599,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SoftServicesSymbolLibrary:SRF2012_900YA")
-		(at 163.83 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c755384-4b20-4a4f-8aa4-956a4ed851d1")
-		(property "Reference" "L7002"
-			(at 164.1475 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SRF2012_900YA"
-			(at 164.1475 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b05a4eb-ce37-47ef-9751-858ebf7df990")
-		)
-		(pin "4"
-			(uuid "b8964dac-4996-422d-977e-b5767580391c")
-		)
-		(pin "2"
-			(uuid "6b6dc3db-574f-46cb-b6fc-8e88d212c9ce")
-		)
-		(pin "3"
-			(uuid "74ee6e82-046c-452b-8b7d-70b59fa03eb9")
-		)
-		(instances
-			(project "Leonhart"
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/e2459660-886d-4599-a9e6-b9bb7931d0e6"
-					(reference "L7002")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_TVS")
 		(at 541.02 318.77 90)
 		(unit 1)
@@ -29322,80 +29531,6 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/e2459660-886d-4599-a9e6-b9bb7931d0e6"
 					(reference "R7028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SoftServicesSymbolLibrary:SRF2012_900YA")
-		(at 142.24 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecae0f09-23b2-4b9f-862c-78fe32fdb206")
-		(property "Reference" "L7001"
-			(at 142.5575 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SRF2012_900YA"
-			(at 142.5575 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58b7fc71-fae6-436f-84bc-b2f283ba89e3")
-		)
-		(pin "4"
-			(uuid "0fa0a4b0-2855-486a-a365-5921ddc0b57e")
-		)
-		(pin "2"
-			(uuid "6abf3599-7735-4ee3-bcf9-ab34d5d1fc65")
-		)
-		(pin "3"
-			(uuid "89be2e52-004b-4382-ba54-0173c39aae70")
-		)
-		(instances
-			(project "Leonhart"
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/e2459660-886d-4599-a9e6-b9bb7931d0e6"
-					(reference "L7001")
 					(unit 1)
 				)
 			)

@@ -17776,7 +17776,7 @@
 		(symbol "SRF2012_900YA_1_1"
 			(rectangle
 				(start -6.35 4.445)
-				(end 6.985 -4.445)
+				(end 6.35 -4.445)
 				(stroke
 					(width 0)
 					(type solid)
@@ -17822,7 +17822,7 @@
 				)
 			)
 			(pin passive line
-				(at 9.525 2.54 180)
+				(at 8.89 2.54 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -17840,7 +17840,7 @@
 				)
 			)
 			(pin passive line
-				(at 9.525 -2.54 180)
+				(at 8.89 -2.54 180)
 				(length 2.54)
 				(name ""
 					(effects
