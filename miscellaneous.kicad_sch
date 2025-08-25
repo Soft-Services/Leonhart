@@ -199,7 +199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1eed41b5-debe-407b-b3c9-3d68cd746716")
-		(property "Reference" "D802"
+		(property "Reference" "D8002"
 			(at 116.84 67.6274 90)
 			(effects
 				(font
@@ -262,7 +262,7 @@
 		(instances
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5ce8c427-fcc7-46d6-9710-77fc43565e4a"
-					(reference "D802")
+					(reference "D8002")
 					(unit 1)
 				)
 			)
@@ -278,7 +278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c92670b-4cde-4033-adb8-d0ba435083c9")
-		(property "Reference" "D801"
+		(property "Reference" "D8001"
 			(at 102.87 67.6274 90)
 			(effects
 				(font
@@ -341,7 +341,7 @@
 		(instances
 			(project ""
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5ce8c427-fcc7-46d6-9710-77fc43565e4a"
-					(reference "D801")
+					(reference "D8001")
 					(unit 1)
 				)
 			)
