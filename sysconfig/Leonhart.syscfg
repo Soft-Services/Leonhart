@@ -7,6 +7,18 @@
  */
 
 /**
+ * Import the modules used in this configuration.
+ */
+const powerDomains = scripting.addModule("/ti/corePinmux/powerDomains");
+
+/**
+ * Write custom configuration values to the imported modules.
+ */
+powerDomains.VDDSHV0                = "3.3 V";
+powerDomains.VDDSHV1                = "3.3 V";
+powerDomains["VDDS_DDR-VDDS_DDR_C"] = "1.2 V";
+
+/**
  * These are the peripherals and settings in this configuration
  */
 const DDRSS1                      = scripting.addPeripheral("DDRSS");
@@ -202,6 +214,8 @@ MMC11.DAT3.$assign                = "MMC1_DAT3";
 MMC11.SDCD.pu_pd                  = "nopull";
 MMC11.SDCD.$assign                = "MMC1_SDCD";
 MMC11.SDWP.$assign                = "MMC1_SDWP";
+scripting.suppress("Voltage conflict,VDDSHV0 is set to 3\\.3 V", MMC11, "SDCD");
+scripting.suppress("Voltage conflict,VDDSHV0 is set to 3\\.3 V", MMC11, "SDWP");
 const RGMII1                      = scripting.addPeripheral("RGMII");
 RGMII1.$name                      = "Ethernet";
 RGMII1.RD0.pu_pd                  = "pu";
@@ -241,14 +255,15 @@ SPI1.CS3.$used                    = false;
 const UART1                       = scripting.addPeripheral("UART");
 UART1.$name                       = "CC2652P";
 UART1.$assign                     = "USART6";
-UART1.CTSn.$assign                = "VOUT0_DATA11";
+UART1.$assignVoltage              = "3.3 V";
+UART1.CTSn.$assign                = "OSPI0_D7";
 UART1.DCDn.$used                  = false;
 UART1.DSRn.$used                  = false;
 UART1.DTRn.$used                  = false;
 UART1.RIn.$used                   = false;
-UART1.RTSn.$assign                = "VOUT0_DATA10";
-UART1.RXD.$assign                 = "VOUT0_DATA8";
-UART1.TXD.$assign                 = "VOUT0_DATA9";
+UART1.RTSn.$assign                = "OSPI0_D6";
+UART1.RXD.$assign                 = "OSPI0_D4";
+UART1.TXD.$assign                 = "OSPI0_D5";
 const USB1                        = scripting.addPeripheral("USB");
 USB1.$name                        = "USB C";
 USB1.$assign                      = "USB0";
@@ -265,6 +280,7 @@ USB2.DP.$assign                   = "USB1_DP";
 USB2.DRVVBUS.$assign              = "USB1_DRVVBUS";
 USB2.RCALIB.$assign               = "USB1_RCALIB";
 USB2.VBUS.$assign                 = "USB1_VBUS";
+scripting.suppress("Voltage conflict,VDDSHV0 is set to 3\\.3 V", USB2, "DRVVBUS");
 const WKUP_LFOSC1                 = scripting.addPeripheral("WKUP_LFOSC");
 WKUP_LFOSC1.$name                 = "WKUP_LFOSC1";
 WKUP_LFOSC1.XI.$assign            = "WKUP_LFOSC0_XI";

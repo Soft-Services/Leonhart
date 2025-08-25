@@ -19914,6 +19914,16 @@
 	)
 	(wire
 		(pts
+			(xy 504.19 544.83) (xy 504.19 547.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb86a8e2-3e85-49f8-b8e6-3a49eed057d4")
+	)
+	(wire
+		(pts
 			(xy 419.1 370.84) (xy 431.8 370.84)
 		)
 		(stroke
@@ -20231,6 +20241,16 @@
 			(type default)
 		)
 		(uuid "f6c6f253-badc-4190-9e4e-7cdf1f76e895")
+	)
+	(wire
+		(pts
+			(xy 504.19 554.99) (xy 504.19 557.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6fee326-024a-4837-8a43-fe949b21e5e9")
 	)
 	(wire
 		(pts
@@ -23077,7 +23097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SoC_VDDSHV5_SDIO"
+		(property "Value" "VDDSHV5_SDIO"
 			(at 568.452 544.068 0)
 			(effects
 				(font
@@ -24377,7 +24397,7 @@
 			)
 		)
 		(property "Value" "VDD_1V8"
-			(at 479.806 99.06 0)
+			(at 482.6 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25402,7 +25422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDDSHV_SDIO"
+		(property "Value" "VDD_SD"
 			(at 546.1 544.83 0)
 			(effects
 				(font
@@ -33429,7 +33449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SoC_VDDSHV5_SDIO"
+		(property "Value" "VDDSHV5_SDIO"
 			(at 587.248 538.988 0)
 			(effects
 				(font
@@ -37011,6 +37031,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 504.19 544.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc5e30cf-9b44-41a3-b9de-639a302d6ee8")
+		(property "Reference" "#PWR04129"
+			(at 504.19 548.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA_1V8"
+			(at 497.078 538.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 504.19 544.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 504.19 544.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 504.19 544.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f58c141-08b7-4492-b344-061175665570")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
+					(reference "#PWR04129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 391.16 551.18 0)
 		(unit 1)
@@ -39719,6 +39805,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 504.19 557.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "defabc87-1151-44b5-88a9-2e75e975892a")
+		(property "Reference" "#PWR04130"
+			(at 504.19 563.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 504.19 562.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 504.19 557.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 504.19 557.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 504.19 557.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe5e7aac-8639-4baf-8b3c-30a64658dadd")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
+					(reference "#PWR04130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 544.83 163.83 0)
 		(unit 1)
@@ -41463,6 +41615,76 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
 					(reference "C4049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 504.19 551.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f50937a8-d7b4-47f4-9550-32e8f68ddaf8")
+		(property "Reference" "C4119"
+			(at 508 549.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 508 552.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 505.1552 554.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 504.19 551.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 504.19 551.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "779749e4-f9ec-44ea-bb38-4614a261637d")
+		)
+		(pin "2"
+			(uuid "2df44ea6-a17c-4b68-bf76-54a5a3ed708b")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
+					(reference "C4119")
 					(unit 1)
 				)
 			)
