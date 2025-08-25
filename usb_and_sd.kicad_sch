@@ -15103,6 +15103,10 @@
 		(uuid "80a76f56-471d-4657-8db8-17c431defac3")
 	)
 	(no_connect
+		(at 391.16 190.5)
+		(uuid "83eeb632-fe7a-4e19-8d69-4adf565048c7")
+	)
+	(no_connect
 		(at 224.79 162.56)
 		(uuid "9f15070d-a44f-4aa4-af8d-43888d81deb7")
 	)
@@ -18186,16 +18190,6 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 190.5) (xy 407.67 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c89097a6-de3a-4477-8273-ff7a00b154e3")
-	)
-	(wire
-		(pts
 			(xy 706.12 113.03) (xy 706.12 111.76)
 		)
 		(stroke
@@ -19480,29 +19474,6 @@
 			)
 		)
 	)
-	(global_label "GPIO0_65_ETH_INTB"
-		(shape input)
-		(at 407.67 190.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "4bfa3e30-bfda-4b66-aa4f-d13226c80059")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 429.2818 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RESETSTATz"
 		(shape input)
 		(at 537.21 383.54 180)
@@ -19525,7 +19496,7 @@
 			)
 		)
 	)
-	(global_label "GPIO0_60_eMMC_RSTn"
+	(global_label "GPIO0_16_eMMC_RSTn"
 		(shape input)
 		(at 506.73 195.58 180)
 		(fields_autoplaced yes)
@@ -19537,7 +19508,7 @@
 		)
 		(uuid "75b0f178-98b9-470e-98d2-b1d8b5702cc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 492.7383 195.58 0)
+			(at 482.8807 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)

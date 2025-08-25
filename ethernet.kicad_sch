@@ -14937,7 +14937,7 @@
 			)
 		)
 	)
-	(global_label "GPIO0_59_ETH_RSTn"
+	(global_label "GPIO0_15_ETH_RSTn"
 		(shape input)
 		(at 142.24 288.29 180)
 		(fields_autoplaced yes)
@@ -14959,7 +14959,7 @@
 			)
 		)
 	)
-	(global_label "GPIO0_65_ETH_INTB"
+	(global_label "GPIO0_17_ETH_INTB"
 		(shape input)
 		(at 142.24 308.61 180)
 		(fields_autoplaced yes)
