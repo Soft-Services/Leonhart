@@ -22186,7 +22186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD_DDR4"
+		(property "Value" "VDD_1V2"
 			(at 554.99 194.31 0)
 			(effects
 				(font
