@@ -2635,6 +2635,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VDD"
 			(power)
 			(pin_numbers
@@ -2931,6 +3032,12 @@
 		(uuid "8095d8ac-0bcc-4d79-8d69-c72aabbeb644")
 	)
 	(junction
+		(at 215.9 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88bfcafb-99a0-42c7-8b46-fa72f8cc8d8a")
+	)
+	(junction
 		(at 100.33 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3045,12 +3152,104 @@
 		(uuid "fe56c3d0-e912-4855-a6f0-a3a0b54c691b")
 	)
 	(no_connect
+		(at 133.35 129.54)
+		(uuid "0316750f-dc96-4e37-a303-b7e9a94593ee")
+	)
+	(no_connect
+		(at 133.35 111.76)
+		(uuid "042458b7-260d-47a5-9448-97f4e91e4a10")
+	)
+	(no_connect
+		(at 133.35 167.64)
+		(uuid "067911be-3977-4c0a-bb56-b9da64f8a773")
+	)
+	(no_connect
+		(at 133.35 172.72)
+		(uuid "1346dd08-3000-46b7-a5c3-3d9e6cce6a1d")
+	)
+	(no_connect
+		(at 133.35 109.22)
+		(uuid "3194a401-cf88-4f31-bb70-163521c4d958")
+	)
+	(no_connect
+		(at 133.35 175.26)
+		(uuid "344146d5-6e7d-491d-8018-e87850eebc55")
+	)
+	(no_connect
+		(at 133.35 182.88)
+		(uuid "42ac24c1-66dd-4849-803f-2e873efcb654")
+	)
+	(no_connect
 		(at 300.99 95.25)
 		(uuid "4dba8c89-0da7-450b-936a-fccf2bec3782")
 	)
 	(no_connect
+		(at 133.35 116.84)
+		(uuid "5606cc16-216b-4018-af15-95e9db6d704f")
+	)
+	(no_connect
+		(at 133.35 132.08)
+		(uuid "60e83bba-7551-453e-abc3-004fe7179c93")
+	)
+	(no_connect
 		(at 133.35 96.52)
 		(uuid "6d70c4f6-9d27-4000-b9ae-a2f1ade45847")
+	)
+	(no_connect
+		(at 133.35 157.48)
+		(uuid "71c0fd12-81aa-4baa-ab65-ef19edd8f77c")
+	)
+	(no_connect
+		(at 133.35 165.1)
+		(uuid "88b3a3fc-6c1a-453a-b05c-c37b564d5472")
+	)
+	(no_connect
+		(at 133.35 160.02)
+		(uuid "9d3d63e2-d837-4153-aad0-318c3ef17dcf")
+	)
+	(no_connect
+		(at 133.35 127)
+		(uuid "ac21a52d-881c-4b71-a800-3e9ac5381ecc")
+	)
+	(no_connect
+		(at 133.35 185.42)
+		(uuid "c12128e8-12bf-42c7-a6b7-732d9b6f08fa")
+	)
+	(no_connect
+		(at 133.35 177.8)
+		(uuid "c3e9f14d-d46e-4468-9a25-73449de93f6a")
+	)
+	(no_connect
+		(at 133.35 162.56)
+		(uuid "d5614598-eaf5-405f-8f17-c17ecbfb8799")
+	)
+	(no_connect
+		(at 133.35 180.34)
+		(uuid "d5bf9702-74fd-4dcb-bfed-7dd8746f819e")
+	)
+	(no_connect
+		(at 133.35 142.24)
+		(uuid "d822e3ec-747b-4e89-b14c-9f1e91497071")
+	)
+	(no_connect
+		(at 133.35 134.62)
+		(uuid "dc36727a-8598-4f53-8832-9048b31b1edb")
+	)
+	(no_connect
+		(at 133.35 114.3)
+		(uuid "e48b28fd-f126-434d-a78b-115a47eec049")
+	)
+	(no_connect
+		(at 133.35 106.68)
+		(uuid "e6b84687-f04d-40ed-96d5-f6b222ddb6ea")
+	)
+	(no_connect
+		(at 133.35 170.18)
+		(uuid "f717e71d-ac7f-4200-80c6-e4993c6724d9")
+	)
+	(no_connect
+		(at 133.35 119.38)
+		(uuid "f9f4acb5-7673-4648-a0ab-9478d0069f3f")
 	)
 	(wire
 		(pts
@@ -3244,7 +3443,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 73.66) (xy 217.17 78.74)
+			(xy 222.25 73.66) (xy 222.25 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3484,7 +3683,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 78.74) (xy 217.17 78.74)
+			(xy 210.82 78.74) (xy 215.9 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3821,6 +4020,16 @@
 			(type default)
 		)
 		(uuid "aeb64793-0979-4516-b1ac-7b49332ee7f3")
+	)
+	(wire
+		(pts
+			(xy 215.9 78.74) (xy 222.25 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe3e02d-726d-4222-86b8-20e0b0841bbd")
 	)
 	(wire
 		(pts
@@ -4911,6 +5120,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 215.9 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45304ed5-770e-4ae1-a93b-b52330be2210")
+		(property "Reference" "#FLG04038"
+			(at 215.9 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 215.9 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 215.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4816928e-e855-4efc-a55a-45b8197fc667")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/4037e4ca-7763-453b-96d1-7d8342daaa99"
+					(reference "#FLG04038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 148.59 101.6 90)
 		(unit 1)
@@ -5057,7 +5331,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 217.17 73.66 0)
+		(at 222.25 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5065,7 +5339,7 @@
 		(dnp no)
 		(uuid "59f40057-c46b-41b6-81c3-ad2264aa7b10")
 		(property "Reference" "#PWR02002"
-			(at 217.17 77.47 0)
+			(at 222.25 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5074,7 +5348,7 @@
 			)
 		)
 		(property "Value" "VDD3V3_CC"
-			(at 212.852 68.58 0)
+			(at 217.932 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5083,7 +5357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 73.66 0)
+			(at 222.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,7 +5366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 73.66 0)
+			(at 222.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,7 +5375,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 217.17 73.66 0)
+			(at 222.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +5470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "675dd143-f0cd-427e-b1a3-1effb90dd2d4")
-		(property "Reference" "R2005"
+		(property "Reference" "R2004"
 			(at 157.48 157.734 90)
 			(effects
 				(font
@@ -5248,7 +5522,7 @@
 		(instances
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/4037e4ca-7763-453b-96d1-7d8342daaa99"
-					(reference "R2005")
+					(reference "R2004")
 					(unit 1)
 				)
 			)
@@ -5334,7 +5608,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "850a9473-4625-45ab-a0c9-553af72a43fb")
-		(property "Reference" "R2003"
+		(property "Reference" "R2002"
 			(at 157.48 142.494 90)
 			(effects
 				(font
@@ -5386,7 +5660,7 @@
 		(instances
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/4037e4ca-7763-453b-96d1-7d8342daaa99"
-					(reference "R2003")
+					(reference "R2002")
 					(unit 1)
 				)
 			)
@@ -5818,7 +6092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3eb96af-efbc-4dfe-80f0-2b457a4ba793")
-		(property "Reference" "R2004"
+		(property "Reference" "R2003"
 			(at 157.48 149.606 90)
 			(effects
 				(font
@@ -5870,7 +6144,7 @@
 		(instances
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/4037e4ca-7763-453b-96d1-7d8342daaa99"
-					(reference "R2004")
+					(reference "R2003")
 					(unit 1)
 				)
 			)
@@ -5978,7 +6252,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9a4784e-34c8-4dcc-abc2-2d664e9aa43b")
-		(property "Reference" "R2002"
+		(property "Reference" "R2001"
 			(at 157.48 134.62 90)
 			(effects
 				(font
@@ -6030,7 +6304,7 @@
 		(instances
 			(project ""
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/4037e4ca-7763-453b-96d1-7d8342daaa99"
-					(reference "R2002")
+					(reference "R2001")
 					(unit 1)
 				)
 			)
