@@ -4,4 +4,5 @@
   (lib (name "CC2652P1FRGZR")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_CC2652P1FRGZR/CC2652P1FRGZR/KiCad")(options "")(descr ""))
   (lib (name "AM6254ATCGHAALW")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_AM6254ATCGHAALW/AM6254ATCGHAALW/KiCad")(options "")(descr ""))
   (lib (name "AM6231ASGGGAALW")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_AM6231ASGGGAALW/AM6231ASGGGAALW/KiCad")(options "")(descr ""))
+  (lib (name "SoftServicesFootprintLibrary")(type "KiCad")(uri "${KIPRJMOD}/SoftServicesFootprintLibrary.pretty")(options "")(descr ""))
 )

@@ -10241,7 +10241,7 @@
 	)
 	(rectangle
 		(start 310.896 49.022)
-		(end 621.538 299.466)
+		(end 626.11 299.466)
 		(stroke
 			(width 0)
 			(type default)
@@ -14221,7 +14221,7 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 234.95) (xy 542.29 234.95)
+			(xy 455.93 234.95) (xy 560.07 234.95)
 		)
 		(stroke
 			(width 0)
@@ -14281,7 +14281,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 240.03) (xy 151.13 240.03)
+			(xy 130.81 240.03) (xy 151.13 240.03)
 		)
 		(stroke
 			(width 0)
@@ -14491,7 +14491,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 186.69) (xy 388.62 186.69)
+			(xy 378.46 186.69) (xy 384.81 186.69)
 		)
 		(stroke
 			(width 0)
@@ -14691,7 +14691,7 @@
 	)
 	(wire
 		(pts
-			(xy 490.22 242.57) (xy 542.29 242.57)
+			(xy 490.22 242.57) (xy 560.07 242.57)
 		)
 		(stroke
 			(width 0)
@@ -14741,7 +14741,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 240.03) (xy 118.11 240.03)
+			(xy 109.22 240.03) (xy 123.19 240.03)
 		)
 		(stroke
 			(width 0)
@@ -15291,7 +15291,7 @@
 	)
 	(wire
 		(pts
-			(xy 478.79 240.03) (xy 542.29 240.03)
+			(xy 478.79 240.03) (xy 560.07 240.03)
 		)
 		(stroke
 			(width 0)
@@ -16531,7 +16531,7 @@
 	)
 	(wire
 		(pts
-			(xy 523.24 251.46) (xy 542.29 251.46)
+			(xy 523.24 251.46) (xy 560.07 251.46)
 		)
 		(stroke
 			(width 0)
@@ -16671,7 +16671,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 245.11) (xy 542.29 245.11)
+			(xy 501.65 245.11) (xy 560.07 245.11)
 		)
 		(stroke
 			(width 0)
@@ -17201,7 +17201,7 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 255.27) (xy 542.29 255.27)
+			(xy 533.4 255.27) (xy 560.07 255.27)
 		)
 		(stroke
 			(width 0)
@@ -17631,16 +17631,6 @@
 	)
 	(wire
 		(pts
-			(xy 542.29 232.41) (xy 444.5 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93dd3e05-b032-41b6-b1d8-ccbc34385547")
-	)
-	(wire
-		(pts
 			(xy 455.93 523.24) (xy 449.58 523.24)
 		)
 		(stroke
@@ -17811,6 +17801,16 @@
 	)
 	(wire
 		(pts
+			(xy 444.5 232.41) (xy 560.07 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9838ba7d-0c2e-4842-81ef-74bde1081d0f")
+	)
+	(wire
+		(pts
 			(xy 474.98 129.54) (xy 461.01 129.54)
 		)
 		(stroke
@@ -17911,7 +17911,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 177.8) (xy 394.97 177.8)
+			(xy 384.81 177.8) (xy 394.97 177.8)
 		)
 		(stroke
 			(width 0)
@@ -19251,7 +19251,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 186.69) (xy 388.62 177.8)
+			(xy 384.81 186.69) (xy 384.81 177.8)
 		)
 		(stroke
 			(width 0)
@@ -19821,7 +19821,7 @@
 	)
 	(wire
 		(pts
-			(xy 513.08 247.65) (xy 542.29 247.65)
+			(xy 513.08 247.65) (xy 560.07 247.65)
 		)
 		(stroke
 			(width 0)
@@ -20581,16 +20581,6 @@
 	)
 	(wire
 		(pts
-			(xy 542.29 237.49) (xy 467.36 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eec8bbd9-c901-4881-8c45-2a6660511312")
-	)
-	(wire
-		(pts
 			(xy 480.06 405.13) (xy 480.06 407.67)
 		)
 		(stroke
@@ -20638,6 +20628,16 @@
 			(type default)
 		)
 		(uuid "f0620101-0ec6-4c95-87ae-aebab8e7c92c")
+	)
+	(wire
+		(pts
+			(xy 467.36 237.49) (xy 560.07 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0924b98-07f1-4946-bc67-b1adcf51574b")
 	)
 	(wire
 		(pts
@@ -21069,6 +21069,18 @@
 		)
 		(uuid "ffe7ef50-72e6-4206-8cfa-953ad327b2ec")
 	)
+	(label "CAP_VDDS3"
+		(at 539.75 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cbf1698-bdd5-46fa-bf2b-50f1676f0e8e")
+	)
 	(label "VDDA_SYS_MON"
 		(at 375.92 173.99 0)
 		(effects
@@ -21080,6 +21092,102 @@
 			(justify left bottom)
 		)
 		(uuid "1aa5089b-6b64-48bb-9896-d0f4408e7b25")
+	)
+	(label "CAP_VDDS_MCU"
+		(at 539.75 251.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c9ad5c9-3e36-47d1-8f0d-c41be79e031c")
+	)
+	(label "VDD_3V3_SW"
+		(at 110.49 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2700d911-46ca-437f-b961-61399b713c1b")
+	)
+	(label "PMIC_B3_O"
+		(at 181.61 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "30d07b02-8515-4615-a063-335ecb164819")
+	)
+	(label "CAP_VDDS_CANUART"
+		(at 539.75 255.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3778c64c-2fff-41c9-87a9-be68bea63aa9")
+	)
+	(label "VDD_3V3_PG"
+		(at 53.34 250.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "477ec12d-3c1f-4fea-b333-7a534dd876f8")
+	)
+	(label "CAP_VDDS4"
+		(at 539.83 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "53b46105-6759-449b-a544-55939ab5c565")
+	)
+	(label "CAP_VDDS6"
+		(at 539.75 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "568a25f1-374a-4480-b372-4a69f6825dc4")
+	)
+	(label "CAP_VDDS0"
+		(at 539.75 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "74c8dddc-17d6-4e0d-b36f-7e3d218633bc")
 	)
 	(label "VDD_3V3_EN"
 		(at 198.12 171.45 180)
@@ -21104,6 +21212,102 @@
 			(justify left bottom)
 		)
 		(uuid "8ebffe50-63b2-4e2b-a21d-fb4a5a774c91")
+	)
+	(label "CAP_VDDS2"
+		(at 539.75 237.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "95f5f899-ce8f-4ee2-8cfb-3d5d0ea4c5cf")
+	)
+	(label "PMIC_B2_O"
+		(at 181.61 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e6805e7-5d1c-48bf-aab5-aa1afc68caa2")
+	)
+	(label "PMIC_B1_O"
+		(at 181.61 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "afff37f7-4bf3-486e-977c-83f950682525")
+	)
+	(label "PMIC_B1_FB"
+		(at 181.61 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3402bf8-4c8f-4dc1-8d4e-533f4800cb61")
+	)
+	(label "CAP_VDDS5"
+		(at 539.83 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d46288fb-a835-48b4-8d55-c27dddc28507")
+	)
+	(label "VDD_3V3_FB"
+		(at 110.49 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "db54f7a3-3ac6-4d5a-b3f0-21863f0a31ec")
+	)
+	(label "SoC_VPP"
+		(at 384.81 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f66e7c95-7e20-42ed-8767-ea703b6f5bbf")
+	)
+	(label "CAP_VDDS1"
+		(at 539.75 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f86287f8-593e-4ac6-ba4e-fdb862b03c1b")
 	)
 	(label "VDDA_SYS_MON"
 		(at 367.03 101.6 180)
@@ -22397,7 +22601,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AM6231ASGGGAALW:BGA425C50P25X25_1300X1300X89"
 			(at 358.14 245.11 0)
 			(effects
 				(font
@@ -31711,7 +31915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AM6231ASGGGAALW:BGA425C50P25X25_1300X1300X89"
 			(at 425.45 124.46 0)
 			(effects
 				(font
@@ -34043,7 +34247,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 121.92 240.03 90)
+		(at 127 240.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34052,7 +34256,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ea4bf61-ad84-400e-8797-de178011cfa1")
 		(property "Reference" "L4004"
-			(at 121.92 234.95 90)
+			(at 127 234.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34060,7 +34264,7 @@
 			)
 		)
 		(property "Value" "0.47u"
-			(at 121.92 237.49 90)
+			(at 127 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34068,7 +34272,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 240.03 0)
+			(at 127 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34077,7 +34281,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 240.03 0)
+			(at 127 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34086,7 +34290,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 121.92 240.03 0)
+			(at 127 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44789,7 +44993,7 @@
 	)
 	(symbol
 		(lib_id "SoftServicesSymbolLibrary:AM6231ASGGGAALW")
-		(at 566.42 242.57 0)
+		(at 584.2 242.57 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44798,7 +45002,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbefc6eb-2740-4b20-99dc-55772da8da92")
 		(property "Reference" "U1001"
-			(at 586.74 241.9349 0)
+			(at 604.52 241.9349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44807,7 +45011,7 @@
 			)
 		)
 		(property "Value" "AM6231ASGGGAALW"
-			(at 586.74 244.4749 0)
+			(at 604.52 244.4749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44815,8 +45019,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 566.42 242.57 0)
+		(property "Footprint" "AM6231ASGGGAALW:BGA425C50P25X25_1300X1300X89"
+			(at 584.2 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44825,7 +45029,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 566.42 242.57 0)
+			(at 584.2 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44834,7 +45038,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 566.42 242.57 0)
+			(at 584.2 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)

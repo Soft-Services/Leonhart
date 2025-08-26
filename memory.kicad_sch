@@ -16941,7 +16941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:FBGA-96_7.5x13mm_Layout9x16_P0.8mm"
 			(at 309.88 177.8 0)
 			(effects
 				(font
@@ -21048,7 +21048,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AM6231ASGGGAALW:BGA425C50P25X25_1300X1300X89"
 			(at 133.35 179.07 0)
 			(effects
 				(font
