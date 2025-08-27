@@ -1,0 +1,18 @@
+.DMG1012T :1 ;MOSFETs
+SOT50P160X90-3N
+*STM Q
+*NGS
+*PLB 1="G" 2="S" 3="D"
+*MXP 3
+*DFN DMG1012T
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (DMG1012T)
+~!Mouser Part Number (N/A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG1012T?qs=Wj%2FVkw3K%252BMD5naxckZUW%2FA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.diodes.com/datasheet/download/DMG1012T.pdf)
+~!Height (0.9mm)
+~!3D_Model (DMG1012T)
+DMG1012T
+1.1!U 2.1!U 3.1!U 

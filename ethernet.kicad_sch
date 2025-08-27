@@ -23476,7 +23476,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECS-2520MV-250-BN-TR:ECS2520MV250BNTR"
 			(at 196.85 247.65 0)
 			(effects
 				(font

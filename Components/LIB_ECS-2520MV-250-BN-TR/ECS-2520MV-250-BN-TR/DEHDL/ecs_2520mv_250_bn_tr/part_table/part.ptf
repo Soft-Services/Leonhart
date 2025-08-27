@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ECS_2520MV_250_BN_TR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ECS", "ECS-2520MV-250-BN-TR" (!) = "", "ECS2520MV250BNTR", "Other", "520-2520MV-250-BN-T", "https://www.mouser.co.uk/ProductDetail/ECS/ECS-2520MV-250-BN-TR?qs=fAHHVMwC%252BbgOY%2Fh2f8CE5Q%3D%3D", "ECS-2520MV-250-BN-TR", "https://www.arrow.com/en/products/ecs-2520mv-250-bn-tr/ecs-international", "Standard Clock Oscillators 25MHz 1.6-3.6V -40C +85C", "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf", "0.9 mm"
+END_PART
+
+END.

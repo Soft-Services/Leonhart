@@ -28175,12 +28175,6 @@
 		(uuid "90f3e318-faa9-43a9-9f32-ca253b25da1a")
 	)
 	(junction
-		(at 450.85 407.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9148ec49-4feb-46b5-b86f-58007ec83fd8")
-	)
-	(junction
 		(at 190.5 313.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -28221,6 +28215,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4dd8f30-2a21-416a-b4fc-9c4186c6edd4")
+	)
+	(junction
+		(at 459.74 407.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcac793c-4b46-40e9-a052-77f572cc8366")
 	)
 	(no_connect
 		(at 544.83 294.64)
@@ -28726,7 +28726,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 401.32) (xy 450.85 407.67)
+			(xy 459.74 401.32) (xy 459.74 407.67)
 		)
 		(stroke
 			(width 0)
@@ -28946,7 +28946,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 381) (xy 450.85 383.54)
+			(xy 459.74 381) (xy 459.74 383.54)
 		)
 		(stroke
 			(width 0)
@@ -29156,7 +29156,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 407.67) (xy 429.26 407.67)
+			(xy 429.26 407.67) (xy 459.74 407.67)
 		)
 		(stroke
 			(width 0)
@@ -29346,6 +29346,16 @@
 	)
 	(wire
 		(pts
+			(xy 459.74 407.67) (xy 467.36 407.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d66dde1-42f7-4fe3-89ea-acadccf919d8")
+	)
+	(wire
+		(pts
 			(xy 455.93 410.21) (xy 481.33 410.21)
 		)
 		(stroke
@@ -29483,16 +29493,6 @@
 			(type default)
 		)
 		(uuid "77189e5d-f78c-4f07-9860-56654d9d8acf")
-	)
-	(wire
-		(pts
-			(xy 450.85 407.67) (xy 467.36 407.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77720e8c-27b3-4141-bd76-3cb173c825f0")
 	)
 	(wire
 		(pts
@@ -30216,7 +30216,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 391.16) (xy 450.85 393.7)
+			(xy 459.74 391.16) (xy 459.74 393.7)
 		)
 		(stroke
 			(width 0)
@@ -30446,6 +30446,18 @@
 		)
 		(uuid "76af946b-003b-4888-ac2d-67559e2ff915")
 	)
+	(label "UART0_TXD_HEADER"
+		(at 436.88 410.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "82868937-962a-4237-8873-60d80f6504d9")
+	)
 	(label "SOC_TDO"
 		(at 115.57 406.4 180)
 		(effects
@@ -30505,6 +30517,18 @@
 			(justify left bottom)
 		)
 		(uuid "aea3dead-19de-4d34-9b07-7ec7f2a5f6d9")
+	)
+	(label "UART0_RXD_HEADER"
+		(at 436.88 407.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8e2e9cc-88f3-4279-b024-9589cf13e727")
 	)
 	(label "EEP_WP"
 		(at 351.79 414.02 180)
@@ -34789,7 +34813,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 450.85 381 0)
+		(at 459.74 381 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34798,7 +34822,7 @@
 		(fields_autoplaced yes)
 		(uuid "37b3e65b-fecc-414d-a2c9-6ef6b897c2ae")
 		(property "Reference" "#PWR01012"
-			(at 450.85 384.81 0)
+			(at 459.74 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34807,7 +34831,7 @@
 			)
 		)
 		(property "Value" "VDD_3V3"
-			(at 450.85 375.92 0)
+			(at 459.74 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34815,7 +34839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 450.85 381 0)
+			(at 459.74 381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34824,7 +34848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 450.85 381 0)
+			(at 459.74 381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34833,7 +34857,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 450.85 381 0)
+			(at 459.74 381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44403,7 +44427,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 450.85 397.51 0)
+		(at 459.74 397.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44412,7 +44436,7 @@
 		(fields_autoplaced yes)
 		(uuid "a455924c-6b5a-430e-97a7-8d51a6ab370b")
 		(property "Reference" "R1013"
-			(at 453.39 396.2399 0)
+			(at 462.28 396.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44421,7 +44445,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 453.39 398.7799 0)
+			(at 462.28 398.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44430,7 +44454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 449.072 397.51 90)
+			(at 457.962 397.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44439,7 +44463,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 450.85 397.51 0)
+			(at 459.74 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44448,7 +44472,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 450.85 397.51 0)
+			(at 459.74 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46639,7 +46663,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 450.85 387.35 90)
+		(at 459.74 387.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46648,7 +46672,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6f17a0b-a0dd-43e6-8162-9550c3e08712")
 		(property "Reference" "D1001"
-			(at 453.39 386.0799 90)
+			(at 462.28 386.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46657,7 +46681,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 453.39 388.6199 90)
+			(at 462.28 388.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46666,7 +46690,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 450.85 387.35 0)
+			(at 459.74 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46675,7 +46699,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 450.85 387.35 0)
+			(at 459.74 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46684,7 +46708,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 450.85 387.35 0)
+			(at 459.74 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46693,7 +46717,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 450.85 387.35 0)
+			(at 459.74 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46702,7 +46726,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 450.85 387.35 0)
+			(at 459.74 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46817,7 +46841,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SN74LVC2G241DCUR:SOP50P310X90-8N"
 			(at 419.1 408.94 0)
 			(effects
 				(font

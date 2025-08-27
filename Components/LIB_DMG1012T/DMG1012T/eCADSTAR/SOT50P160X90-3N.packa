@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DMG1012T"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-05-23-05:45:06)
+    (mountForm default
+        (footprintRef "SOT50P160X90-3N")
+        (spec "System")
+    )
+)

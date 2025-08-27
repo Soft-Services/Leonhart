@@ -20083,7 +20083,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoftServicesFootprintLibrary:SRF2012-900YA"
 			(at 163.83 194.31 0)
 			(effects
 				(font
@@ -20362,7 +20362,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoftServicesFootprintLibrary:SRF2012-900YA"
 			(at 142.24 147.32 0)
 			(effects
 				(font
@@ -27177,7 +27177,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TPS22918DBVR:SOT95P280X145-6N"
 			(at 598.17 378.46 0)
 			(effects
 				(font

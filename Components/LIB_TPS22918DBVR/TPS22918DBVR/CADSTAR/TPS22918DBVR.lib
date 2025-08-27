@@ -1,0 +1,18 @@
+.TPS22918DBVR :1 ;5.5V, 2A, 52m load switch with adjustable rise time and adjustable quick output discharge
+SOT95P280X145-6N
+*STM IC
+*NGS
+*PLB 1="VIN" 2="GND" 3="ON" 4="CT" 5="QOD" 6="VOUT"
+*MXP 6
+*DFN TPS22918DBVR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS22918DBVR)
+~!Mouser Part Number (595-TPS22918DBVR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS22918DBVR?qs=f4l5qYp%2Fy%252B5F7w5ZAgmi7A%3D%3D)
+~!Arrow Part Number (TPS22918DBVR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tps22918dbvr/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (http://www.ti.com/lit/gpn/TPS22918)
+~!Height (1.45mm)
+~!3D_Model (TPS22918DBVR)
+TPS22918DBVR
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

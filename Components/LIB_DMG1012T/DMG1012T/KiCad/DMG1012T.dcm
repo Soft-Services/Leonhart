@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMG1012T
+D MOSFETs
+K
+F https://www.diodes.com/datasheet/download/DMG1012T.pdf
+$ENDCMP
+#
+#End Doc Library

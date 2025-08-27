@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS22918DBVR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPS22918DBVR" (!) = "", "SOT95P280X145-6N", "SOT23 (6-Pin)", "595-TPS22918DBVR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS22918DBVR?qs=f4l5qYp%2Fy%252B5F7w5ZAgmi7A%3D%3D", "TPS22918DBVR", "https://www.arrow.com/en/products/tps22918dbvr/texas-instruments?utm_currency=USD&region=nac", "5.5V, 2A, 52m load switch with adjustable rise time and adjustable quick output discharge", "http://www.ti.com/lit/gpn/TPS22918", "1.45 mm"
+END_PART
+
+END.

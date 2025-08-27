@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SRF2012-900YA"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-02-26-13:00:21)
+    (mountForm default
+        (footprintRef "SRF2012900YA")
+        (spec "System")
+    )
+)

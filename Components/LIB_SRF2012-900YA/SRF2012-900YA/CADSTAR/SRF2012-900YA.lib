@@ -1,0 +1,18 @@
+.SRF2012-900YA :1 ;SRF2012A Series - Common Mode Chip Inductors
+SRF2012900YA
+*STM L
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN SRF2012-900YA
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (SRF2012-900YA)
+~!Mouser Part Number (652-SRF2012-900YA)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/JW-Miller/SRF2012-900YA?qs=st9wJnguRXiprlNN41YSeQ%3D%3D)
+~!Arrow Part Number (SRF2012-900YA)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/srf2012-900ya/bourns?region=nac)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/SRF2012-900YA.pdf)
+~!Height (1.4mm)
+~!3D_Model (SRF2012-900YA)
+SRF2012-900YA
+1.1!U 2.1!U 3.1!U 4.1!U 

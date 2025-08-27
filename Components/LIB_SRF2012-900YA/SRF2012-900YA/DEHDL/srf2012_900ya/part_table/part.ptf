@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SRF2012_900YA'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "SRF2012-900YA" (!) = "", "SRF2012900YA", "Other", "652-SRF2012-900YA", "https://www.mouser.co.uk/ProductDetail/JW-Miller/SRF2012-900YA?qs=st9wJnguRXiprlNN41YSeQ%3D%3D", "SRF2012-900YA", "https://www.arrow.com/en/products/srf2012-900ya/bourns?region=nac", "SRF2012A Series - Common Mode Chip Inductors", "https://componentsearchengine.com/Datasheets/1/SRF2012-900YA.pdf", "1.4 mm"
+END_PART
+
+END.

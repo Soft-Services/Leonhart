@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DMG1012T'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "DMG1012T" (!) = "", "SOT50P160X90-3N", "SOT23 (3-Pin)", "N/A", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG1012T?qs=Wj%2FVkw3K%252BMD5naxckZUW%2FA%3D%3D", "", "", "MOSFETs", "https://www.diodes.com/datasheet/download/DMG1012T.pdf", "0.9 mm"
+END_PART
+
+END.

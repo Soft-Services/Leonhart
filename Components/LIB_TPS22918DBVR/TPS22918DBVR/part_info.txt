@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPS22918DBVR
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=1.1
+Released=2020-02-27 07:27:57
+Downloaded=2025-08-27 04:56:11
+3D=Y
