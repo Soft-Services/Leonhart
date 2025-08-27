@@ -25960,7 +25960,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
 			(at 165.1 120.65 0)
 			(effects
 				(font

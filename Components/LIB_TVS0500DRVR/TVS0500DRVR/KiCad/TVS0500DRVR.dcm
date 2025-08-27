@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TVS0500DRVR
+D 5V Flat-Clamp Surge Protection Device
+K
+F http://www.ti.com/lit/gpn/tvs0500
+$ENDCMP
+#
+#End Doc Library

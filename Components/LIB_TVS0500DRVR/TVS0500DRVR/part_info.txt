@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TVS0500DRVR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=7
+Version=2.1
+Released=2019-02-15 16:30:56
+Downloaded=2025-08-27 05:29:27
+3D=Y

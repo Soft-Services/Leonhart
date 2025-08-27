@@ -1563,6 +1563,226 @@
 			)
 		)
 	)
+	(footprint "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+		(layer "F.Cu")
+		(uuid "17a9d9ec-c160-438d-8351-b0afab82474d")
+		(at 106.8125 136.75)
+		(descr "WSON, 6 Pin (http://www.ti.com/lit/ds/symlink/tps61040.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py")
+		(tags "WSON NoLead")
+		(property "Reference" "U7001"
+			(at 0 -1.95 0)
+			(layer "F.SilkS")
+			(uuid "4b296cdd-0c6e-4d83-a8a1-6d52a8544525")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TVS0500DRVR"
+			(at 0 1.95 0)
+			(layer "F.Fab")
+			(uuid "c6cf6067-aad0-48c3-86e1-65ecb1e194d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c462f20-20af-487a-9345-4d559eb3f6ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8ef7ca8-e1b4-4b1d-a257-6d8f8573be73")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e2459660-886d-4599-a9e6-b9bb7931d0e6/6756a7c0-7ce4-445b-8e3a-8365de060d59")
+		(sheetname "/USB and SD [7]/")
+		(sheetfile "usb_and_sd.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1 -1.11)
+			(end 1 -1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "faf3a9b9-0dfe-41db-9016-8f9e97595057")
+		)
+		(fp_line
+			(start -1 1.11)
+			(end 1 1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "69eb53fb-5bfd-4f9a-b228-61c3c20c1d4c")
+		)
+		(fp_poly
+			(pts
+				(xy -1.24 -1.01) (xy -1.52 -1.01) (xy -1.24 -1.29)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "68f0baea-99ae-48a3-9fd6-bff56f592bd1")
+		)
+		(fp_rect
+			(start -1.33 -1.25)
+			(end 1.33 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "48d9106b-ab25-449f-9903-2123e2fb95e1")
+		)
+		(fp_poly
+			(pts
+				(xy -1 -0.5) (xy -1 1) (xy 1 1) (xy 1 -1) (xy -0.5 -1)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "89fa8349-51da-4b4b-b2ef-d4bfe5c68ade")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "14a5a84e-bda0-4040-8fc1-caff03c7817b")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "" smd roundrect
+			(at 0 -0.4)
+			(size 0.81 0.64)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "976b5f9a-fb46-4e4a-a478-087b251eef73")
+		)
+		(pad "" smd roundrect
+			(at 0 0.4)
+			(size 0.81 0.64)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "43645932-be50-4fbe-9607-51c704489583")
+		)
+		(pad "1" smd roundrect
+			(at -0.8875 -0.65)
+			(size 0.375 0.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 252 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "c5accad6-511c-4225-a477-48bfd016f7dc")
+		)
+		(pad "2" smd roundrect
+			(at -0.8875 0)
+			(size 0.375 0.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 252 "GND")
+			(pinfunction "GND1")
+			(pintype "power_in")
+			(uuid "13fa3a8b-6005-4584-9adf-ddffd3ccfe49")
+		)
+		(pad "3" smd roundrect
+			(at -0.8875 0.65)
+			(size 0.375 0.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 252 "GND")
+			(pinfunction "GND2")
+			(pintype "power_in")
+			(uuid "c5a6363c-fb77-4d00-9c38-84febdbe0bf7")
+		)
+		(pad "4" smd roundrect
+			(at 0.8875 0.65)
+			(size 0.375 0.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 69 "VSYS_5V")
+			(pinfunction "IN")
+			(pintype "passive")
+			(uuid "924c6bc2-0852-487a-855b-f2fd0f2dd82d")
+		)
+		(pad "5" smd roundrect
+			(at 0.8875 0)
+			(size 0.375 0.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 69 "VSYS_5V")
+			(pinfunction "IN1")
+			(pintype "passive")
+			(uuid "0592c4a1-e1a1-4e9f-a5b1-0ca767040cbf")
+		)
+		(pad "6" smd roundrect
+			(at 0.8875 -0.65)
+			(size 0.375 0.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 69 "VSYS_5V")
+			(pinfunction "IN2")
+			(pintype "passive")
+			(uuid "6709b464-b347-4062-870f-752992b3f2d3")
+		)
+		(pad "7" smd rect
+			(at 0 0)
+			(size 1 1.6)
+			(property pad_prop_heatsink)
+			(layers "F.Cu" "F.Mask")
+			(net 252 "GND")
+			(pinfunction "PAD")
+			(pintype "power_in")
+			(zone_connect 2)
+			(uuid "03ecdcc1-4a93-4f89-9fbe-f6e72423f9a3")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "1c4a5c1d-3c21-485f-aace-5fc51ee138c7")
@@ -12541,6 +12761,17 @@
 			(uuid "866eceac-0a5d-4b8b-b6ac-977e897425e4")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Components/ul_TLV62595DMQR/DMQ0006A.stp"
+			(offset
+				(xyz -0.06 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "CC2652PSIP:CC2652PSIP"
 		(layer "F.Cu")

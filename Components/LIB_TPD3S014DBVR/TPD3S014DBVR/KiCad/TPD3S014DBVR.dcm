@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPD3S014DBVR
+D Current Limit Load Sw & TVS 0.5A SOT23-6 Texas Instruments TPD3S014DBVR Load Switch IC, Current Limit Switch, 4.5  5.5V, 6-Pin, SOT-23
+K
+F http://www.ti.com/lit/ds/symlink/tpd3s044.pdf
+$ENDCMP
+#
+#End Doc Library

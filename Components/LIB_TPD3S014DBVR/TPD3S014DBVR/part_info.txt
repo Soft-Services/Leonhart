@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPD3S014DBVR
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=4.1
+Released=2017-02-08 08:56:51
+Downloaded=2025-08-27 05:32:33
+3D=Y

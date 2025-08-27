@@ -1,0 +1,18 @@
+.TPD3S014DBVR :1 ;Current Limit Load Sw & TVS 0.5A SOT23-6 Texas Instruments TPD3S014DBVR Load Switch IC, Current Limit Switch, 4.5  5.5V, 6-Pin, SOT-23
+SOT95P280X145-6N
+*STM IC
+*NGS
+*PLB 1="EN" 2="GND" 3="IN" 4="OUT" 5="D1" 6="D2"
+*MXP 6
+*DFN TPD3S014DBVR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPD3S014DBVR)
+~!Mouser Part Number (595-TPD3S014DBVR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD3S014DBVR?qs=1CfNGUMoiQ%252BDmiZShdlX0g%3D%3D)
+~!Arrow Part Number (TPD3S014DBVR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tpd3s014dbvr/texas-instruments?region=nac)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/tpd3s044.pdf)
+~!Height (1.45mm)
+~!3D_Model (TPD3S014DBVR)
+TPD3S014DBVR
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

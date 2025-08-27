@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPD3S014DBVR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPD3S014DBVR" (!) = "", "SOT95P280X145-6N", "SOT23 (6-Pin)", "595-TPD3S014DBVR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD3S014DBVR?qs=1CfNGUMoiQ%252BDmiZShdlX0g%3D%3D", "TPD3S014DBVR", "https://www.arrow.com/en/products/tpd3s014dbvr/texas-instruments?region=nac", "Current Limit Load Sw & TVS 0.5A SOT23-6 Texas Instruments TPD3S014DBVR Load Switch IC, Current Limit Switch, 4.5  5.5V, 6-Pin, SOT-23", "http://www.ti.com/lit/ds/symlink/tpd3s044.pdf", "1.45 mm"
+END_PART
+
+END.

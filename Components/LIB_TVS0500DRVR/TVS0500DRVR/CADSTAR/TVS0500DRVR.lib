@@ -1,0 +1,18 @@
+.TVS0500DRVR :1 ;5V Flat-Clamp Surge Protection Device
+SON65P200X200X80-7N
+*STM IC
+*NGS
+*PLB 1="GND_1" 2="GND_2" 3="GND_3" 4="IN_1" 5="IN_2" 6="IN_3" 7="GND_4"
+*MXP 7
+*DFN TVS0500DRVR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TVS0500DRVR)
+~!Mouser Part Number (595-TVS0500DRVR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TVS0500DRVR?qs=W0yvOO0ixfE%252BATlQ17YkMw%3D%3D)
+~!Arrow Part Number (TVS0500DRVR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tvs0500drvr/texas-instruments?region=europe)
+~!Link Datasheet (http://www.ti.com/lit/gpn/tvs0500)
+~!Height (0.8mm)
+~!3D_Model (TVS0500DRVR)
+TVS0500DRVR
+1.1!U 2.1!U 3.1!U 7.1!U 6.1!U 5.1!U 4.1!U 
