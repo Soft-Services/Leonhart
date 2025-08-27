@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '48037_0001'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "48037-0001" (!) = "", "480370001", "Other", "538-48037-0001", "https://www.mouser.co.uk/ProductDetail/Molex/48037-0001?qs=c2CV6XM0Dwe0COJj0e1fzg%3D%3D", "", "", "USB Type A Plug Through Hole Right Angle Molex Male 1 Port Right Angle Through Hole Type A USB Connector, 150 V ac, 1.5A 48037", "https://www.molex.com/pdm_docs/sd/480370001_sd.pdf", "4.6 mm"
+END_PART
+
+END.

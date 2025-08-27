@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "HR911130A"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "HR911130A")
+        (spec "default")
+    )
+)

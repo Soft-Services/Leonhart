@@ -16496,7 +16496,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "RTL8211FD-CG"
+	(symbol "RTL8211F-CG"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -16508,7 +16508,7 @@
 				)
 			)
 		)
-		(property "Value" "RTL8211FD-CG"
+		(property "Value" "RTL8211F-CG"
 			(at 0.508 55.626 0)
 			(effects
 				(font
@@ -16543,7 +16543,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "RTL8211FD-CG_1_1"
+		(symbol "RTL8211F-CG_1_1"
 			(rectangle
 				(start -27.94 40.64)
 				(end 36.83 -31.75)
@@ -17860,7 +17860,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TLV62592DMQR"
+	(symbol "TLV62595DMQR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -17872,7 +17872,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV62592DMQR"
+		(property "Value" "TLV62595DMQR"
 			(at 0 8.128 0)
 			(effects
 				(font
@@ -17907,7 +17907,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TLV62592DMQR_1_1"
+		(symbol "TLV62595DMQR_1_1"
 			(rectangle
 				(start -8.89 6.35)
 				(end 8.89 -8.89)

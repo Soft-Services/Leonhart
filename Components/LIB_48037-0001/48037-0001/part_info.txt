@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=48037-0001
+PartCategory=Connector
+PackageCategory=Other
+PinCount=6
+Version=2.4
+Released=2023-01-24 10:40:32
+Downloaded=2025-08-26 22:02:30
+3D=Y

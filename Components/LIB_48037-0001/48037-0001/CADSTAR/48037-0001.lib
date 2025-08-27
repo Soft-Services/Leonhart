@@ -1,0 +1,19 @@
+.48037-0001 :1 ;USB Type A Plug Through Hole Right Angle Molex Male 1 Port Right Angle Through Hole Type A USB Connector, 150 V ac, 1.5A 48037
+"480370001"
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=MH1 6=MH2
+*PLB 1="1" 2="2" 3="3" 4="4" 5="MH1" 6="MH2"
+*MXP 8
+*DFN 48037-0001
+~!Manufacturer_Name (Molex)
+~!Manufacturer_Part_Number (48037-0001)
+~!Mouser Part Number (538-48037-0001)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Molex/48037-0001?qs=c2CV6XM0Dwe0COJj0e1fzg%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.molex.com/pdm_docs/sd/480370001_sd.pdf)
+~!Height (4.6mm)
+~!3D_Model (48037-0001)
+"48037-0001"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

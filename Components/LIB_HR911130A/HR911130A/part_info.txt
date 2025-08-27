@@ -1,0 +1,9 @@
+Manufacturer=Hanrun Electronics
+PartNumber=HR911130A
+PartCategory=Connector
+PackageCategory=Other
+PinCount=16
+Version=1.2
+Released=2018-05-10 10:30:50
+Downloaded=2025-08-26 20:53:09
+3D=Y

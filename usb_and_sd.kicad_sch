@@ -19241,7 +19241,7 @@
 		)
 		(uuid "ff7454a6-02ea-4ec4-9b92-ace97afdf2dd")
 	)
-	(label "EMMC_RSTn"
+	(label "EMMC_RST_N"
 		(at 547.37 189.23 0)
 		(effects
 			(font
@@ -23345,7 +23345,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_A_Molex_48037-2200_Horizontal"
 			(at 234.95 195.58 0)
 			(effects
 				(font
@@ -25782,7 +25782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 236.22 147.32 0)
 			(effects
 				(font

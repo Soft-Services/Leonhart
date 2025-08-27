@@ -9814,7 +9814,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SoftServicesSymbolLibrary:RTL8211FD-CG"
+		(symbol "SoftServicesSymbolLibrary:RTL8211F-CG"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -9826,7 +9826,7 @@
 					)
 				)
 			)
-			(property "Value" "RTL8211FD-CG"
+			(property "Value" "RTL8211F-CG"
 				(at 0.508 55.626 0)
 				(effects
 					(font
@@ -9861,7 +9861,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RTL8211FD-CG_1_1"
+			(symbol "RTL8211F-CG_1_1"
 				(rectangle
 					(start -27.94 40.64)
 					(end 36.83 -31.75)
@@ -21333,6 +21333,193 @@
 		)
 	)
 	(symbol
+		(lib_id "SoftServicesSymbolLibrary:RTL8211F-CG")
+		(at 295.91 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2e1f324-a4fd-4d2d-90cf-36d09f7dd73b")
+		(property "Reference" "U6002"
+			(at 300.5933 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RTL8211F-CG"
+			(at 300.5933 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm"
+			(at 295.91 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 295.91 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "549ba202-5767-4219-8080-78b93d4b6610")
+		)
+		(pin "19"
+			(uuid "475c8f25-2ddd-4451-9127-9577343e31d7")
+		)
+		(pin "26"
+			(uuid "c0ff97cf-068d-4cb4-873b-5cae1cbc70c1")
+		)
+		(pin "13"
+			(uuid "21020494-a22c-475b-83e0-8bf557f0afa9")
+		)
+		(pin "36"
+			(uuid "8a6eec1b-fe9c-43cd-8166-d4aa629574c8")
+		)
+		(pin "33"
+			(uuid "02d506ae-b1fe-44d4-a6e7-2ca0379964b3")
+		)
+		(pin "11"
+			(uuid "d3f67ef5-2b47-41fb-ba86-3a30126b97e0")
+		)
+		(pin "12"
+			(uuid "173bdd21-535f-496a-9637-7b3384c41d74")
+		)
+		(pin "39"
+			(uuid "ce182c00-f1b9-4380-9a83-78f46f794004")
+		)
+		(pin "34"
+			(uuid "4d4f3916-3b42-472e-ae1c-b94d5bb3df51")
+		)
+		(pin "23"
+			(uuid "24bf80d3-96b3-49d7-bef3-c13252ad2a15")
+		)
+		(pin "18"
+			(uuid "6cb67869-aa90-454a-a363-db701e2552c0")
+		)
+		(pin "24"
+			(uuid "164f3390-7313-4d48-afae-ab7fc08f8a3b")
+		)
+		(pin "17"
+			(uuid "4bc7cadd-20f6-409a-b917-ec4a55522489")
+		)
+		(pin "27"
+			(uuid "baa9dc8f-5fff-4af4-8d0a-260899395e0f")
+		)
+		(pin "22"
+			(uuid "cb4db0e8-e85a-4e58-9f39-e279bbf824b9")
+		)
+		(pin "14"
+			(uuid "30abaad1-2221-4cad-af2d-450b32d60f4f")
+		)
+		(pin "5"
+			(uuid "600002ee-7675-45cf-a437-927013123c86")
+		)
+		(pin "31"
+			(uuid "51fc74a7-8a08-4b10-987a-3f7d5bcae30f")
+		)
+		(pin "25"
+			(uuid "f0528741-1a46-4423-beb6-5573455dabfe")
+		)
+		(pin "21"
+			(uuid "297feeb9-f72d-4444-9b09-3e686d53a9cd")
+		)
+		(pin "3"
+			(uuid "b4c72b6b-66f9-4f3d-b2b6-9af206a835d6")
+		)
+		(pin "2"
+			(uuid "071258b6-bbe8-421f-869a-e22775f85105")
+		)
+		(pin "15"
+			(uuid "d3a3cb4c-a007-45fd-afd8-7012da0668e3")
+		)
+		(pin "16"
+			(uuid "e8d26640-7a5f-4c5d-a927-9dbea24ef99a")
+		)
+		(pin "28"
+			(uuid "78890c69-8fa2-472e-b1b9-1ebcd52293ae")
+		)
+		(pin "6"
+			(uuid "85a1fcdc-973c-4889-a147-6c17d5217617")
+		)
+		(pin "35"
+			(uuid "448c5517-cc88-49ba-8184-0a324e915553")
+		)
+		(pin "41"
+			(uuid "cc3fad11-f0bb-4dce-b592-71207c208ec1")
+		)
+		(pin "7"
+			(uuid "e5bf774b-bf58-48d1-b51a-5e8deb943148")
+		)
+		(pin "37"
+			(uuid "9918d0ec-93d6-452b-8be6-e93e5827cb08")
+		)
+		(pin "29"
+			(uuid "2b05eca1-41a9-4743-9212-f4f50a29dce7")
+		)
+		(pin "20"
+			(uuid "bee7db9b-42c4-4d06-97b0-1b484dea626e")
+		)
+		(pin "9"
+			(uuid "53de6b04-2e0e-4a63-a0d6-a2c798e750b6")
+		)
+		(pin "32"
+			(uuid "7492afac-0016-4772-91e0-6e4e74fb058e")
+		)
+		(pin "38"
+			(uuid "4d2e5887-72bd-47db-8b05-cd5853d1c783")
+		)
+		(pin "40"
+			(uuid "be5e2617-6ee2-4779-82fb-8c76c2dc0dd4")
+		)
+		(pin "10"
+			(uuid "b4953d42-182e-49b1-b2d7-32ce507eb098")
+		)
+		(pin "4"
+			(uuid "241e93e3-d491-4a78-8d0d-ef32f7665fc5")
+		)
+		(pin "30"
+			(uuid "afcb62a3-64dd-4855-99f6-5e9821ac85bd")
+		)
+		(pin "8"
+			(uuid "c163994a-ef31-4031-a229-4b62cd64df9c")
+		)
+		(instances
+			(project ""
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/6c7f2037-3077-4980-ab71-7ff032fdfd6e"
+					(reference "U6002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:DMG1012T")
 		(at 198.12 295.91 270)
 		(unit 1)
@@ -23067,193 +23254,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SoftServicesSymbolLibrary:RTL8211FD-CG")
-		(at 295.91 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5857419-7915-4104-9961-367ad39399b1")
-		(property "Reference" "U6002"
-			(at 300.5933 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RTL8211FD-CG"
-			(at 300.5933 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 295.91 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 295.91 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 295.91 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "22"
-			(uuid "94323347-2506-4147-8653-c75aade33b8a")
-		)
-		(pin "25"
-			(uuid "d620d9ee-b0c0-4d51-a365-217b9bf16c36")
-		)
-		(pin "8"
-			(uuid "cc3a034d-3a4e-42d1-a70a-f3fef71f4cd8")
-		)
-		(pin "28"
-			(uuid "4d65c422-f181-4359-8ab4-1d229f00b8a6")
-		)
-		(pin "13"
-			(uuid "f95526b0-f635-4de0-8161-0f958bf2ca45")
-		)
-		(pin "26"
-			(uuid "01e6d091-2b45-4b71-961a-0d820bb01f4b")
-		)
-		(pin "38"
-			(uuid "d64e8222-7b76-4a73-9746-d8ef3608a9b1")
-		)
-		(pin "14"
-			(uuid "ad35d556-97dc-42ea-bf83-87a1db990dc8")
-		)
-		(pin "40"
-			(uuid "792fd169-8600-4a63-b863-34f37f7290a6")
-		)
-		(pin "19"
-			(uuid "d4a17aea-37ff-4d38-b50c-896b6c8751f0")
-		)
-		(pin "24"
-			(uuid "130a8006-cb72-4078-9de4-345bc7fa3d9f")
-		)
-		(pin "23"
-			(uuid "84b3652d-4c82-4087-bddf-b30ef86694c5")
-		)
-		(pin "16"
-			(uuid "46ff2c9f-d3fb-4cb4-a9bf-3d20fb7f255a")
-		)
-		(pin "20"
-			(uuid "ed901b4a-7366-4328-96ee-315452f0118b")
-		)
-		(pin "29"
-			(uuid "9f99a284-6005-409d-894f-aec2abb5c0e8")
-		)
-		(pin "21"
-			(uuid "964d625e-9ed4-436d-be89-ddd1c939a751")
-		)
-		(pin "4"
-			(uuid "5cfe0361-725d-4259-baaa-7f81f5c92c6c")
-		)
-		(pin "5"
-			(uuid "1a3f0236-4607-4054-b780-7effb31a91a2")
-		)
-		(pin "6"
-			(uuid "2c21fb60-8fe1-45b4-8115-6d0e637f3652")
-		)
-		(pin "7"
-			(uuid "65757470-36eb-4649-b5ec-2326627c4f1f")
-		)
-		(pin "9"
-			(uuid "d260f0b6-f964-4599-adb5-26103814e91b")
-		)
-		(pin "10"
-			(uuid "9ee21bf3-801c-4bb6-a4a1-c0ec2b4fbb75")
-		)
-		(pin "32"
-			(uuid "ab64942c-85e0-4fec-8479-bff70720b23a")
-		)
-		(pin "33"
-			(uuid "27534102-2442-4004-99f6-3953b2c6f10f")
-		)
-		(pin "34"
-			(uuid "9275d2e5-3526-4c92-9105-b98bcb63119c")
-		)
-		(pin "39"
-			(uuid "5bc72236-0029-4027-8244-8a2a033dc95c")
-		)
-		(pin "12"
-			(uuid "be0e0960-af41-4b39-9367-d1cebc12c581")
-		)
-		(pin "31"
-			(uuid "7a4a64f8-edc8-4721-8222-9e814544300a")
-		)
-		(pin "37"
-			(uuid "a4867b7d-f22c-452a-82e7-6de11bd8f3ca")
-		)
-		(pin "35"
-			(uuid "01520323-cdbd-45ae-9af9-dd0e4b874799")
-		)
-		(pin "18"
-			(uuid "4d0cb4a5-1547-4627-bee0-8c06dcd7acfb")
-		)
-		(pin "30"
-			(uuid "6fdd8278-8574-4d9c-a908-c2f79821b35d")
-		)
-		(pin "41"
-			(uuid "6797c91d-2e6d-42d0-8837-37412e4ee47e")
-		)
-		(pin "36"
-			(uuid "672118df-c7e7-4f8d-aa1d-0a315c817cc5")
-		)
-		(pin "15"
-			(uuid "7fa26962-eb0a-4ebc-aa98-594d3417b470")
-		)
-		(pin "3"
-			(uuid "418f8bbb-20d6-467e-9b43-9de5adef6aa3")
-		)
-		(pin "1"
-			(uuid "5eee482f-c142-46ea-9938-ab3d37d37f90")
-		)
-		(pin "17"
-			(uuid "efa02b92-53ed-4e3d-ba57-b812155180d5")
-		)
-		(pin "11"
-			(uuid "f66aa1b5-682d-4147-98a1-e4f78157689f")
-		)
-		(pin "27"
-			(uuid "24aa28f0-027c-45dc-98c2-b016728b64c1")
-		)
-		(pin "2"
-			(uuid "efbb7348-0b88-45b7-9724-1ec4bc1acee1")
-		)
-		(instances
-			(project ""
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/6c7f2037-3077-4980-ab71-7ff032fdfd6e"
-					(reference "U6002")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 196.85 261.62 0)
 		(unit 1)
@@ -23682,7 +23682,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HR911130A:HR911130A"
 			(at 412.75 171.45 0)
 			(effects
 				(font

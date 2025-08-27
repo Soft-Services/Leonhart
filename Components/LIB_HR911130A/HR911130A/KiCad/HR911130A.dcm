@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HR911130A
+D SINGLE PORT RJ45 CONNECTOR WITH INTEGRATED MAGNETICS AND LED
+K
+F https://datasheet.lcsc.com/szlcsc/Zhongshan-HanRun-Elec-HR911130A_C54408.pdf
+$ENDCMP
+#
+#End Doc Library

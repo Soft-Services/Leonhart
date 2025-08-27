@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'HR911130A'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Hanrun Electronics", "HR911130A" (!) = "", "HR911130A", "Other", "", "", "", "", "SINGLE PORT RJ45 CONNECTOR WITH INTEGRATED MAGNETICS AND LED", "https://datasheet.lcsc.com/szlcsc/Zhongshan-HanRun-Elec-HR911130A_C54408.pdf", "13 mm"
+END_PART
+
+END.

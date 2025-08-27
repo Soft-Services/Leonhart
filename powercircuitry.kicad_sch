@@ -9073,7 +9073,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SoftServicesSymbolLibrary:TLV62592DMQR"
+		(symbol "SoftServicesSymbolLibrary:TLV62595DMQR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -9085,7 +9085,7 @@
 					)
 				)
 			)
-			(property "Value" "TLV62592DMQR"
+			(property "Value" "TLV62595DMQR"
 				(at 0 8.128 0)
 				(effects
 					(font
@@ -9120,7 +9120,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLV62592DMQR_1_1"
+			(symbol "TLV62595DMQR_1_1"
 				(rectangle
 					(start -8.89 6.35)
 					(end 8.89 -8.89)
@@ -28504,7 +28504,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TPS6521903RHBR:QFN50P500X500X100-33N-D"
 			(at 156.21 124.46 0)
 			(effects
 				(font
@@ -30119,86 +30119,6 @@
 			(project ""
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
 					(reference "#PWR04001")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SoftServicesSymbolLibrary:TLV62592DMQR")
-		(at 97.79 243.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59b7cf5e-7678-435c-ad49-1c4e40808398")
-		(property "Reference" "U4003"
-			(at 97.79 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV62592DMQR"
-			(at 97.79 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "e52d3f1a-3a25-4016-9bf4-26e1de2ac8c0")
-		)
-		(pin "2"
-			(uuid "e15b9115-926e-4f8f-abad-5bbf294851c7")
-		)
-		(pin "6"
-			(uuid "6ab94cfe-fc02-48ba-906d-5919c1ad74d1")
-		)
-		(pin "4"
-			(uuid "2a35229f-e0af-4547-94d7-594ca8d9e2e6")
-		)
-		(pin "1"
-			(uuid "f9beccc7-7afc-40b0-bdfe-bd1e95f80901")
-		)
-		(pin "3"
-			(uuid "3e9c6d7a-6c42-4261-8604-842348787449")
-		)
-		(instances
-			(project ""
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
-					(reference "U4003")
 					(unit 1)
 				)
 			)
@@ -35992,6 +35912,86 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
 					(reference "#FLG04025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SoftServicesSymbolLibrary:TLV62595DMQR")
+		(at 97.79 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99890d27-90ac-4cf2-a4ac-ade0e7e95f58")
+		(property "Reference" "U4002"
+			(at 97.79 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV62595DMQR"
+			(at 97.79 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SoftServicesFootprintLibrary:TLV62595DMQR"
+			(at 97.79 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d75b7088-8734-4877-8786-527e6b04f0ff")
+		)
+		(pin "6"
+			(uuid "e1503e9e-6daf-4875-913d-2538fddc1506")
+		)
+		(pin "5"
+			(uuid "5ef3ddb7-5ec5-4964-b9c8-408a2080feef")
+		)
+		(pin "1"
+			(uuid "ef5ff8c1-d120-4ee3-91b5-dbea04aacc13")
+		)
+		(pin "4"
+			(uuid "9f953c81-25ae-4773-8922-e945df277b45")
+		)
+		(pin "3"
+			(uuid "202e6cd5-dd19-42a3-9a30-0e0f8c01a57f")
+		)
+		(instances
+			(project ""
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
+					(reference "U4002")
 					(unit 1)
 				)
 			)
