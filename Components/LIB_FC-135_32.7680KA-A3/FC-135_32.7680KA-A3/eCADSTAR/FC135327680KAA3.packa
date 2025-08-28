@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "FC-135_32_7680KA-A3"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-09-17-11:08:22)
+    (mountForm default
+        (footprintRef "FC135327680KAA3")
+        (spec "System")
+    )
+)

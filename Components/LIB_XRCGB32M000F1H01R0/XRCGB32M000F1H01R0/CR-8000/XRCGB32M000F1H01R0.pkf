@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "XRCGB32M000F1H01R0"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "XRCGB32M000F1H01R0")
+        (spec "default")
+    )
+)

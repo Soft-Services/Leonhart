@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "XRCGB32M000F1H01R0"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-05-13-09:31:05)
+    (mountForm default
+        (footprintRef "XRCGB32M000F1H01R0")
+        (spec "System")
+    )
+)

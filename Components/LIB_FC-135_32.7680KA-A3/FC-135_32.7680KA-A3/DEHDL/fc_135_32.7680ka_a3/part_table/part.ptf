@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FC_135_32.7680KA_A3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Epson Timing", "FC-135 32.7680KA-A3" (!) = "", "FC135327680KAA3", "Other", "732-FC135-32.76KAA3", "https://www.mouser.co.uk/ProductDetail/Epson-Timing/FC-135-32.7680KA-A3?qs=l3LL3yk8ONaUpektQ%252BySkw%3D%3D", "FC-135 32.7680KA-A3", "https://www.arrow.com/en/products/fc-13532.7680ka-a3/epson-electronics-america?region=nac", "Crystals 32.768KHz 20ppm 12.5pF -40C -85C", "https://support.epson.biz/td/api/doc_check.php?dl=brief_fc-135r_en.pdf", "0.9 mm"
+END_PART
+
+END.

@@ -1,0 +1,18 @@
+.FC-135_32.7680KA-A3 :1 ;Crystals 32.768KHz 20ppm 12.5pF -40C -85C
+FC135327680KAA3
+*STM Y
+*NGS
+*PLB 1="X1" 2="X2"
+*MXP 2
+*DFN FC-135_32.7680KA-A3
+~!Manufacturer_Name (Epson Timing)
+~!Manufacturer_Part_Number (FC-135 32.7680KA-A3)
+~!Mouser Part Number (732-FC135-32.76KAA3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Epson-Timing/FC-135-32.7680KA-A3?qs=l3LL3yk8ONaUpektQ%252BySkw%3D%3D)
+~!Arrow Part Number (FC-135 32.7680KA-A3)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/fc-13532.7680ka-a3/epson-electronics-america?region=nac)
+~!Link Datasheet (https://support.epson.biz/td/api/doc_check.php?dl=brief_fc-135r_en.pdf)
+~!Height (0.9mm)
+~!3D_Model (FC-135_32.7680KA-A3)
+FC-135_32.7680KA-A3
+1.1!U 2.1!U 

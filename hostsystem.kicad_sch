@@ -27417,7 +27417,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SoftServicesSymbolLibrary:FT24C32A-ELR-T"
+		(symbol "SoftServicesSymbolLibrary:AT24C32D-STUM-T"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -27429,7 +27429,7 @@
 					)
 				)
 			)
-			(property "Value" "FT24C32A-ELR-T"
+			(property "Value" "AT24C32D-STUM-T"
 				(at 0 13.208 0)
 				(effects
 					(font
@@ -27464,7 +27464,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "FT24C32A-ELR-T_1_1"
+			(symbol "AT24C32D-STUM-T_1_1"
 				(rectangle
 					(start -5.08 9.525)
 					(end 8.89 -4.445)
@@ -41475,6 +41475,83 @@
 		)
 	)
 	(symbol
+		(lib_id "SoftServicesSymbolLibrary:AT24C32D-STUM-T")
+		(at 309.88 411.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94f1f90e-8b2e-48f2-9631-c157cc184853")
+		(property "Reference" "U1003"
+			(at 311.785 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AT24C32D-STUM-T"
+			(at 311.785 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 309.88 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "1accb1b3-fc8f-4e7a-88c6-424cbc54c5dc")
+		)
+		(pin "3"
+			(uuid "89001f75-61ae-4031-aeeb-3beac178b4bb")
+		)
+		(pin "2"
+			(uuid "fc7588af-0fd8-4c1d-b0a7-fee8e9c824fd")
+		)
+		(pin "1"
+			(uuid "fadc4026-b40b-4db9-9193-2300c08c083a")
+		)
+		(pin "4"
+			(uuid "3860d524-d2c2-4ccb-b5d8-182e2ee38de1")
+		)
+		(instances
+			(project ""
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5bbf73b3-d883-47e7-ac01-c5b0358ac807"
+					(reference "U1003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 227.33 388.62 0)
 		(unit 1)
@@ -46781,83 +46858,6 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5bbf73b3-d883-47e7-ac01-c5b0358ac807"
 					(reference "#PWR01024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SoftServicesSymbolLibrary:FT24C32A-ELR-T")
-		(at 309.88 411.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb64e68f-00d0-46ec-8446-418619f5cad5")
-		(property "Reference" "U1003"
-			(at 311.785 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FT24C32A-ELR-T"
-			(at 311.785 400.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 309.88 411.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 411.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 309.88 411.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75c12b9a-a6f8-4781-b3b5-5f15360e300a")
-		)
-		(pin "3"
-			(uuid "6896dfe1-3414-4ffa-bb63-9631a027fa5b")
-		)
-		(pin "4"
-			(uuid "ced6f83a-6bff-495e-bb7e-56fdcb1ab3df")
-		)
-		(pin "2"
-			(uuid "b702b77b-e4fc-40be-8ccf-3a03c95693d8")
-		)
-		(pin "5"
-			(uuid "22b758c6-27f3-4d8d-bad2-6defe709b508")
-		)
-		(instances
-			(project ""
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5bbf73b3-d883-47e7-ac01-c5b0358ac807"
-					(reference "U1003")
 					(unit 1)
 				)
 			)

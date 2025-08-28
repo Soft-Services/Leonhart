@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'XRCGB32M000F1H01R0'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "XRCGB32M000F1H01R0" (!) = "", "XRCGB32M000F1H01R0", "Other", "81-XRCGB32M000F1H01R", "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/XRCGB32M000F1H01R0?qs=rrS6PyfT74d%252B5Vjvryrpmg%3D%3D", "XRCGB32M000F1H01R0", "https://www.arrow.com/en/products/xrcgb32m000f1h01r0/murata-power-solutions?region=nac", "Crystals", "https://www.murata.com/en-eu/products/productdetail?partno=XRCGB32M000F1H01R0", "0.7 mm"
+END_PART
+
+END.

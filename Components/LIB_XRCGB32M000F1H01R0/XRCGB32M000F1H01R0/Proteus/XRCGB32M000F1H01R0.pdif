@@ -1,0 +1,108 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "XRCGB32M000F1H01R0"
+   (description "Crystals")
+   (family "OSC")
+   (package "XRCGB32M000F1H01R0")
+   (attribute "Datasheet Link" "https://www.murata.com/en-eu/products/productdetail?partno=XRCGB32M000F1H01R0")
+   (attribute "Geometry.Height" "0.7mm")
+   (attribute "Manufacturer_Name" "Murata Electronics")
+   (attribute "Manufacturer_Part_Number" "XRCGB32M000F1H01R0")
+   (attribute "Mouser Part Number" "81-XRCGB32M000F1H01R")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/XRCGB32M000F1H01R0?qs=rrS6PyfT74d%252B5Vjvryrpmg%3D%3D")
+   (attribute "Arrow Part Number" "XRCGB32M000F1H01R0")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/xrcgb32m000f1h01r0/murata-power-solutions?region=nac")
+   (gate
+    (symbol "XRCGB32M000F1H01R0")
+    (pin "XTAL_1" 1 PS)
+    (pin "NC_1" 2 PS)
+    (pin "XTAL_2" 3 PS)
+    (pin "NC_2" 4 PS)
+   )
+  )
+  (symbol "XRCGB32M000F1H01R0"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "XRCGB32M000F1H01R0"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1 0.8)
+      (pt 1 0.8)
+      (pt 1 -0.8)
+      (pt -1 -0.8)
+      (pt -1 0.8))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.65 1.45)
+      (pt 1.65 1.45)
+      (pt 1.65 -1.45)
+      (pt -1.65 -1.45)
+      (pt -1.65 1.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.7 -1.1)
+      (arc (pt -0.700 -1.100) (pt -0.750 -1.200) (pt -0.650 -1.100) (start 180.0) (sweep 90.0))
+      (pt -0.7 -1.2)
+      (arc (pt -0.700 -1.200) (pt -0.750 -1.200) (pt -0.650 -1.100) (start 180.0) (sweep -90.0))
+      (pt -0.7 -1.1))))
+   (leg 1 (pt -0.675 -0.500) (padstack 0))
+   (leg 2 (pt 0.675 -0.500) (padstack 0))
+   (leg 3 (pt 0.675 0.500) (padstack 0))
+   (leg 4 (pt -0.675 0.500) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.700 0.750 0 0 0.000))
+   )
+   (model "XRCGB32M000F1H01R0.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

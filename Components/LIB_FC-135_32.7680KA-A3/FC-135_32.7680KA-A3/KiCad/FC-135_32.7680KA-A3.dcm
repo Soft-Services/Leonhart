@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FC-135_32.7680KA-A3
+D Crystals 32.768KHz 20ppm 12.5pF -40C -85C
+K
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_fc-135r_en.pdf
+$ENDCMP
+#
+#End Doc Library

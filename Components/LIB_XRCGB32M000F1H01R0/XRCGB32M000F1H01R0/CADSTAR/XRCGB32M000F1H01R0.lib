@@ -1,0 +1,18 @@
+.XRCGB32M000F1H01R0 :1 ;Crystals
+XRCGB32M000F1H01R0
+*STM Y
+*NGS
+*PLB 1="XTAL_1" 2="NC_1" 3="XTAL_2" 4="NC_2"
+*MXP 4
+*DFN XRCGB32M000F1H01R0
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (XRCGB32M000F1H01R0)
+~!Mouser Part Number (81-XRCGB32M000F1H01R)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Electronics/XRCGB32M000F1H01R0?qs=rrS6PyfT74d%252B5Vjvryrpmg%3D%3D)
+~!Arrow Part Number (XRCGB32M000F1H01R0)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/xrcgb32m000f1h01r0/murata-power-solutions?region=nac)
+~!Link Datasheet (https://www.murata.com/en-eu/products/productdetail?partno=XRCGB32M000F1H01R0)
+~!Height (0.7mm)
+~!3D_Model (XRCGB32M000F1H01R0)
+XRCGB32M000F1H01R0
+1.1!U 2.1!U 3.1!U 4.1!U 

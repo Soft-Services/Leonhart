@@ -3314,6 +3314,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "XRCGB32M000F1H01R0"
+		(exclude_from_sim no)
+		(at 41.148 152.908 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "29937260-196b-4bbb-9dd4-1f45bece79ef")
+	)
 	(text "C3014: For potential tuning of pi network"
 		(exclude_from_sim no)
 		(at 298.45 132.08 0)
@@ -3325,6 +3337,18 @@
 			)
 		)
 		(uuid "3b2fd248-fc49-49cd-a408-6367c248ffb1")
+	)
+	(text "ABS07-32.768KHZ-9-T (Maybe)"
+		(exclude_from_sim no)
+		(at 256.794 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "8aeaf1a6-9361-464c-8227-40b80d8fc9b0")
 	)
 	(text "VSS_PA is radio GND"
 		(exclude_from_sim no)
@@ -8695,7 +8719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e357b73d-55b7-40f5-8641-bd2faa0aa5fb")
-		(property "Reference" "Y3002"
+		(property "Reference" "X3002"
 			(at 69.85 146.05 0)
 			(effects
 				(font
@@ -8711,7 +8735,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 69.85 153.67 0)
 			(effects
 				(font
@@ -8747,7 +8771,7 @@
 		(instances
 			(project ""
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/ab846a80-6f2e-4d25-9090-1f6af1d6fbdd"
-					(reference "Y3002")
+					(reference "X3002")
 					(unit 1)
 				)
 			)
@@ -8763,7 +8787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaf9eb9e-da60-43e6-be94-4a0c1de36194")
-		(property "Reference" "Y3001"
+		(property "Reference" "X3001"
 			(at 234.95 116.84 0)
 			(effects
 				(font
@@ -8815,7 +8839,7 @@
 		(instances
 			(project ""
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/ab846a80-6f2e-4d25-9090-1f6af1d6fbdd"
-					(reference "Y3001")
+					(reference "X3001")
 					(unit 1)
 				)
 			)

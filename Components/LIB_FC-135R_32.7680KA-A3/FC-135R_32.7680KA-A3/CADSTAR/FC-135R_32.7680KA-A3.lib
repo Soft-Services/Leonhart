@@ -1,0 +1,18 @@
+.FC-135R_32.7680KA-A3 :1 ;Crystal 0.032768MHz +/-20ppm (Tol) 12.5pF FUND 50000Ohm 2-Pin CSMD T/R
+FC135R327680KAA3
+*STM Y
+*NGS
+*PLB 1="CRYSTAL_1" 2="CRYSTAL_2"
+*MXP 2
+*DFN FC-135R_32.7680KA-A3
+~!Manufacturer_Name (Epson Timing)
+~!Manufacturer_Part_Number (FC-135R 32.7680KA-A3)
+~!Mouser Part Number (732-5R32.7680KA-A3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Epson-Timing/FC-135R-32.7680KA-A3?qs=f9yNj16SXrIR19rZDPQCyw%3D%3D)
+~!Arrow Part Number (FC-135R 32.7680KA-A3)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/fc-135r32.7680ka-a3/epson-electronics-america?region=nac)
+~!Link Datasheet (https://eu.mouser.com/datasheet/2/137/FC_255_en-1649561.pdf)
+~!Height (0.9mm)
+~!3D_Model (FC-135R_32.7680KA-A3)
+FC-135R_32.7680KA-A3
+1.1!U 2.1!U 

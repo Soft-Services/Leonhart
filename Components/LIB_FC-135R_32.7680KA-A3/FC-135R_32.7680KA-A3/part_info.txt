@@ -1,0 +1,9 @@
+Manufacturer=Epson Timing
+PartNumber=FC-135R 32.7680KA-A3
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=2
+Version=1.4
+Released=2020-04-17 08:39:16
+Downloaded=2025-08-28 04:05:30
+3D=Y
