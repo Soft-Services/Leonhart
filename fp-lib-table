@@ -10,4 +10,5 @@
   (lib (name "SN74LVC2G241DCUR")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_SN74LVC2G241DCUR/SN74LVC2G241DCUR/KiCad")(options "")(descr ""))
   (lib (name "ECS-2520MV-250-BN-TR")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_ECS-2520MV-250-BN-TR/ECS-2520MV-250-BN-TR/KiCad")(options "")(descr ""))
   (lib (name "TPS22918DBVR")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_TPS22918DBVR/TPS22918DBVR/KiCad")(options "")(descr ""))
+  (lib (name "TF-15x15")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_TF-15X15/TF-15X15/KiCad")(options "")(descr ""))
 )

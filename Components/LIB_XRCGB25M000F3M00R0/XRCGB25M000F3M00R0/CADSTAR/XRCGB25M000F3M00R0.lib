@@ -1,0 +1,18 @@
+.XRCGB25M000F3M00R0 :1 ;25 MHz +/-30ppm Crystal 6pF 150 Ohms 4-SMD, No Lead
+XRCGB
+*STM Y
+*NGS
+*PLB 1="XTAL_1" 2="NC_1" 3="XTAL_2" 4="NC_2"
+*MXP 4
+*DFN XRCGB25M000F3M00R0
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (XRCGB25M000F3M00R0)
+~!Mouser Part Number (81-XRCGB25M000F3M0R0)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Electronics/XRCGB25M000F3M00R0?qs=e%252BE4OD6MgMc2G4K6%252BQznBA%3D%3D)
+~!Arrow Part Number (XRCGB25M000F3M00R0)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/xrcgb25m000f3m00r0/murata-manufacturing?region=nac)
+~!Link Datasheet (https://www.murata.com/products/productdata/8801059864606/SPEC-XRCGB25M000F3M00R0.pdf)
+~!Height (0.7mm)
+~!3D_Model (XRCGB25M000F3M00R0)
+XRCGB25M000F3M00R0
+1.1!U 2.1!U 3.1!U 4.1!U 

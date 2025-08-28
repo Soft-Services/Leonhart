@@ -332,176 +332,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_Coaxial"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0.254 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_Coaxial_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 0)
-					(mid 0.222 -1.8079)
-					(end -1.778 -0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.778 0.508)
-					(mid 0.2221 1.8084)
-					(end 1.778 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TC2050"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -1518,6 +1348,219 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SoftServicesSymbolLibrary:SMA-KWE901"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMA-KWE901"
+				(at 0 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMA-KWE901_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.7961)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.81) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -3.81) (xy 7.62 -2.54) (xy 0 -2.54) (xy 0 -3.81) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMA-KWE901_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -6.35 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -6.35 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -6.35 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3320,6 +3363,12 @@
 		(uuid "04e4dc88-f75f-4053-8b3a-0c96546569e7")
 	)
 	(junction
+		(at 318.77 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a719ecc-5d4a-4aa2-a5da-29d89cc29923")
+	)
+	(junction
 		(at 157.48 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3360,6 +3409,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "513b1899-d2ae-4b11-8cef-9056410f599a")
+	)
+	(junction
+		(at 321.31 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59104d58-129e-45d6-917a-ad9b04ef977a")
 	)
 	(junction
 		(at 275.59 59.69)
@@ -3414,6 +3469,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c12f99a2-c3d2-43fa-9b9e-89d10778dd32")
+	)
+	(junction
+		(at 323.85 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdc1cf3c-6b76-4f9f-80b2-28844349f298")
 	)
 	(junction
 		(at 288.29 190.5)
@@ -3711,6 +3772,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 113.03) (xy 316.23 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac68c7b-17ba-4fab-bb1a-f03d69db1d51")
+	)
+	(wire
+		(pts
 			(xy 250.19 228.6) (xy 229.87 228.6)
 		)
 		(stroke
@@ -3768,6 +3839,16 @@
 			(type default)
 		)
 		(uuid "17b52759-c7be-423f-8a72-13f995588d85")
+	)
+	(wire
+		(pts
+			(xy 316.23 115.57) (xy 318.77 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bb63eca-a76c-4647-b46d-d2cc9f95cd81")
 	)
 	(wire
 		(pts
@@ -3868,6 +3949,16 @@
 			(type default)
 		)
 		(uuid "3157d052-dc30-46f7-830d-47ce6224656e")
+	)
+	(wire
+		(pts
+			(xy 323.85 115.57) (xy 323.85 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39184cc3-6a59-4402-af31-f46ca0d33702")
 	)
 	(wire
 		(pts
@@ -4331,6 +4422,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 115.57) (xy 321.31 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d352ceb-feb4-4bfc-94bc-b8c44a48404e")
+	)
+	(wire
+		(pts
 			(xy 297.18 119.38) (xy 297.18 120.65)
 		)
 		(stroke
@@ -4378,16 +4479,6 @@
 			(type default)
 		)
 		(uuid "a3a6f66a-52be-4692-9211-7b53ea3d1e2f")
-	)
-	(wire
-		(pts
-			(xy 316.23 111.76) (xy 316.23 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3fe2e57-2dbd-405b-b7c4-5e662296bf1e")
 	)
 	(wire
 		(pts
@@ -4491,6 +4582,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 115.57) (xy 323.85 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba322933-82ce-4fb2-885e-6326fb3d8cfd")
+	)
+	(wire
+		(pts
 			(xy 90.17 224.79) (xy 109.22 224.79)
 		)
 		(stroke
@@ -4508,6 +4609,16 @@
 			(type default)
 		)
 		(uuid "bbf79658-1239-4e48-a80f-44d6e77dd365")
+	)
+	(wire
+		(pts
+			(xy 323.85 115.57) (xy 323.85 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4433089-d5fe-45fc-bae5-719054c02c32")
 	)
 	(wire
 		(pts
@@ -4701,6 +4812,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 113.03) (xy 318.77 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b8b7da-9bc4-492f-b0f4-19b607064c15")
+	)
+	(wire
+		(pts
 			(xy 193.04 132.08) (xy 213.36 132.08)
 		)
 		(stroke
@@ -4748,6 +4869,16 @@
 			(type default)
 		)
 		(uuid "f2d76479-c333-49ee-bff1-36cf39d4bbb4")
+	)
+	(wire
+		(pts
+			(xy 321.31 113.03) (xy 321.31 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e8585d-7ae3-4c60-ad50-5bdd2261800f")
 	)
 	(wire
 		(pts
@@ -5370,7 +5501,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 316.23 120.65 0)
+		(at 323.85 120.65 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5380,7 +5511,7 @@
 		(fields_autoplaced yes)
 		(uuid "1691b30e-862a-4d57-bb68-6df98f0ab80b")
 		(property "Reference" "#PWR03015"
-			(at 316.23 127 0)
+			(at 323.85 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5389,7 +5520,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 316.23 125.73 0)
+			(at 323.85 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5397,7 +5528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 316.23 120.65 0)
+			(at 323.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5406,7 +5537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 316.23 120.65 0)
+			(at 323.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5415,7 +5546,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 316.23 120.65 0)
+			(at 323.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,6 +5630,85 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/ab846a80-6f2e-4d25-9090-1f6af1d6fbdd"
 					(reference "L3002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SoftServicesSymbolLibrary:SMA-KWE901")
+		(at 316.23 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a3c328e-d741-4586-923e-2b120ef200bc")
+		(property "Reference" "J3004"
+			(at 325.12 106.4168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA-KWE901"
+			(at 325.12 108.9568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SoftServicesFootprintLibrary:SMA-KWE901"
+			(at 316.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 316.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "369af4e0-acab-436c-8c59-273709a391bd")
+		)
+		(pin "3"
+			(uuid "2717772f-49c1-4300-9d8b-a90841c7c1e6")
+		)
+		(pin "2"
+			(uuid "304e1272-9a04-40a5-b243-e886d51cf9b4")
+		)
+		(pin "1"
+			(uuid "07dc503a-6977-4df1-ab6a-5a4cfed5991d")
+		)
+		(pin "5"
+			(uuid "f04ff4bb-77d9-477c-9f5c-5b0dd4b27c57")
+		)
+		(instances
+			(project ""
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/ab846a80-6f2e-4d25-9090-1f6af1d6fbdd"
+					(reference "J3004")
 					(unit 1)
 				)
 			)
@@ -6179,76 +6389,6 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/ab846a80-6f2e-4d25-9090-1f6af1d6fbdd"
 					(reference "#PWR03002")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 316.23 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e89cc2d-36f2-4850-9a95-725cac004621")
-		(property "Reference" "J3001"
-			(at 320.04 105.7031 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 320.04 108.2431 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 316.23 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 316.23 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 316.23 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "966fbfd0-0f2e-4b1d-80ab-a53294a7e2e1")
-		)
-		(pin "2"
-			(uuid "bf0fe27e-fb52-41ca-9262-9218a56cd982")
-		)
-		(instances
-			(project ""
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/ab846a80-6f2e-4d25-9090-1f6af1d6fbdd"
-					(reference "J3001")
 					(unit 1)
 				)
 			)

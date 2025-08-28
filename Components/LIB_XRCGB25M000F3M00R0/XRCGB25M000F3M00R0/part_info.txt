@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=XRCGB25M000F3M00R0
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=9.1
+Released=2020-06-23 12:04:46
+Downloaded=2025-08-28 03:20:10
+3D=Y

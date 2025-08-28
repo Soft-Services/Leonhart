@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'XRCGB25M000F3M00R0'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "XRCGB25M000F3M00R0" (!) = "", "XRCGB", "Other", "81-XRCGB25M000F3M0R0", "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/XRCGB25M000F3M00R0?qs=e%252BE4OD6MgMc2G4K6%252BQznBA%3D%3D", "XRCGB25M000F3M00R0", "https://www.arrow.com/en/products/xrcgb25m000f3m00r0/murata-manufacturing?region=nac", "25 MHz +/-30ppm Crystal 6pF 150 Ohms 4-SMD, No Lead", "https://www.murata.com/products/productdata/8801059864606/SPEC-XRCGB25M000F3M00R0.pdf", "0.7 mm"
+END_PART
+
+END.

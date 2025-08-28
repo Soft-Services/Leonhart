@@ -28026,7 +28026,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TF-15x15:TF15X15"
 			(at 703.58 284.48 0)
 			(effects
 				(font
