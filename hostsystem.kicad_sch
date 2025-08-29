@@ -27940,9 +27940,9 @@
 		)
 		(uuid "33688d4d-2d4e-42ae-86ff-15d03ad5b357")
 	)
-	(text "GPIO0_14"
+	(text "GPIO0_12"
 		(exclude_from_sim no)
-		(at 279.4 320.294 0)
+		(at 279.4 315.214 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27988,9 +27988,9 @@
 		)
 		(uuid "74f3c3ae-4c62-4598-8a83-d59d4f7840b3")
 	)
-	(text "GPIO0_13"
+	(text "GPIO0_11"
 		(exclude_from_sim no)
-		(at 279.4 317.754 0)
+		(at 279.4 312.674 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28593,10 +28593,6 @@
 		(uuid "0e040508-db98-4849-84e0-72151880ef9e")
 	)
 	(no_connect
-		(at 322.58 312.42)
-		(uuid "0ed7f022-f606-4e90-be15-04efe88fd420")
-	)
-	(no_connect
 		(at 119.38 288.29)
 		(uuid "11b74004-fdbc-4805-900e-372189fdb4fb")
 	)
@@ -28705,16 +28701,8 @@
 		(uuid "5346f6fc-f262-4814-90f0-9778cda2547b")
 	)
 	(no_connect
-		(at 322.58 323.85)
-		(uuid "54035082-c892-4f50-a268-c5bc76135c9d")
-	)
-	(no_connect
 		(at 544.83 300.99)
 		(uuid "5596f2a1-9cf8-4ee8-819b-324205878389")
-	)
-	(no_connect
-		(at 322.58 327.66)
-		(uuid "5f4d78d2-b7cd-4173-bea7-2a79c4e42d84")
 	)
 	(no_connect
 		(at 543.56 383.54)
@@ -28827,10 +28815,6 @@
 	(no_connect
 		(at 130.81 189.23)
 		(uuid "9feb283e-49e8-40f1-875b-49efcbc21b8a")
-	)
-	(no_connect
-		(at 322.58 314.96)
-		(uuid "a18012b3-8a6f-4816-b46e-72e491d43f75")
 	)
 	(no_connect
 		(at 544.83 356.87)
@@ -29334,7 +29318,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 317.5) (xy 322.58 317.5)
+			(xy 304.8 312.42) (xy 322.58 312.42)
 		)
 		(stroke
 			(width 0)
@@ -29791,6 +29775,16 @@
 			(type default)
 		)
 		(uuid "41f392c9-607f-4250-84ec-cdd4b713d61a")
+	)
+	(wire
+		(pts
+			(xy 304.8 323.85) (xy 322.58 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438153dd-8cff-46e1-aea2-ac077cee51a9")
 	)
 	(wire
 		(pts
@@ -31214,6 +31208,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 320.04) (xy 322.58 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43e2593-2e4f-4fe1-bd4b-6d77f7c9e7d0")
+	)
+	(wire
+		(pts
 			(xy 660.4 115.57) (xy 660.4 113.03)
 		)
 		(stroke
@@ -31414,7 +31418,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 320.04) (xy 322.58 320.04)
+			(xy 304.8 314.96) (xy 322.58 314.96)
 		)
 		(stroke
 			(width 0)
@@ -31884,6 +31888,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 317.5) (xy 322.58 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e25a75-22ac-423b-9bbc-e9f313f0ef1b")
+	)
+	(wire
+		(pts
 			(xy 389.89 160.02) (xy 389.89 162.56)
 		)
 		(stroke
@@ -31911,6 +31925,16 @@
 			(type default)
 		)
 		(uuid "f5f1b06f-a4f0-4b00-8127-749491287e34")
+	)
+	(wire
+		(pts
+			(xy 304.8 327.66) (xy 322.58 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6aa29e3-099a-4cc6-b13d-68058cabd8ae")
 	)
 	(wire
 		(pts
@@ -32758,7 +32782,7 @@
 	)
 	(global_label "CC2652_BOOT"
 		(shape input)
-		(at 304.8 317.5 180)
+		(at 304.8 312.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32769,7 +32793,7 @@
 		)
 		(uuid "1763ad52-6d9c-46f2-b6e1-84fa79861799")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 288.5706 317.5 0)
+			(at 288.5706 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32979,6 +33003,50 @@
 			)
 		)
 	)
+	(global_label "UART5_TXD"
+		(shape input)
+		(at 304.8 320.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e6011f8-ec49-41d4-80da-989ca634b96a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 291.5339 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART5_RTSn"
+		(shape input)
+		(at 304.8 327.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "659ab481-84e9-4c12-8331-7e92ec0ab119")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.3849 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C0_SDA"
 		(shape input)
 		(at 292.1 406.4 180)
@@ -33136,6 +33204,28 @@
 			)
 		)
 	)
+	(global_label "UART5_RXD"
+		(shape input)
+		(at 304.8 317.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80e81ab1-0a28-43ed-af7c-1502d54174af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 291.2315 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ETH_MDC"
 		(shape input)
 		(at 132.08 278.13 0)
@@ -33172,6 +33262,28 @@
 		(uuid "a7682d4d-a9d6-4bec-9e94-45433171933a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 290.9292 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART5_CTSn"
+		(shape input)
+		(at 304.8 323.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1fb337f-26d5-41d7-936a-41ac8e32bedd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.3849 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33273,7 +33385,7 @@
 	)
 	(global_label "CC2652_RSTn"
 		(shape input)
-		(at 304.8 320.04 180)
+		(at 304.8 314.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -33284,7 +33396,7 @@
 		)
 		(uuid "e203f94c-6dcb-417d-a476-a6e802b4b4cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 288.8731 320.04 0)
+			(at 288.8731 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
