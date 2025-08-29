@@ -1982,15 +1982,15 @@
 			(uuid "b15178e2-8738-4783-88e5-2d10d53af40c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/FBGA-96_9x13mm_Layout9x16_P0.8mm.wrl"
+		(model "${KIPRJMOD}/Components/K4AAG165WA-BCWE/3D/K4AAG165WA-BCWE.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
