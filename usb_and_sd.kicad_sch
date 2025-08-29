@@ -14798,6 +14798,12 @@
 		(uuid "3e32d679-9660-4e11-9c89-8cae32e8bfda")
 	)
 	(junction
+		(at 561.34 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4190a65c-7fe4-4443-b0e5-94396d4f968c")
+	)
+	(junction
 		(at 520.7 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16990,6 +16996,16 @@
 			(type default)
 		)
 		(uuid "61121933-7b2c-4020-910b-bf1d0d0124be")
+	)
+	(wire
+		(pts
+			(xy 547.37 179.07) (xy 561.34 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "627f7b4d-0d2e-4d7e-a2d1-2c36692e1a13")
 	)
 	(wire
 		(pts
@@ -19722,7 +19738,7 @@
 		(uuid "cf85e945-61a5-4bbe-8f48-a236bca485f6")
 	)
 	(label "EMMC_CLK"
-		(at 561.34 179.07 0)
+		(at 547.37 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)

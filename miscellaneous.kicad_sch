@@ -312,6 +312,222 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_MEC_5E"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0.635 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_MEC_5E"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MEC 5E single pole normally-open tactile switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*MEC*5G*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_MEC_5E_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 3.81) (xy 2.286 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 2.54) (xy 2.286 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -415,10 +631,106 @@
 		)
 	)
 	(junction
+		(at 151.13 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31ed5a8a-daad-4219-8826-9b25e1ebe847")
+	)
+	(junction
+		(at 227.33 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32f87594-d246-4557-8b8a-edb4b69323a6")
+	)
+	(junction
 		(at 99.06 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fc9d8cd-9bfc-4710-acba-3a1a54390570")
+	)
+	(junction
+		(at 260.35 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a21920b-5707-4230-95e6-79c20e36f1cd")
+	)
+	(junction
+		(at 281.94 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b103768-6fa2-4c05-959a-067d3788a85d")
+	)
+	(junction
+		(at 205.74 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86682ceb-669f-42d2-bc35-dc1b7cc29508")
+	)
+	(junction
+		(at 172.72 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e123b10d-47f3-4bf1-b9af-aa11e763d082")
+	)
+	(wire
+		(pts
+			(xy 227.33 52.07) (xy 232.41 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087f4a02-e167-4741-99a2-85101cc24704")
+	)
+	(wire
+		(pts
+			(xy 151.13 54.61) (xy 151.13 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1859b401-f6ae-410f-9949-351387829663")
+	)
+	(wire
+		(pts
+			(xy 275.59 52.07) (xy 281.94 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d21506f-e856-4ecf-94f6-2f10d714804a")
+	)
+	(wire
+		(pts
+			(xy 281.94 52.07) (xy 287.02 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8a0bcd-b663-4bdc-ac0d-12a065e07ec6")
+	)
+	(wire
+		(pts
+			(xy 227.33 54.61) (xy 227.33 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2325c9dd-e8ca-41b9-aeaf-b5b3399137bf")
+	)
+	(wire
+		(pts
+			(xy 205.74 52.07) (xy 210.82 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2412669b-7b30-4d8c-90d4-b9de1dddd469")
 	)
 	(wire
 		(pts
@@ -429,6 +741,16 @@
 			(type default)
 		)
 		(uuid "2ad5b64d-c0eb-4b0a-babe-a35b0bf88ac5")
+	)
+	(wire
+		(pts
+			(xy 260.35 57.15) (xy 260.35 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3134f969-8dd3-41b7-8c32-fc714a5074fb")
 	)
 	(wire
 		(pts
@@ -462,6 +784,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 54.61) (xy 172.72 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1f0983-6cbe-4176-9124-f94c4f45acf9")
+	)
+	(wire
+		(pts
 			(xy 113.03 71.12) (xy 113.03 73.66)
 		)
 		(stroke
@@ -469,6 +801,56 @@
 			(type default)
 		)
 		(uuid "3efb38f2-68da-408f-8b4f-8ba09924239d")
+	)
+	(wire
+		(pts
+			(xy 260.35 52.07) (xy 265.43 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47727445-e3a6-4d76-8d41-70912c7b4c07")
+	)
+	(wire
+		(pts
+			(xy 166.37 54.61) (xy 172.72 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c447012-984b-40b9-a27a-e5b333e50589")
+	)
+	(wire
+		(pts
+			(xy 275.59 54.61) (xy 281.94 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8706fc-2610-4d12-a59a-adb45b5ccd5a")
+	)
+	(wire
+		(pts
+			(xy 205.74 57.15) (xy 205.74 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d17821-0238-456a-9df5-6b211f892c7b")
+	)
+	(wire
+		(pts
+			(xy 156.21 52.07) (xy 151.13 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5232cfed-3cd6-4d6f-a68d-c598db17ba04")
 	)
 	(wire
 		(pts
@@ -482,6 +864,26 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 54.61) (xy 210.82 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae5b4cf-05cd-47d3-9926-7ce456fab1cb")
+	)
+	(wire
+		(pts
+			(xy 220.98 54.61) (xy 227.33 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60665d94-6ba8-4f0e-a6dd-c22ac3899ee4")
+	)
+	(wire
+		(pts
 			(xy 113.03 73.66) (xy 99.06 73.66)
 		)
 		(stroke
@@ -489,6 +891,26 @@
 			(type default)
 		)
 		(uuid "6eb93a5d-c1c3-4b5a-a6ae-830b1841c884")
+	)
+	(wire
+		(pts
+			(xy 260.35 54.61) (xy 265.43 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a4d225-bfce-44bb-9c75-af8fa6f89f47")
+	)
+	(wire
+		(pts
+			(xy 172.72 52.07) (xy 177.8 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e01f6e0-09ff-4b60-b3f9-e9b362d458a3")
 	)
 	(wire
 		(pts
@@ -502,6 +924,56 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 54.61) (xy 281.94 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad189bb7-036e-4f9a-a964-c82914093170")
+	)
+	(wire
+		(pts
+			(xy 151.13 54.61) (xy 156.21 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adfff7c8-2171-42fb-a924-54973b4ae311")
+	)
+	(wire
+		(pts
+			(xy 151.13 52.07) (xy 151.13 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d93e333d-4e46-4e64-afe9-f7deb15bf72b")
+	)
+	(wire
+		(pts
+			(xy 166.37 52.07) (xy 172.72 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da4b0434-5dac-4338-a8ca-b82d0d56adde")
+	)
+	(wire
+		(pts
+			(xy 205.74 54.61) (xy 205.74 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcaf8fe5-22f6-41b1-8681-dbd33402b125")
+	)
+	(wire
+		(pts
 			(xy 82.55 38.1) (xy 99.06 38.1)
 		)
 		(stroke
@@ -512,6 +984,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 52.07) (xy 227.33 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8796ef3-7c45-4489-96c5-0d8f4cb9284e")
+	)
+	(wire
+		(pts
 			(xy 113.03 30.48) (xy 113.03 49.53)
 		)
 		(stroke
@@ -519,6 +1001,60 @@
 			(type default)
 		)
 		(uuid "ee79174d-af20-4a07-ad21-da05743ecb54")
+	)
+	(wire
+		(pts
+			(xy 260.35 54.61) (xy 260.35 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad170d4-2fbf-4706-a8cf-e5bb138e2c85")
+	)
+	(global_label "PWR_BTN"
+		(shape input)
+		(at 177.8 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "243ce2fe-5dbe-4313-b88b-7f4b9f7bb8ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.3123 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_PORz"
+		(shape input)
+		(at 232.41 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7bd5e5ef-da20-4a3c-becb-83f1361fd6ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.3133 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CC2652_LED2"
 		(shape input)
@@ -544,6 +1080,28 @@
 			)
 		)
 	)
+	(global_label "USER_BTN"
+		(shape input)
+		(at 287.02 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4914450-0e44-48f5-91f3-d3a2f278da2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 299.4999 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CC2652_LED1"
 		(shape input)
 		(at 82.55 38.1 180)
@@ -565,6 +1123,146 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "021027ff-0378-4723-ac69-64a5e33cbf68")
+		(property "Reference" "#PWR08003"
+			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93944632-3951-4a4b-b047-b7a081834e14")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5ce8c427-fcc7-46d6-9710-77fc43565e4a"
+					(reference "#PWR08003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5E")
+		(at 270.51 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c961b76-bd9d-472a-b718-17f0479a373e")
+		(property "Reference" "SW8003"
+			(at 270.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5E"
+			(at 270.51 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+			(at 270.51 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(at 270.51 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5b3257c-721a-4e91-b664-820e38390810")
+		)
+		(pin "2"
+			(uuid "f18720a5-0767-459f-819f-57d469ba9f8f")
+		)
+		(pin "4"
+			(uuid "77cf9bb0-7284-4326-843d-bfbfa6c8030c")
+		)
+		(pin "3"
+			(uuid "595ce9a4-571f-4290-86ab-317dc46276a0")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5ce8c427-fcc7-46d6-9710-77fc43565e4a"
+					(reference "SW8003")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -642,6 +1340,72 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5ce8c427-fcc7-46d6-9710-77fc43565e4a"
 					(reference "D8002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 260.35 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5989e9c4-4708-4249-8d88-3794b507896c")
+		(property "Reference" "#PWR08004"
+			(at 260.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 260.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ab67a6f-23d6-4dc7-aef1-a335513ac0d1")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5ce8c427-fcc7-46d6-9710-77fc43565e4a"
+					(reference "#PWR08004")
 					(unit 1)
 				)
 			)
@@ -797,6 +1561,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_MEC_5E")
+		(at 215.9 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f9b3b19-c4f8-4b34-9d02-e2cddf38db06")
+		(property "Reference" "SW8002"
+			(at 215.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5E"
+			(at 215.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+			(at 215.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(at 215.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bf3d759-c2a9-4542-bd93-91faa22fe4a3")
+		)
+		(pin "2"
+			(uuid "e89312a6-816d-4a9a-a319-082be0b64339")
+		)
+		(pin "4"
+			(uuid "1c7905d9-85e9-4bb0-a4ef-f6b2d6851aa3")
+		)
+		(pin "3"
+			(uuid "7977e659-7b47-44c3-af14-c796bcb3dc7a")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5ce8c427-fcc7-46d6-9710-77fc43565e4a"
+					(reference "SW8002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 99.06 74.93 0)
 		(unit 1)
@@ -857,6 +1695,146 @@
 			(project ""
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5ce8c427-fcc7-46d6-9710-77fc43565e4a"
 					(reference "#PWR08001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "998d9083-dc6d-4876-a20d-1d58ce5085b7")
+		(property "Reference" "#PWR08002"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f984686-6bd2-4a82-82be-1e15eec8edd0")
+		)
+		(instances
+			(project ""
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5ce8c427-fcc7-46d6-9710-77fc43565e4a"
+					(reference "#PWR08002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5E")
+		(at 161.29 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba81a6f8-2834-4b00-b63a-81b5334b2faa")
+		(property "Reference" "SW8001"
+			(at 161.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5E"
+			(at 161.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+			(at 161.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(at 161.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dcf0fbe-8e79-4478-88e2-142c35f535d0")
+		)
+		(pin "2"
+			(uuid "904369d3-234f-4843-81f6-5a6b9db76cf6")
+		)
+		(pin "4"
+			(uuid "b719bf56-4636-48b1-9d10-fae6d5e90af8")
+		)
+		(pin "3"
+			(uuid "f75e471f-4ae8-4d29-b91c-9e3b5199d15e")
+		)
+		(instances
+			(project ""
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5ce8c427-fcc7-46d6-9710-77fc43565e4a"
+					(reference "SW8001")
 					(unit 1)
 				)
 			)
