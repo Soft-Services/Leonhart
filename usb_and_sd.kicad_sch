@@ -19881,7 +19881,7 @@
 		)
 		(uuid "edd8bb64-a888-49a4-9625-54949b5442c3")
 	)
-	(label "SoC_SD_CLK"
+	(label "SD_SoC_CLK"
 		(at 396.24 149.86 0)
 		(effects
 			(font

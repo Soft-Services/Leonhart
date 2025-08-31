@@ -15677,6 +15677,18 @@
 		)
 		(uuid "a24f4b32-b023-4f75-bea7-7c41b5e1c29d")
 	)
+	(label "DDR_CAL0"
+		(at 68.58 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2e408a8-dc52-42c0-8b40-00a30208defe")
+	)
 	(label "DDR_BA1"
 		(at 242.57 180.34 0)
 		(effects

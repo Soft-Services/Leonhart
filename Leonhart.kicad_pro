@@ -188,6 +188,7 @@
       ],
       "track_widths": [
         0.0,
+        0.081,
         0.1,
         0.2
       ],
@@ -224,7 +225,11 @@
         },
         {
           "diameter": 0.4,
-          "drill": 0.2
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.457,
+          "drill": 0.203
         },
         {
           "diameter": 0.5,
@@ -495,6 +500,54 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "CC2652",
+        "pcb_color": "rgb(105, 25, 215)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR",
+        "pcb_color": "rgb(194, 194, 194)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "Ethernet",
+        "pcb_color": "rgb(0, 194, 194)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgb(72, 72, 72)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "Power",
+        "pcb_color": "rgb(0, 255, 0)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "SD",
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "eMMC",
+        "pcb_color": "rgb(255, 0, 255)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "nRF52840",
+        "pcb_color": "rgb(0, 64, 255)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -502,7 +555,40 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "DDR",
+        "pattern": "*DDR_*"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "*ETH_*"
+      },
+      {
+        "netclass": "CC2652",
+        "pattern": "*CC2652_*"
+      },
+      {
+        "netclass": "nRF52840",
+        "pattern": "*nRF_*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "*GND*"
+      },
+      {
+        "netclass": "eMMC",
+        "pattern": "*EMMC_*"
+      },
+      {
+        "netclass": "SD",
+        "pattern": "*SD_*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*VDD*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
