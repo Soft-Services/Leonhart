@@ -19293,7 +19293,7 @@
 		)
 		(uuid "0b8fead4-90c1-4096-81ca-336ed3da06c0")
 	)
-	(label "USB0_RCALIB"
+	(label "USB1_RCALIB"
 		(at 86.36 172.72 0)
 		(effects
 			(font

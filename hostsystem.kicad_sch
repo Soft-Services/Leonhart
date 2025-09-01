@@ -32460,7 +32460,7 @@
 		)
 		(uuid "abdec9ea-7eb4-48b2-8e53-1cc0076be785")
 	)
-	(label "SoC_I2C_SCL"
+	(label "I2C_SCL_SoC"
 		(at 364.49 177.8 0)
 		(effects
 			(font

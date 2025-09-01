@@ -504,49 +504,73 @@
       {
         "name": "CC2652",
         "pcb_color": "rgb(105, 25, 215)",
-        "priority": 5,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR",
         "pcb_color": "rgb(194, 194, 194)",
-        "priority": 7,
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "Ethernet",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 6,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "GND",
         "pcb_color": "rgb(72, 72, 72)",
-        "priority": 3,
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "Headers/TagConnect",
+        "pcb_color": "rgb(104, 166, 255)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "Power",
         "pcb_color": "rgb(0, 255, 0)",
-        "priority": 0,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "SD",
         "pcb_color": "rgb(255, 153, 0)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "SoC_System",
+        "pcb_color": "rgb(0, 72, 0)",
         "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "USBA",
+        "pcb_color": "rgb(132, 132, 0)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "USBC",
+        "pcb_color": "rgb(255, 117, 186)",
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "eMMC",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 2,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "nRF52840",
         "pcb_color": "rgb(0, 64, 255)",
-        "priority": 4,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -587,6 +611,50 @@
       {
         "netclass": "Power",
         "pattern": "*VDD*"
+      },
+      {
+        "netclass": "USBA",
+        "pattern": "*USB_A*"
+      },
+      {
+        "netclass": "USBA",
+        "pattern": "*USB1_*"
+      },
+      {
+        "netclass": "USBC",
+        "pattern": "*USB_C*"
+      },
+      {
+        "netclass": "USBC",
+        "pattern": "*USB0_*"
+      },
+      {
+        "netclass": "SoC_System",
+        "pattern": "*MCU_*"
+      },
+      {
+        "netclass": "Headers/TagConnect",
+        "pattern": "*SOC*"
+      },
+      {
+        "netclass": "Headers/TagConnect",
+        "pattern": "*UART0*"
+      },
+      {
+        "netclass": "Headers/TagConnect",
+        "pattern": "*UART5*"
+      },
+      {
+        "netclass": "SoC_System",
+        "pattern": "*EXTINTn*"
+      },
+      {
+        "netclass": "SoC_System",
+        "pattern": "*RESETSTATz*"
+      },
+      {
+        "netclass": "SoC_System",
+        "pattern": "*PORz*"
       }
     ]
   },
