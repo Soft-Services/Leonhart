@@ -4074,6 +4074,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 302.895 172.72)
+		(end 368.935 234.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9938227a-135d-4043-8859-106d6ef35721)
+	)
 	(text "W1"
 		(exclude_from_sim no)
 		(at 216.408 81.788 0)
@@ -4108,6 +4120,18 @@
 		)
 		(uuid "29937260-196b-4bbb-9dd4-1f45bece79ef")
 	)
+	(text "nRF52840 Thread Network"
+		(exclude_from_sim no)
+		(at 124.46 29.972 0)
+		(effects
+			(font
+				(size 10.16 10.16)
+				(thickness 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "2c1fca03-0d52-44a6-b4b4-cf859c46a3dd")
+	)
 	(text "C3014: For potential tuning of pi network"
 		(exclude_from_sim no)
 		(at 298.45 132.08 0)
@@ -4131,6 +4155,19 @@
 			)
 		)
 		(uuid "8aeaf1a6-9361-464c-8227-40b80d8fc9b0")
+	)
+	(text "nRF52840 JTAG\nTagConnect"
+		(exclude_from_sim no)
+		(at 305.562 181.864 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b8bfb88d-15a2-47b2-b014-d1560b9e9e04")
 	)
 	(text "B1"
 		(exclude_from_sim no)
@@ -4361,7 +4398,7 @@
 		(uuid "cdc1cf3c-6b76-4f9f-80b2-28844349f298")
 	)
 	(junction
-		(at 288.29 190.5)
+		(at 326.39 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d79cf688-6037-4318-9519-2ed7ad0ddee5")
@@ -4419,7 +4456,7 @@
 		(uuid "1ce8b90d-2806-406c-84ae-4003464129b6")
 	)
 	(no_connect
-		(at 304.8 185.42)
+		(at 342.9 218.44)
 		(uuid "1df5215a-c422-4c5b-9e18-91a0967a2a6d")
 	)
 	(no_connect
@@ -4427,7 +4464,7 @@
 		(uuid "21a0e8ed-0e8e-4a55-928e-88b51f437415")
 	)
 	(no_connect
-		(at 304.8 190.5)
+		(at 342.9 223.52)
 		(uuid "2bdc1dde-d1c4-4306-8175-4b5c1b054dc9")
 	)
 	(no_connect
@@ -4531,7 +4568,7 @@
 		(uuid "bf6aa31b-d1e3-4c86-9273-ce2fed54cd9c")
 	)
 	(no_connect
-		(at 304.8 187.96)
+		(at 342.9 220.98)
 		(uuid "cc97a384-aef4-4814-9685-6f89232f3374")
 	)
 	(no_connect
@@ -4547,7 +4584,7 @@
 		(uuid "eb8da15d-4fea-44cc-8dea-b3f1afe200ec")
 	)
 	(no_connect
-		(at 304.8 182.88)
+		(at 342.9 215.9)
 		(uuid "ec2c67c8-90ee-4854-b845-061134af7a91")
 	)
 	(no_connect
@@ -4928,7 +4965,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 185.42) (xy 288.29 185.42)
+			(xy 330.2 218.44) (xy 326.39 218.44)
 		)
 		(stroke
 			(width 0)
@@ -5328,7 +5365,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 190.5) (xy 288.29 194.31)
+			(xy 326.39 223.52) (xy 326.39 227.33)
 		)
 		(stroke
 			(width 0)
@@ -5568,7 +5605,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 180.34) (xy 292.1 180.34)
+			(xy 326.39 213.36) (xy 330.2 213.36)
 		)
 		(stroke
 			(width 0)
@@ -5718,7 +5755,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 176.53) (xy 288.29 180.34)
+			(xy 326.39 209.55) (xy 326.39 213.36)
 		)
 		(stroke
 			(width 0)
@@ -5728,7 +5765,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 182.88) (xy 292.1 182.88)
+			(xy 309.88 215.9) (xy 330.2 215.9)
 		)
 		(stroke
 			(width 0)
@@ -5908,7 +5945,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 190.5) (xy 292.1 190.5)
+			(xy 326.39 223.52) (xy 330.2 223.52)
 		)
 		(stroke
 			(width 0)
@@ -6068,7 +6105,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 180.34) (xy 321.31 180.34)
+			(xy 342.9 213.36) (xy 359.41 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6118,7 +6155,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 185.42) (xy 288.29 190.5)
+			(xy 326.39 218.44) (xy 326.39 223.52)
 		)
 		(stroke
 			(width 0)
@@ -6198,7 +6235,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 187.96) (xy 292.1 187.96)
+			(xy 309.88 220.98) (xy 330.2 220.98)
 		)
 		(stroke
 			(width 0)
@@ -6275,7 +6312,7 @@
 		(uuid "269747db-50b3-457b-8830-5a33cc52abab")
 	)
 	(label "nRF_SWDIO"
-		(at 271.78 182.88 0)
+		(at 309.88 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6491,7 +6528,7 @@
 		(uuid "c5704396-4d1b-40aa-923a-d833863bfb5c")
 	)
 	(label "nRF_SWDCLK"
-		(at 271.78 187.96 0)
+		(at 309.88 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6515,7 +6552,7 @@
 		(uuid "e2b26f7a-244f-4aee-ad77-df2b4b52c98a")
 	)
 	(label "nRF_RESET_N"
-		(at 321.31 180.34 180)
+		(at 359.41 213.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8213,7 +8250,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TC2050")
-		(at 297.18 185.42 0)
+		(at 335.28 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8222,7 +8259,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ebbe7a7-66f5-4867-bd96-264c917f16cf")
 		(property "Reference" "J3002"
-			(at 298.45 170.18 0)
+			(at 336.55 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8230,7 +8267,7 @@
 			)
 		)
 		(property "Value" "TC2050"
-			(at 298.45 172.72 0)
+			(at 336.55 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8238,7 +8275,7 @@
 			)
 		)
 		(property "Footprint" "Connector:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical"
-			(at 298.45 185.42 0)
+			(at 336.55 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8247,7 +8284,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf"
-			(at 298.45 185.42 0)
+			(at 336.55 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8256,7 +8293,7 @@
 			)
 		)
 		(property "Description" "Tag-Connect’s 10-pins connector"
-			(at 297.18 185.42 0)
+			(at 335.28 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9201,7 +9238,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 288.29 176.53 0)
+		(at 326.39 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9210,7 +9247,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bce2206-11fa-4419-b60c-08519165cffb")
 		(property "Reference" "#PWR03020"
-			(at 288.29 180.34 0)
+			(at 326.39 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9219,7 +9256,7 @@
 			)
 		)
 		(property "Value" "VDD_nRF"
-			(at 288.29 171.45 0)
+			(at 326.39 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9227,7 +9264,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 176.53 0)
+			(at 326.39 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9236,7 +9273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 176.53 0)
+			(at 326.39 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9245,7 +9282,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 288.29 176.53 0)
+			(at 326.39 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9674,7 +9711,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 288.29 194.31 0)
+		(at 326.39 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9683,7 +9720,7 @@
 		(fields_autoplaced yes)
 		(uuid "99594743-4fe5-424f-8bbd-2541aed84114")
 		(property "Reference" "#PWR03021"
-			(at 288.29 200.66 0)
+			(at 326.39 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9692,7 +9729,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 288.29 199.39 0)
+			(at 326.39 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9700,7 +9737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 194.31 0)
+			(at 326.39 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9709,7 +9746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 194.31 0)
+			(at 326.39 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9718,7 +9755,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 288.29 194.31 0)
+			(at 326.39 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -29196,16 +29196,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 424.18) (xy 337.82 425.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12a981c9-4912-4529-aaeb-87779eda9d90")
-	)
-	(wire
-		(pts
 			(xy 322.58 303.53) (xy 304.8 303.53)
 		)
 		(stroke
@@ -29513,16 +29503,6 @@
 			(type default)
 		)
 		(uuid "25bc7bba-377f-4d52-bf76-dace51b60c3f")
-	)
-	(wire
-		(pts
-			(xy 337.82 414.02) (xy 337.82 416.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26adf88b-d576-4a59-b644-07a6e05e7bc5")
 	)
 	(wire
 		(pts
@@ -41793,76 +41773,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 337.82 420.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "66e1c26c-f42a-4453-a68f-c98384add107")
-		(property "Reference" "R1015"
-			(at 340.36 419.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 340.36 421.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 336.042 420.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 337.82 420.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 337.82 420.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d9d2520-aa1d-4c1d-9a47-cb7e8417c7ae")
-		)
-		(pin "2"
-			(uuid "e9c9f613-35dd-4169-9fa7-987f5c4c5c0e")
-		)
-		(instances
-			(project "Leonhart"
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5bbf73b3-d883-47e7-ac01-c5b0358ac807"
-					(reference "R1015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 629.92 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -51647,72 +51557,6 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5bbf73b3-d883-47e7-ac01-c5b0358ac807"
 					(reference "#PWR01002")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 337.82 425.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb15f533-80fc-4fa5-a915-5e88a5869a4c")
-		(property "Reference" "#PWR01024"
-			(at 337.82 431.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 337.82 430.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 337.82 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 337.82 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5b1e60e-6c5c-4f30-ad58-84158f9737ef")
-		)
-		(instances
-			(project "Leonhart"
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5bbf73b3-d883-47e7-ac01-c5b0358ac807"
-					(reference "#PWR01024")
 					(unit 1)
 				)
 			)
