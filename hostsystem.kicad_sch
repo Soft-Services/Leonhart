@@ -30556,7 +30556,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 193.04) (xy 397.51 193.04)
+			(xy 393.7 193.04) (xy 403.86 193.04)
 		)
 		(stroke
 			(width 0)
@@ -30706,7 +30706,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 198.12) (xy 397.51 198.12)
+			(xy 393.7 198.12) (xy 403.86 198.12)
 		)
 		(stroke
 			(width 0)
@@ -30906,7 +30906,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 195.58) (xy 397.51 195.58)
+			(xy 363.22 195.58) (xy 403.86 195.58)
 		)
 		(stroke
 			(width 0)
@@ -31296,7 +31296,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 200.66) (xy 397.51 200.66)
+			(xy 363.22 200.66) (xy 403.86 200.66)
 		)
 		(stroke
 			(width 0)
@@ -32852,7 +32852,7 @@
 	)
 	(global_label "nRF_SPI0_MISO"
 		(shape input)
-		(at 397.51 195.58 0)
+		(at 403.86 195.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32862,7 +32862,7 @@
 		)
 		(uuid "06bdb51d-495c-4eaf-8d68-b205aaa7779d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 414.828 195.58 0)
+			(at 421.178 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33075,7 +33075,7 @@
 	)
 	(global_label "nRF_SPI0_CLK"
 		(shape input)
-		(at 397.51 193.04 0)
+		(at 403.86 193.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -33085,7 +33085,7 @@
 		)
 		(uuid "53aeef64-c2a3-4b3f-9deb-1c318817834a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 413.7999 193.04 0)
+			(at 420.1499 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33119,7 +33119,7 @@
 	)
 	(global_label "nRF_SPI0_MOSI"
 		(shape input)
-		(at 397.51 198.12 0)
+		(at 403.86 198.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -33129,7 +33129,7 @@
 		)
 		(uuid "587c1c14-dfe8-4813-9933-f561b86f9c70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 414.828 198.12 0)
+			(at 421.178 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33208,7 +33208,7 @@
 	)
 	(global_label "nRF_SPI0_CS0"
 		(shape input)
-		(at 397.51 200.66 0)
+		(at 403.86 200.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -33218,7 +33218,7 @@
 		)
 		(uuid "6c6572eb-5ffb-48c0-b045-bd4c2349b1e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 413.9208 200.66 0)
+			(at 420.2708 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
