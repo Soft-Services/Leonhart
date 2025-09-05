@@ -14981,7 +14981,7 @@
 		)
 		(uuid "0872ceb5-7ad8-46fa-9955-18322821c45a")
 	)
-	(label "DDR_DQ5"
+	(label "DDR_DQ6"
 		(at 68.58 135.89 0)
 		(effects
 			(font
@@ -15221,7 +15221,7 @@
 		)
 		(uuid "366e9c46-2b81-4235-8959-59db02fd0103")
 	)
-	(label "DDR_DQ7"
+	(label "DDR_DQ4"
 		(at 68.58 140.97 0)
 		(effects
 			(font
@@ -15293,7 +15293,7 @@
 		)
 		(uuid "510ca763-b027-4f6a-90fd-e3fa59979b43")
 	)
-	(label "DDR_DQ4"
+	(label "DDR_DQ2"
 		(at 68.58 133.35 0)
 		(effects
 			(font
@@ -15449,7 +15449,7 @@
 		)
 		(uuid "6afaa186-dfd1-42c5-919c-aaa899445636")
 	)
-	(label "DDR_DQ2"
+	(label "DDR_DQ3"
 		(at 68.58 128.27 0)
 		(effects
 			(font
@@ -15485,7 +15485,7 @@
 		)
 		(uuid "7091a124-496b-462f-ac7f-e6de9a5593cc")
 	)
-	(label "DDR_DQ6"
+	(label "DDR_DQ7"
 		(at 68.58 138.43 0)
 		(effects
 			(font
@@ -15785,7 +15785,7 @@
 		)
 		(uuid "b42a6c4a-0adc-4439-8602-7fe4d5d5ae3c")
 	)
-	(label "DDR_DQ1"
+	(label "DDR_DQ5"
 		(at 68.58 125.73 0)
 		(effects
 			(font
@@ -15845,7 +15845,7 @@
 		)
 		(uuid "c3db9317-4c80-43f8-b19d-a800215e617b")
 	)
-	(label "DDR_DQ3"
+	(label "DDR_DQ1"
 		(at 68.58 130.81 0)
 		(effects
 			(font
