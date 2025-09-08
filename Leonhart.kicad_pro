@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -56,6 +56,16 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.12,
+          "via_gap": 0.0,
+          "width": 0.102
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.0,
+          "width": 0.1102
         }
       ],
       "drc_exclusions": [],
@@ -191,7 +201,7 @@
         0.081,
         0.1,
         0.102,
-        0.1184,
+        0.113,
         0.152,
         0.2,
         0.203,
@@ -511,73 +521,88 @@
       {
         "name": "CC2652",
         "pcb_color": "rgb(105, 25, 215)",
-        "priority": 9,
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR",
         "pcb_color": "rgb(194, 194, 194)",
-        "priority": 11,
+        "priority": 13,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.1102,
+        "name": "DDR_Diff",
+        "pcb_color": "rgb(194, 194, 194)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR_SE",
+        "pcb_color": "rgb(132, 132, 132)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.113
       },
       {
         "name": "Ethernet",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 10,
+        "priority": 12,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "GND",
         "pcb_color": "rgb(72, 72, 72)",
-        "priority": 7,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "Headers/TagConnect",
         "pcb_color": "rgb(104, 166, 255)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "Power",
         "pcb_color": "rgb(0, 255, 0)",
-        "priority": 4,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "SD",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 5,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "SoC_System",
         "pcb_color": "rgb(0, 72, 0)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "USBA",
         "pcb_color": "rgb(132, 132, 0)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "USBC",
         "pcb_color": "rgb(255, 117, 186)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "eMMC",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 6,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "nRF52840",
         "pcb_color": "rgb(0, 64, 255)",
-        "priority": 8,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -662,6 +687,22 @@
       {
         "netclass": "SoC_System",
         "pattern": "*PORz*"
+      },
+      {
+        "netclass": "DDR_Diff",
+        "pattern": "*DDR_CLK*"
+      },
+      {
+        "netclass": "DDR_Diff",
+        "pattern": "*DDR_LDQS*"
+      },
+      {
+        "netclass": "DDR_Diff",
+        "pattern": "*DDR_UDQS*"
+      },
+      {
+        "netclass": "DDR_SE",
+        "pattern": "*DDR_DQ*"
       }
     ]
   },
