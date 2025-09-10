@@ -540,7 +540,7 @@
       },
       {
         "name": "DDR_SE",
-        "pcb_color": "rgb(132, 132, 132)",
+        "pcb_color": "rgb(194, 194, 194)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.113
