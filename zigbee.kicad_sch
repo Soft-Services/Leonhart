@@ -3281,6 +3281,18 @@
 		)
 		(uuid "18843d03-7c18-4568-86ca-0e410a98a531")
 	)
+	(text "nRESET has internal pull up to VDDS"
+		(exclude_from_sim no)
+		(at 74.422 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5813923a-cb71-4cf6-bf02-af17d82ce783")
+	)
 	(text "CC2652PSIP Zigbee Network"
 		(exclude_from_sim no)
 		(at 109.474 56.642 0)

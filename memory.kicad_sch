@@ -11065,6 +11065,18 @@
 		)
 		(uuid "30408711-b32c-45c2-8906-3253dd34c57b")
 	)
+	(text "DDR4 Memory"
+		(exclude_from_sim no)
+		(at 187.452 47.498 0)
+		(effects
+			(font
+				(size 17.78 17.78)
+				(thickness 3.556)
+				(bold yes)
+			)
+		)
+		(uuid "34c5ef2f-7ab8-4e09-97d4-1e3d88bf41de")
+	)
 	(text "SoC DDR Interface + DDR4 Device"
 		(exclude_from_sim no)
 		(at 93.98 93.218 0)
