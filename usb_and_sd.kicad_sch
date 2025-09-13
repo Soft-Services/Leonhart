@@ -14570,7 +14570,7 @@
 		)
 		(uuid "75138dc4-64c4-4cf3-b2a1-66dd0dbdaf4c")
 	)
-	(text "SD"
+	(text "SD + eMMC"
 		(exclude_from_sim no)
 		(at 470.662 54.102 0)
 		(effects
