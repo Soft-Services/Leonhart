@@ -32963,12 +32963,14 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
 		(uuid "309b003c-9a18-4e30-ad8d-cd9890a4bf87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.6766 311.15 0)
+			(at 147.1526 311.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33408,12 +33410,14 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
 		(uuid "93d2f12f-5047-49b3-9121-d0e67e49e45c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.0113 307.34 0)
+			(at 146.4873 307.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
