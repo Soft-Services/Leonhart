@@ -221,7 +221,7 @@
           "corner_style": 1,
           "max_amplitude": 1.5,
           "min_amplitude": 0.4,
-          "single_sided": false,
+          "single_sided": true,
           "spacing": 1.0
         },
         "diff_pair_skew_defaults": {
@@ -237,7 +237,7 @@
           "corner_style": 1,
           "max_amplitude": 1.5,
           "min_amplitude": 0.4,
-          "single_sided": false,
+          "single_sided": true,
           "spacing": 0.4
         }
       },
