@@ -11053,18 +11053,6 @@
 		)
 		(uuid 955452c3-2657-400e-95fc-4fe99e098ca3)
 	)
-	(text "Use bit swivelling if routing is too tough"
-		(exclude_from_sim no)
-		(at 54.356 115.824 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "30408711-b32c-45c2-8906-3253dd34c57b")
-	)
 	(text "DDR4 Memory"
 		(exclude_from_sim no)
 		(at 187.452 47.498 0)
