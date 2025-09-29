@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LMK1C1102PWR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2021-01-27 09:33:49
+Downloaded=2025-09-29 05:31:25
+3D=Y

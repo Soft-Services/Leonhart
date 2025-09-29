@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LMK1C1102PWR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-01-27-09:33:49)
+    (mountForm default
+        (footprintRef "SOP65P640X120-8N")
+        (spec "System")
+    )
+)

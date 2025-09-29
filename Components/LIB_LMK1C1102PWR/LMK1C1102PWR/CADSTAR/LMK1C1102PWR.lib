@@ -1,0 +1,18 @@
+.LMK1C1102PWR :1 ;Clock Buffer 2-channel output LVCMOS 1.8-V buffer 8-TSSOP -40 to 125
+SOP65P640X120-8N
+*STM IC
+*NGS
+*PLB 1="CLKIN" 2="1G" 3="Y0" 4="GND" 5="NC_1" 6="VDD" 7="NC_2" 8="Y1"
+*MXP 8
+*DFN LMK1C1102PWR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LMK1C1102PWR)
+~!Mouser Part Number (595-LMK1C1102PWR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMK1C1102PWR?qs=rI7uf1IzohQAH976VttrBg%3D%3D)
+~!Arrow Part Number (LMK1C1102PWR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lmk1c1102pwr/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.ti.com/lit/gpn/LMK1C1102)
+~!Height (1.2mm)
+~!3D_Model (LMK1C1102PWR)
+LMK1C1102PWR
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 
