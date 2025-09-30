@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ECS-2520MV-250-CN-TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-12-10-11:09:04)
+    (mountForm default
+        (footprintRef "ECS2520MV250CNTR")
+        (spec "System")
+    )
+)

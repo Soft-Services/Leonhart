@@ -1,0 +1,19 @@
+.902-131A1011D10100 :1 ;USB 2.0 1 4 Female Type-A Plugin USB Connectors ROHS
+"902131A1011D10100"
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=MH1 6=MH2
+*PLB 1="1" 2="2" 3="3" 4="4" 5="MH1" 6="MH2"
+*MXP 6
+*DFN 902-131A1011D10100
+~!Manufacturer_Name (Jing Extension of the Electronic Co.)
+~!Manufacturer_Part_Number (902-131A1011D10100)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.lcsc.com/lcsc/2102261732_Jing-Extension-of-the-Electronic-Co--902-131A1011D10100_C2345.pdf)
+~!Height (7.15mm)
+~!3D_Model (902-131A1011D10100)
+"902-131A1011D10100"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=ECS
+PartNumber=ECS-2520MV-250-CN-TR
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.6
+Released=2021-12-10 11:09:04
+Downloaded=2025-09-30 17:24:52
+3D=Y

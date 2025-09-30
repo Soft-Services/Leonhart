@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '902_131A1011D10100'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Jing Extension of the Electronic Co.", "902-131A1011D10100" (!) = "", "902131A1011D10100", "Other", "", "", "", "", "USB 2.0 1 4 Female Type-A Plugin USB Connectors ROHS", "https://datasheet.lcsc.com/lcsc/2102261732_Jing-Extension-of-the-Electronic-Co--902-131A1011D10100_C2345.pdf", "7.15 mm"
+END_PART
+
+END.

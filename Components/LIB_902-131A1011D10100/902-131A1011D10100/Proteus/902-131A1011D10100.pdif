@@ -1,0 +1,163 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "902-131A1011D10100"
+   (description "USB 2.0 1 4 Female Type-A Plugin USB Connectors ROHS")
+   (family "CON")
+   (package "902131A1011D10100")
+   (attribute "Datasheet Link" "https://datasheet.lcsc.com/lcsc/2102261732_Jing-Extension-of-the-Electronic-Co--902-131A1011D10100_C2345.pdf")
+   (attribute "Geometry.Height" "7.15mm")
+   (attribute "Manufacturer_Name" "Jing Extension of the Electronic Co.")
+   (attribute "Manufacturer_Part_Number" "902-131A1011D10100")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "902-131A1011D10100")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "MH1" MH1 PS)
+    (pin "MH2" MH2 PS)
+   )
+  )
+  (symbol "902-131A1011D10100"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "902131A1011D10100"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.7 1.14)
+      (pt 10.7 1.14)
+      (pt 10.7 -12.96)
+      (pt -3.7 -12.96)
+      (pt -3.7 1.14))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -6.075 2.14)
+      (pt 13.075 2.14)
+      (pt 13.075 -13.96)
+      (pt -6.075 -13.96)
+      (pt -6.075 2.14))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.7 -0.71)
+      (pt -3.7 1.14)
+      (pt 10.7 1.14)
+      (pt 10.7 -0.71))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.7 -4.71)
+      (pt -3.7 -12.96)
+      (pt 10.7 -12.96)
+      (pt 10.7 -5.21)
+      (pt 10.7 -4.71))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 1.6)
+      (arc (pt 0.000 1.600) (pt -0.050 1.600) (pt 0.050 1.700) (start 180.0) (sweep -90.0))
+      (pt 0 1.7)
+      (arc (pt 0.000 1.700) (pt -0.050 1.600) (pt 0.050 1.700) (start 180.0) (sweep 90.0))
+      (pt 0 1.6))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 2.500 0.000) (padstack 0))
+   (leg 3 (pt 4.500 0.000) (padstack 0))
+   (leg 4 (pt 7.000 0.000) (padstack 0))
+   (leg MH1 (pt -3.500 -2.710) (padstack 5))
+   (leg MH2 (pt 10.500 -2.710) (padstack 6))
+   (padstack 0
+    (hole 0.9)
+    (plated true)
+    (pad (layer TCOP) (round 1.400))
+    (pad (layer INNER) (round 1.400))
+    (pad (layer BCOP) (round 1.400))
+   )
+   (padstack 1
+    (hole 0.9)
+    (plated true)
+    (pad (layer TCOP) (square 1.400))
+    (pad (layer INNER) (round 1.400))
+    (pad (layer BCOP) (square 1.400))
+   )
+   (padstack 5
+    (hole 2.1)
+    (plated true)
+    (pad (layer TCOP) (round 3.150))
+    (pad (layer INNER) (round 3.150))
+    (pad (layer BCOP) (round 3.150))
+   )
+   (padstack 6
+    (hole 2.1)
+    (plated true)
+    (pad (layer TCOP) (round 3.150))
+    (pad (layer INNER) (round 3.150))
+    (pad (layer BCOP) (round 3.150))
+   )
+   (model "902-131A1011D10100.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

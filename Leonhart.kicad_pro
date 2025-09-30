@@ -58,6 +58,11 @@
           "width": 0.0
         },
         {
+          "gap": 0.2032,
+          "via_gap": 0.0,
+          "width": 0.1
+        },
+        {
           "gap": 0.12,
           "via_gap": 0.0,
           "width": 0.102
@@ -560,6 +565,8 @@
         "track_width": 0.113
       },
       {
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.1,
         "name": "Ethernet",
         "pcb_color": "rgb(0, 194, 194)",
         "priority": 12,
@@ -596,6 +603,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.1262,
         "name": "USBA",
         "pcb_color": "rgb(132, 132, 0)",
         "priority": 5,

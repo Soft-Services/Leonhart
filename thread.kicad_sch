@@ -6805,18 +6805,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "11680f46-1ec7-43f0-9b72-fbff1308b47e")
 		(property "Reference" "X3002"
-			(at 81.28 147.2498 0)
+			(at 75.438 145.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "25MHz"
-			(at 81.28 149.7898 0)
+		(property "Value" "32MHz"
+			(at 75.438 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)

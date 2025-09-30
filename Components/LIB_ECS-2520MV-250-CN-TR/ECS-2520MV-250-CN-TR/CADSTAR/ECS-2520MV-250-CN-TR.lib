@@ -1,0 +1,18 @@
+.ECS-2520MV-250-CN-TR :1 ;Standard Clock Oscillators 25MHz 1.6-3.6V -40C +85C
+ECS2520MV250CNTR
+*STM Y
+*NGS
+*PLB 1="TRI-STATE" 2="GND" 3="OUTPUT" 4="VDD"
+*MXP 4
+*DFN ECS-2520MV-250-CN-TR
+~!Manufacturer_Name (ECS)
+~!Manufacturer_Part_Number (ECS-2520MV-250-CN-TR)
+~!Mouser Part Number (520-2520MV-250-CN-T)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ECS/ECS-2520MV-250-CN-TR?qs=fAHHVMwC%252BbiTva9uv8VI%2Fw%3D%3D)
+~!Arrow Part Number (ECS-2520MV-250-CN-TR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ecs-2520mv-250-cn-tr/ecs-international?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.arrow.com/en/products/ecs-2520mv-250-cn-tr/ecs-international)
+~!Height (0.9mm)
+~!3D_Model (ECS-2520MV-250-CN-TR)
+ECS-2520MV-250-CN-TR
+1.1!U 2.1!U 3.1!U 4.1!U 

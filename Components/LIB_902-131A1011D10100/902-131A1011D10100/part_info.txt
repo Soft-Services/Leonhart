@@ -1,0 +1,9 @@
+Manufacturer=Jing Extension of the Electronic Co.
+PartNumber=902-131A1011D10100
+PartCategory=Connector
+PackageCategory=Other
+PinCount=6
+Version=1.5
+Released=2022-05-09 07:49:54
+Downloaded=2025-09-30 20:46:38
+3D=Y
