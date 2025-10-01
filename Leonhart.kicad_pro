@@ -212,6 +212,7 @@
         0.1,
         0.102,
         0.113,
+        0.1184,
         0.152,
         0.1844,
         0.2,
@@ -608,13 +609,19 @@
         "name": "USBA",
         "pcb_color": "rgb(132, 132, 0)",
         "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "via_diameter": 0.457,
+        "via_drill": 0.203
       },
       {
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.1262,
         "name": "USBC",
         "pcb_color": "rgb(255, 117, 186)",
         "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "via_diameter": 0.457,
+        "via_drill": 0.203
       },
       {
         "name": "eMMC",

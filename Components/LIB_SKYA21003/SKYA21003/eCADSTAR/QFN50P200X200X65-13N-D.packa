@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SKYA21003"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-11-17-09:57:27)
+    (mountForm default
+        (footprintRef "QFN50P200X200X65-13N-D")
+        (spec "System")
+    )
+)

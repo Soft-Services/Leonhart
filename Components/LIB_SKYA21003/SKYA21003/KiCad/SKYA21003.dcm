@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SKYA21003
+D RF Switch ICs SPDT 1- 6 GHz SOI in a 2x2 QFN SWITCH
+K
+F https://www.skyworksinc.com/-/media/SkyWorks/Documents/Products/2201-2300/SKYA21003_202938I.pdf
+$ENDCMP
+#
+#End Doc Library

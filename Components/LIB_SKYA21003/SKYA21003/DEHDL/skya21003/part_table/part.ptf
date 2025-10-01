@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SKYA21003'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Skyworks", "SKYA21003" (!) = "", "QFN50P200X200X65-13N-D", "Quad Flat No-Lead", "873-SKYA21003", "https://www.mouser.co.uk/ProductDetail/Skyworks-Solutions-Inc/SKYA21003?qs=4FzvMsMEDjYZsTKpRNiAFA%3D%3D", "SKYA21003", "https://www.arrow.com/en/products/skya21003/skyworks-solutions?utm_currency=USD&region=nac", "RF Switch ICs SPDT 1- 6 GHz SOI in a 2x2 QFN SWITCH", "https://www.skyworksinc.com/-/media/SkyWorks/Documents/Products/2201-2300/SKYA21003_202938I.pdf", "0.65 mm"
+END_PART
+
+END.

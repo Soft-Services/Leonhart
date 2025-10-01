@@ -1,0 +1,9 @@
+Manufacturer=Skyworks
+PartNumber=SKYA21003
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=13
+Version=1.1
+Released=2022-11-17 09:57:27
+Downloaded=2025-09-30 23:54:57
+3D=Y

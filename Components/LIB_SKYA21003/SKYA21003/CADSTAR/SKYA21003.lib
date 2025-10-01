@@ -1,0 +1,18 @@
+.SKYA21003 :1 ;RF Switch ICs SPDT 1- 6 GHz SOI in a 2x2 QFN SWITCH
+QFN50P200X200X65-13N-D
+*STM IC
+*NGS
+*PLB 1="GND_1" 2="RF1" 3="GND_2" 4="GND_3" 5="RF3" 6="GND_4" 7="CTRL" 8="ENABLE" 9="VBATT" 10="GND_5" 11="RF2" 12="GND_6" 13="GND_7"
+*MXP 13
+*DFN SKYA21003
+~!Manufacturer_Name (Skyworks)
+~!Manufacturer_Part_Number (SKYA21003)
+~!Mouser Part Number (873-SKYA21003)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Skyworks-Solutions-Inc/SKYA21003?qs=4FzvMsMEDjYZsTKpRNiAFA%3D%3D)
+~!Arrow Part Number (SKYA21003)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/skya21003/skyworks-solutions?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.skyworksinc.com/-/media/SkyWorks/Documents/Products/2201-2300/SKYA21003_202938I.pdf)
+~!Height (0.65mm)
+~!3D_Model (SKYA21003)
+SKYA21003
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 9.1!U 8.1!U 7.1!U 13.1!U 12.1!U 11.1!U 10.1!U 
