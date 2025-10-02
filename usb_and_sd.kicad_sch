@@ -14954,6 +14954,12 @@
 		(uuid "713de3c1-9f4f-445b-9cb3-aeb6ab0903a3")
 	)
 	(junction
+		(at 541.02 278.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71fc1b87-9812-4b9e-a731-06485e11fd86")
+	)
+	(junction
 		(at 631.19 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15590,6 +15596,16 @@
 			(type default)
 		)
 		(uuid "0e78dadb-6083-4d25-bd80-c9adf1728211")
+	)
+	(wire
+		(pts
+			(xy 541.02 278.13) (xy 541.02 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef312e6-3945-42b0-befc-ada298700164")
 	)
 	(wire
 		(pts
@@ -16363,7 +16379,7 @@
 	)
 	(wire
 		(pts
-			(xy 530.86 278.13) (xy 551.18 278.13)
+			(xy 530.86 278.13) (xy 541.02 278.13)
 		)
 		(stroke
 			(width 0)
@@ -16420,6 +16436,16 @@
 			(type default)
 		)
 		(uuid "3d23f659-cb3f-4233-8a56-f1553db36b8c")
+	)
+	(wire
+		(pts
+			(xy 541.02 278.13) (xy 551.18 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5305ed-cc9f-411d-93f2-730e6e3aa65c")
 	)
 	(wire
 		(pts
@@ -17870,6 +17896,16 @@
 			(type default)
 		)
 		(uuid "9c7756a7-8366-4368-984b-5b95b11221e6")
+	)
+	(wire
+		(pts
+			(xy 541.02 288.29) (xy 541.02 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d300393-af89-4d24-abbb-7ab03a3d1dc5")
 	)
 	(wire
 		(pts
@@ -30218,6 +30254,76 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/e2459660-886d-4599-a9e6-b9bb7931d0e6"
 					(reference "#PWR07036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 541.02 284.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f562825a-70bf-47d2-85b9-07b062102065")
+		(property "Reference" "R7027"
+			(at 543.56 283.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 543.56 285.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 539.242 284.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 541.02 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 541.02 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "150b7d1d-0bf3-4f2a-b7fc-9d7147b59611")
+		)
+		(pin "2"
+			(uuid "694e7a52-109c-4b40-a1ff-ea4749be0d7c")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/e2459660-886d-4599-a9e6-b9bb7931d0e6"
+					(reference "R7027")
 					(unit 1)
 				)
 			)
