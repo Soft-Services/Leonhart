@@ -736,6 +736,10 @@
       {
         "netclass": "DDR_SE",
         "pattern": "*DDR_DQ*"
+      },
+      {
+        "netclass": "SoC_System",
+        "pattern": "*RESET_REQZ*"
       }
     ]
   },

@@ -3639,6 +3639,18 @@
 		)
 		(uuid "18843d03-7c18-4568-86ca-0e410a98a531")
 	)
+	(text "RF Switch"
+		(exclude_from_sim no)
+		(at 202.438 80.772 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "4c691273-8a77-4757-9153-27386cb48ecf")
+	)
 	(text "nRESET has internal pull up to VDDS"
 		(exclude_from_sim no)
 		(at 74.422 115.824 0)
@@ -3802,7 +3814,7 @@
 		(uuid "8095d8ac-0bcc-4d79-8d69-c72aabbeb644")
 	)
 	(junction
-		(at 215.9 78.74)
+		(at 252.73 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88bfcafb-99a0-42c7-8b46-fa72f8cc8d8a")
@@ -4143,7 +4155,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 78.74) (xy 203.2 78.74)
+			(xy 232.41 73.66) (xy 240.03 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4273,7 +4285,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 73.66) (xy 222.25 78.74)
+			(xy 259.08 68.58) (xy 259.08 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4543,7 +4555,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 73.66) (xy 195.58 78.74)
+			(xy 232.41 68.58) (xy 232.41 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4573,7 +4585,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 78.74) (xy 215.9 78.74)
+			(xy 247.65 73.66) (xy 252.73 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5043,7 +5055,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 78.74) (xy 222.25 78.74)
+			(xy 252.73 73.66) (xy 259.08 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6417,7 +6429,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 215.9 78.74 0)
+		(at 252.73 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6425,7 +6437,7 @@
 		(dnp no)
 		(uuid "45304ed5-770e-4ae1-a93b-b52330be2210")
 		(property "Reference" "#FLG04038"
-			(at 215.9 76.835 0)
+			(at 252.73 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6434,7 +6446,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 215.9 74.422 0)
+			(at 252.73 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6442,7 +6454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 78.74 0)
+			(at 252.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6451,7 +6463,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 78.74 0)
+			(at 252.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6460,7 +6472,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 215.9 78.74 0)
+			(at 252.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6618,7 +6630,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 207.01 78.74 90)
+		(at 243.84 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6627,7 +6639,7 @@
 		(fields_autoplaced yes)
 		(uuid "56bbce51-2ca3-4f4a-81e0-03edd0dc21cd")
 		(property "Reference" "FB2001"
-			(at 206.9592 71.12 90)
+			(at 243.7892 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6635,7 +6647,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 206.9592 73.66 90)
+			(at 243.7892 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6643,7 +6655,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 207.01 80.518 90)
+			(at 243.84 75.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6652,7 +6664,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 78.74 0)
+			(at 243.84 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6661,7 +6673,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 207.01 78.74 0)
+			(at 243.84 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6670,7 +6682,7 @@
 			)
 		)
 		(property "Part #" "BLM18PG121SN1D"
-			(at 207.01 78.74 90)
+			(at 243.84 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6695,7 +6707,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 222.25 73.66 0)
+		(at 259.08 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6703,7 +6715,7 @@
 		(dnp no)
 		(uuid "59f40057-c46b-41b6-81c3-ad2264aa7b10")
 		(property "Reference" "#PWR02002"
-			(at 222.25 77.47 0)
+			(at 259.08 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6712,7 +6724,7 @@
 			)
 		)
 		(property "Value" "VDD3V3_CC"
-			(at 217.932 68.58 0)
+			(at 254.762 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +6733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 73.66 0)
+			(at 259.08 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +6742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 73.66 0)
+			(at 259.08 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,7 +6751,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 222.25 73.66 0)
+			(at 259.08 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6761,7 +6773,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 195.58 73.66 0)
+		(at 232.41 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6770,7 +6782,7 @@
 		(fields_autoplaced yes)
 		(uuid "5abdf40b-581c-4870-aa56-145b66a5c4d1")
 		(property "Reference" "#PWR02001"
-			(at 195.58 77.47 0)
+			(at 232.41 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,7 +6791,7 @@
 			)
 		)
 		(property "Value" "VDD_3V3"
-			(at 195.58 68.58 0)
+			(at 232.41 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,7 +6799,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 73.66 0)
+			(at 232.41 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6796,7 +6808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 73.66 0)
+			(at 232.41 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,7 +6817,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 195.58 73.66 0)
+			(at 232.41 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
