@@ -28276,7 +28276,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "38346417-99af-4400-a78d-bd606b3abe44")
 		(property "Reference" "#PWR04077"
 			(at 365.76 433.07 0)
@@ -28287,12 +28286,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDDA_0V85"
-			(at 365.76 424.18 0)
+		(property "Value" "VDDR_CORE"
+			(at 361.442 424.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -29799,7 +29799,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4abab1da-d029-4249-84cb-b23829842ea7")
 		(property "Reference" "#PWR04020"
 			(at 414.02 182.88 0)
@@ -29810,12 +29809,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDDA_0V85"
-			(at 414.02 173.99 0)
+		(property "Value" "VDDR_CORE"
+			(at 409.194 174.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -38041,7 +38041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDDA_0V85"
+		(property "Value" "VDDR_CORE"
 			(at 234.188 191.516 0)
 			(effects
 				(font
