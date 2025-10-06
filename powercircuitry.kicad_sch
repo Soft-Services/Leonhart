@@ -21648,6 +21648,18 @@
 		)
 		(uuid "f86287f8-593e-4ac6-ba4e-fdb862b03c1b")
 	)
+	(label "VDD1P8"
+		(at 154.94 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc6fcc95-0621-40e4-a666-71bb1b409500")
+	)
 	(label "VDDA_SYS_MON"
 		(at 402.59 162.56 180)
 		(effects
