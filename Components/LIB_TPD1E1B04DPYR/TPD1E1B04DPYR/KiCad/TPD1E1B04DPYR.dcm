@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPD1E1B04DPYR
+D ESD Suppressor Diode TVS Bi-Dir 3.6V 8.5Vc 2-Pin X1SON T/R
+K
+F https://www.ti.com/lit/gpn/tpd1e1b04?HQS=ti-null-null-sf-df-pf-sep-wwe&DCM=yes?hkey=EF798316E3902B6ED9A73243A3159BB0
+$ENDCMP
+#
+#End Doc Library

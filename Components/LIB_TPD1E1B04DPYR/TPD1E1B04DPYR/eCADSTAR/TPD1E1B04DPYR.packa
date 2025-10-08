@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TPD1E1B04DPYR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-04-07-09:37:40)
+    (mountForm default
+        (footprintRef "TPD1E1B04DPYR")
+        (spec "System")
+    )
+)

@@ -13874,24 +13874,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 8.89 0 180)
-					(length 2.54)
-					(name "CT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_out line
 					(at 10.16 3.81 180)
 					(length 2.54)
@@ -13903,6 +13885,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "CT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -20871,7 +20871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 586.4352 322.58 0)
 			(effects
 				(font
@@ -21008,7 +21008,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "SoftServicesFootprintLibrary:TPD1E1B04DPYR"
 			(at 184.15 161.29 0)
 			(effects
 				(font
@@ -21933,7 +21933,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
+		(property "Footprint" "SoftServicesFootprintLibrary:TPD1E1B04DPYR"
 			(at 561.34 318.77 0)
 			(effects
 				(font
@@ -22274,7 +22274,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
+		(property "Footprint" "SoftServicesFootprintLibrary:TPD1E1B04DPYR"
 			(at 530.86 318.77 0)
 			(effects
 				(font
@@ -22414,7 +22414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 599.1352 322.58 0)
 			(effects
 				(font
@@ -22554,7 +22554,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "SoftServicesFootprintLibrary:TPD1E1B04DPYR"
 			(at 172.72 161.29 0)
 			(effects
 				(font
@@ -22965,7 +22965,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
+		(property "Footprint" "SoftServicesFootprintLibrary:TPD1E1B04DPYR"
 			(at 623.57 321.31 0)
 			(effects
 				(font
@@ -23735,7 +23735,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
+		(property "Footprint" "SoftServicesFootprintLibrary:TPD1E1B04DPYR"
 			(at 551.18 318.77 0)
 			(effects
 				(font
@@ -25942,7 +25942,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
+		(property "Footprint" "SoftServicesFootprintLibrary:TPD1E1B04DPYR"
 			(at 541.02 318.77 0)
 			(effects
 				(font
@@ -26390,7 +26390,7 @@
 		(pin "1"
 			(uuid "7c52e4de-1f81-4acb-b65e-a1e5b4d38d9b")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "76877b99-8b7c-40d0-a25c-3dd3a8c26e81")
 		)
 		(instances
@@ -26768,7 +26768,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
+		(property "Footprint" "SoftServicesFootprintLibrary:TPD1E1B04DPYR"
 			(at 520.7 318.77 0)
 			(effects
 				(font
@@ -28421,7 +28421,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
+		(property "Footprint" "SoftServicesFootprintLibrary:TPD1E1B04DPYR"
 			(at 510.54 318.77 0)
 			(effects
 				(font

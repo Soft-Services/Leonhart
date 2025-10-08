@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPD1E1B04DPYR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPD1E1B04DPYR" (!) = "", "TPD1E1B04DPYR", "Other", "595-TPD1E1B04DPYR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD1E1B04DPYR?qs=LuYMPh7GGMTwEWL%2FIe5IJQ%3D%3D", "TPD1E1B04DPYR", "https://www.arrow.com/en/products/tpd1e1b04dpyr/texas-instruments?utm_currency=USD&region=nac", "ESD Suppressor Diode TVS Bi-Dir 3.6V 8.5Vc 2-Pin X1SON T/R", "https://www.ti.com/lit/gpn/tpd1e1b04?HQS=ti-null-null-sf-df-pf-sep-wwe&DCM=yes?hkey=EF798316E3902B6ED9A73243A3159BB0", "0.45 mm"
+END_PART
+
+END.

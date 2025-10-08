@@ -1,0 +1,18 @@
+.TPD1E1B04DPYR :1 ;ESD Suppressor Diode TVS Bi-Dir 3.6V 8.5Vc 2-Pin X1SON T/R
+TPD1E1B04DPYR
+*STM D
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN TPD1E1B04DPYR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPD1E1B04DPYR)
+~!Mouser Part Number (595-TPD1E1B04DPYR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD1E1B04DPYR?qs=LuYMPh7GGMTwEWL%2FIe5IJQ%3D%3D)
+~!Arrow Part Number (TPD1E1B04DPYR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tpd1e1b04dpyr/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.ti.com/lit/gpn/tpd1e1b04?HQS=ti-null-null-sf-df-pf-sep-wwe&DCM=yes?hkey=EF798316E3902B6ED9A73243A3159BB0)
+~!Height (0.45mm)
+~!3D_Model (TPD1E1B04DPYR)
+TPD1E1B04DPYR
+1.1!U 2.1!U 

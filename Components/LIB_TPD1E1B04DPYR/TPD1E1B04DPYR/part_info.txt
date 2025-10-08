@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPD1E1B04DPYR
+PartCategory=TVS Diode (Bi-directional)
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2022-04-07 09:37:40
+Downloaded=2025-10-08 18:07:08
+3D=Y

@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_16062542"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-04-07-09:37:40)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "TPD1E1B04DPYR")
+)
+
+
+(pinAssign "ECS_16062542"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-04-07-09:37:40)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_16062542")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "TPD1E1B04DPYR")
+)
+
+
+(part "TPD1E1B04DPYR"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-04-07-09:37:40)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "TPD1E1B04DPYR")
+    (pinAssignRef "ECS_16062542")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "ESD Suppressor Diode TVS Bi-Dir 3.6V 8.5Vc 2-Pin X1SON T/R")
+    (property "Manufacturer_Name" "Texas Instruments")
+    (property "Manufacturer_Part_Number" "TPD1E1B04DPYR")
+    (property "Mouser_Part_Number" "595-TPD1E1B04DPYR")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD1E1B04DPYR?qs=LuYMPh7GGMTwEWL%2FIe5IJQ%3D%3D")
+    (property "Arrow_Part_Number" "TPD1E1B04DPYR")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/tpd1e1b04dpyr/texas-instruments?utm_currency=USD&region=nac")
+    (property "Datasheet_Link" "https://www.ti.com/lit/gpn/tpd1e1b04?HQS=ti-null-null-sf-df-pf-sep-wwe&DCM=yes?hkey=EF798316E3902B6ED9A73243A3159BB0")
+    (property "compAreaTopHeight" 0.45)
+)
+
+
