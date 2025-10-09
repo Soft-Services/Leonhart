@@ -3943,7 +3943,7 @@
 		)
 		(uuid "8aeaf1a6-9361-464c-8227-40b80d8fc9b0")
 	)
-	(text "nRF52840 JTAG\nTagConnect"
+	(text "nRF52840 SWD\nTagConnect"
 		(exclude_from_sim no)
 		(at 305.562 181.864 0)
 		(effects

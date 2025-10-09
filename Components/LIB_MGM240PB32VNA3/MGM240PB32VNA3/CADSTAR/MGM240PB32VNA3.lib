@@ -1,0 +1,18 @@
+.MGM240PB32VNA3 :1 ;Multiprotocol Modules Wireless bluetooth PCB module, Secure Boot with Root of Trust and Secure Loader(RTSL), 78 MHz, 20 dBm,
+MGM240PB32VNA3
+*STM IC
+*NGS
+*PLB 1="GND_1" 2="PB04" 3="PB03" 4="PB02" 5="PB01" 6="PB00" 7="PA00" 8="PA01" 9="PA02" 10="PA03" 11="PA04" 12="PA05" 13="PA06" 14="GND_2" 15="VDD" 16="PA07" 17="PA08" 18="PD03" 19="PD02" 20="PD01" 21="PD00" 22="PC00" 23="GND_3" 24="PC01" 25="PC02" 26="PC03" 27="PC04" 28="PC05" 29="PC06" 30="PC07" 31="RESET" 32="GND_4" 33="RFOUT" 34="GND_5" 35="GND_6" 36="GND_7"
+*MXP 36
+*DFN MGM240PB32VNA3
+~!Manufacturer_Name (Silicon Labs)
+~!Manufacturer_Part_Number (MGM240PB32VNA3)
+~!Mouser Part Number (634-MGM240PB32VNA3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Silicon-Labs/MGM240PB32VNA3?qs=vvQtp7zwQdP%252Bnz0yHc66VA%3D%3D)
+~!Arrow Part Number (MGM240PB32VNA3)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/mgm240pb32vna3/silicon-labs?region=nac)
+~!Link Datasheet (https://www.silabs.com/documents/public/data-sheets/mgm240p-datasheet.pdf)
+~!Height (2.35mm)
+~!3D_Model (MGM240PB32VNA3)
+MGM240PB32VNA3
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 25.1!U 26.1!U 27.1!U 28.1!U 29.1!U 30.1!U 31.1!U 32.1!U 33.1!U 34.1!U 35.1!U 36.1!U 

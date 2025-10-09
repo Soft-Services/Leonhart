@@ -1,0 +1,9 @@
+Manufacturer=Silicon Labs
+PartNumber=MGM240PB32VNA3
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=36
+Version=2.6
+Released=2024-03-26 06:37:35
+Downloaded=2025-10-08 22:16:26
+3D=Y

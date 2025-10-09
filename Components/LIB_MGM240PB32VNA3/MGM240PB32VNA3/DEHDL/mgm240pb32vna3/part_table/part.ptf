@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MGM240PB32VNA3'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Silicon Labs", "MGM240PB32VNA3" (!) = "", "MGM240PB32VNA3", "Other", "634-MGM240PB32VNA3", "https://www.mouser.co.uk/ProductDetail/Silicon-Labs/MGM240PB32VNA3?qs=vvQtp7zwQdP%252Bnz0yHc66VA%3D%3D", "MGM240PB32VNA3", "https://www.arrow.com/en/products/mgm240pb32vna3/silicon-labs?region=nac", "Multiprotocol Modules Wireless bluetooth PCB module, Secure Boot with Root of Trust and Secure Loader(RTSL), 78 MHz, 20 dBm,", "https://www.silabs.com/documents/public/data-sheets/mgm240p-datasheet.pdf", "2.35 mm"
+END_PART
+
+END.

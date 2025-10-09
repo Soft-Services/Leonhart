@@ -906,6 +906,10 @@
     [
       "b43b7bca-e50d-42ec-8ff0-e0016dfefe0a",
       "Root"
+    ],
+    [
+      "a72e3651-6b85-4045-b319-d8959d969ced",
+      "Zigbee+Thread"
     ]
   ],
   "text_variables": {}

@@ -282,6 +282,50 @@
 		)
 	)
 	(sheet
+		(at 167.64 109.22)
+		(size 29.845 29.845)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a72e3651-6b85-4045-b319-d8959d969ced")
+		(property "Sheetname" "Zigbee+Thread"
+			(at 167.64 108.1274 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+					(thickness 0.4064)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Multi_Protocol_Radio.kicad_sch"
+			(at 167.64 139.6496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 124.46 63.5)
 		(size 29.845 29.845)
 		(exclude_from_sim no)

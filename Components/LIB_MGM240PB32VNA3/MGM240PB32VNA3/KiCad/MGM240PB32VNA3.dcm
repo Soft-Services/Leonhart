@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MGM240PB32VNA3
+D Multiprotocol Modules Wireless bluetooth PCB module, Secure Boot with Root of Trust and Secure Loader(RTSL), 78 MHz, 20 dBm,
+K
+F https://www.silabs.com/documents/public/data-sheets/mgm240p-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

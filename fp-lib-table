@@ -16,4 +16,5 @@
   (lib (name "902-131A1011D10100")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_902-131A1011D10100/902-131A1011D10100/KiCad")(options "")(descr ""))
   (lib (name "SKYA21003")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_SKYA21003/SKYA21003/KiCad")(options "")(descr ""))
   (lib (name "TPD1E1B04DPYR")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_TPD1E1B04DPYR/TPD1E1B04DPYR/KiCad")(options "")(descr ""))
+  (lib (name "MGM240PB32VNA3")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_MGM240PB32VNA3/MGM240PB32VNA3/KiCad")(options "")(descr ""))
 )
