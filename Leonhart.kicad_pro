@@ -542,29 +542,23 @@
         "wire_width": 6
       },
       {
-        "name": "CC2652",
-        "pcb_color": "rgb(105, 25, 215)",
-        "priority": 11,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
         "name": "DDR",
         "pcb_color": "rgb(194, 194, 194)",
-        "priority": 13,
+        "priority": 12,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "diff_pair_gap": 0.2032,
-        "diff_pair_width": 0.1102,
+        "diff_pair_gap": 0.12,
+        "diff_pair_width": 0.142,
         "name": "DDR_Diff",
         "pcb_color": "rgb(194, 194, 194)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR_SE",
         "pcb_color": "rgb(194, 194, 194)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.113
       },
@@ -573,37 +567,43 @@
         "diff_pair_width": 0.1,
         "name": "Ethernet",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 12,
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "GND",
         "pcb_color": "rgb(72, 72, 72)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "Headers/TagConnect",
         "pcb_color": "rgb(104, 166, 255)",
-        "priority": 2,
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "MGM",
+        "pcb_color": "rgb(158, 46, 255)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "Power",
         "pcb_color": "rgb(0, 255, 0)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "SD",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "SoC_System",
         "pcb_color": "rgb(0, 72, 0)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -611,7 +611,7 @@
         "diff_pair_width": 0.1262,
         "name": "USBA",
         "pcb_color": "rgb(132, 132, 0)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "via_diameter": 0.457,
         "via_drill": 0.203
@@ -621,7 +621,7 @@
         "diff_pair_width": 0.1262,
         "name": "USBC",
         "pcb_color": "rgb(255, 117, 186)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "via_diameter": 0.457,
         "via_drill": 0.203
@@ -629,13 +629,7 @@
       {
         "name": "eMMC",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 8,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "nRF52840",
-        "pcb_color": "rgb(0, 64, 255)",
-        "priority": 10,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -652,14 +646,6 @@
       {
         "netclass": "Ethernet",
         "pattern": "*ETH_*"
-      },
-      {
-        "netclass": "CC2652",
-        "pattern": "*CC2652_*"
-      },
-      {
-        "netclass": "nRF52840",
-        "pattern": "*nRF_*"
       },
       {
         "netclass": "GND",
@@ -740,6 +726,10 @@
       {
         "netclass": "SoC_System",
         "pattern": "*RESET_REQZ*"
+      },
+      {
+        "netclass": "MGM",
+        "pattern": "*MGM_*"
       }
     ]
   },
@@ -876,40 +866,32 @@
       "Host System [1]"
     ],
     [
-      "4037e4ca-7763-453b-96d1-7d8342daaa99",
-      "Zigbee [2]"
-    ],
-    [
-      "ab846a80-6f2e-4d25-9090-1f6af1d6fbdd",
-      "Thread [3]"
+      "a72e3651-6b85-4045-b319-d8959d969ced",
+      "Zigbee+Thread [2]"
     ],
     [
       "13a7821e-2ee3-4360-911d-96166c961e5a",
-      "Power Circuitry [4]"
+      "Power Circuitry [3]"
     ],
     [
       "0f49ee45-e999-4887-835b-49de9bc4f6ff",
-      "Memory [5]"
+      "Memory [4]"
     ],
     [
       "6c7f2037-3077-4980-ab71-7ff032fdfd6e",
-      "Ethernet [6]"
+      "Ethernet [5]"
     ],
     [
       "e2459660-886d-4599-a9e6-b9bb7931d0e6",
-      "USB and SD [7]"
+      "USB and SD [6]"
     ],
     [
       "5ce8c427-fcc7-46d6-9710-77fc43565e4a",
-      "Miscellaneous [8]"
+      "Miscellaneous [7]"
     ],
     [
       "b43b7bca-e50d-42ec-8ff0-e0016dfefe0a",
       "Root"
-    ],
-    [
-      "a72e3651-6b85-4045-b319-d8959d969ced",
-      "Zigbee+Thread"
     ]
   ],
   "text_variables": {}

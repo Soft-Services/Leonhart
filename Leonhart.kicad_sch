@@ -18,7 +18,7 @@
 		(uuid "796ed5a8-25c2-4232-9248-8277af743af8")
 	)
 	(sheet
-		(at 210.82 63.5)
+		(at 168.91 63.5)
 		(size 29.845 29.845)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33,8 +33,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0f49ee45-e999-4887-835b-49de9bc4f6ff")
-		(property "Sheetname" "Memory [5]"
-			(at 210.82 62.4074 0)
+		(property "Sheetname" "Memory [4]"
+			(at 168.91 62.4074 0)
 			(effects
 				(font
 					(size 2.032 2.032)
@@ -45,51 +45,7 @@
 			)
 		)
 		(property "Sheetfile" "memory.kicad_sch"
-			(at 210.82 93.9296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Leonhart"
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 167.64 63.5)
-		(size 29.845 29.845)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "13a7821e-2ee3-4360-911d-96166c961e5a")
-		(property "Sheetname" "Power Circuitry [4]"
-			(at 167.64 62.4074 0)
-			(effects
-				(font
-					(size 2.032 2.032)
-					(thickness 0.4064)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "powercircuitry.kicad_sch"
-			(at 167.64 93.9296 0)
+			(at 168.91 93.9296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -106,7 +62,7 @@
 		)
 	)
 	(sheet
-		(at 81.28 63.5)
+		(at 125.73 63.5)
 		(size 29.845 29.845)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -120,9 +76,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "4037e4ca-7763-453b-96d1-7d8342daaa99")
-		(property "Sheetname" "Zigbee [2]"
-			(at 81.28 62.4074 0)
+		(uuid "13a7821e-2ee3-4360-911d-96166c961e5a")
+		(property "Sheetname" "Power Circuitry [3]"
+			(at 125.73 62.4074 0)
 			(effects
 				(font
 					(size 2.032 2.032)
@@ -132,8 +88,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "zigbee.kicad_sch"
-			(at 81.28 93.9296 0)
+		(property "Sheetfile" "powercircuitry.kicad_sch"
+			(at 125.73 93.9296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -144,7 +100,7 @@
 		(instances
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a"
-					(page "1")
+					(page "2")
 				)
 			)
 		)
@@ -194,7 +150,7 @@
 		)
 	)
 	(sheet
-		(at 124.46 109.22)
+		(at 81.28 109.22)
 		(size 29.845 29.845)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -209,8 +165,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5ce8c427-fcc7-46d6-9710-77fc43565e4a")
-		(property "Sheetname" "Miscellaneous [8]"
-			(at 124.46 108.1274 0)
+		(property "Sheetname" "Miscellaneous [7]"
+			(at 81.28 108.1274 0)
 			(effects
 				(font
 					(size 2.032 2.032)
@@ -221,7 +177,7 @@
 			)
 		)
 		(property "Sheetfile" "miscellaneous.kicad_sch"
-			(at 124.46 139.6496 0)
+			(at 81.28 139.6496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -232,7 +188,95 @@
 		(instances
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a"
-					(page "7")
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 212.09 63.5)
+		(size 29.845 29.845)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c7f2037-3077-4980-ab71-7ff032fdfd6e")
+		(property "Sheetname" "Ethernet [5]"
+			(at 212.09 62.4074 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+					(thickness 0.4064)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 212.09 93.9296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 62.865)
+		(size 29.845 29.845)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a72e3651-6b85-4045-b319-d8959d969ced")
+		(property "Sheetname" "Zigbee+Thread [2]"
+			(at 81.28 61.7724 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+					(thickness 0.4064)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Multi_Protocol_Radio.kicad_sch"
+			(at 81.28 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a"
+					(page "1")
 				)
 			)
 		)
@@ -252,8 +296,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "6c7f2037-3077-4980-ab71-7ff032fdfd6e")
-		(property "Sheetname" "Ethernet [6]"
+		(uuid "e2459660-886d-4599-a9e6-b9bb7931d0e6")
+		(property "Sheetname" "USB and SD [6]"
 			(at 38.1 108.1274 0)
 			(effects
 				(font
@@ -264,7 +308,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ethernet.kicad_sch"
+		(property "Sheetfile" "usb_and_sd.kicad_sch"
 			(at 38.1 139.6496 0)
 			(effects
 				(font
@@ -277,138 +321,6 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a"
 					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 167.64 109.22)
-		(size 29.845 29.845)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a72e3651-6b85-4045-b319-d8959d969ced")
-		(property "Sheetname" "Zigbee+Thread"
-			(at 167.64 108.1274 0)
-			(effects
-				(font
-					(size 2.032 2.032)
-					(thickness 0.4064)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Multi_Protocol_Radio.kicad_sch"
-			(at 167.64 139.6496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Leonhart"
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 124.46 63.5)
-		(size 29.845 29.845)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ab846a80-6f2e-4d25-9090-1f6af1d6fbdd")
-		(property "Sheetname" "Thread [3]"
-			(at 124.46 62.4074 0)
-			(effects
-				(font
-					(size 2.032 2.032)
-					(thickness 0.4064)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "thread.kicad_sch"
-			(at 124.46 93.9296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Leonhart"
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 81.28 109.22)
-		(size 29.845 29.845)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e2459660-886d-4599-a9e6-b9bb7931d0e6")
-		(property "Sheetname" "USB and SD [7]"
-			(at 81.28 108.1274 0)
-			(effects
-				(font
-					(size 2.032 2.032)
-					(thickness 0.4064)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "usb_and_sd.kicad_sch"
-			(at 81.28 139.6496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Leonhart"
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a"
-					(page "6")
 				)
 			)
 		)
