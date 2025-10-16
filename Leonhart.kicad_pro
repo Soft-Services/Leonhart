@@ -143,7 +143,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.0845,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -208,13 +208,17 @@
       ],
       "track_widths": [
         0.0,
+        0.0,
         0.081,
+        0.0988,
         0.1,
         0.102,
+        0.12,
         0.124,
         0.1288,
         0.152,
         0.1524,
+        0.1565,
         0.1788,
         0.2,
         0.203,
@@ -609,8 +613,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "diff_pair_gap": 0.2032,
-        "diff_pair_width": 0.1262,
+        "diff_pair_gap": 0.12,
+        "diff_pair_width": 0.1252,
         "name": "USBA",
         "pcb_color": "rgb(132, 132, 0)",
         "priority": 6,
@@ -619,8 +623,8 @@
         "via_drill": 0.203
       },
       {
-        "diff_pair_gap": 0.2032,
-        "diff_pair_width": 0.1262,
+        "diff_pair_gap": 0.12,
+        "diff_pair_width": 0.1,
         "name": "USBC",
         "pcb_color": "rgb(255, 117, 186)",
         "priority": 5,
