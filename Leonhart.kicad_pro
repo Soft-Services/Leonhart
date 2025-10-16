@@ -211,6 +211,7 @@
         0.081,
         0.1,
         0.102,
+        0.124,
         0.1288,
         0.152,
         0.1524,
@@ -565,7 +566,7 @@
       },
       {
         "diff_pair_gap": 0.2032,
-        "diff_pair_width": 0.1,
+        "diff_pair_width": 0.124,
         "name": "Ethernet",
         "pcb_color": "rgb(0, 194, 194)",
         "priority": 11,
