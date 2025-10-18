@@ -2291,7 +2291,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 139.7) (xy 200.66 139.7)
+			(xy 181.61 142.24) (xy 200.66 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2561,7 +2561,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 142.24) (xy 200.66 142.24)
+			(xy 181.61 139.7) (xy 200.66 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2748,7 +2748,7 @@
 		(uuid "4393a14d-3b15-427d-9bfc-e7470ea70c86")
 	)
 	(label "MGM_SPI0_CS"
-		(at 181.61 142.24 0)
+		(at 181.61 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2844,7 +2844,7 @@
 		(uuid "d9808336-2866-4258-bd94-c8ff2f057712")
 	)
 	(label "MGM_SPI0_IRQ"
-		(at 181.61 139.7 0)
+		(at 181.61 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2879,7 +2879,7 @@
 		)
 		(uuid "f82c25ac-1613-4d5d-8e14-5f293342a910")
 	)
-	(label "MGM_SPI0_CLK"
+	(label "MGM_SPI0_MOSI"
 		(at 139.7 102.87 180)
 		(effects
 			(font
