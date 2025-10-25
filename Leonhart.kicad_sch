@@ -5,7 +5,7 @@
 	(uuid "b43b7bca-e50d-42ec-8ff0-e0016dfefe0a")
 	(paper "A4")
 	(lib_symbols)
-	(text "Soft Services"
+	(text "Leonhart"
 		(exclude_from_sim no)
 		(at 120.904 34.798 0)
 		(effects

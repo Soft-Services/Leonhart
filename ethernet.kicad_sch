@@ -12069,9 +12069,9 @@
 		)
 		(uuid "d2929263-95be-4f23-9d32-23648b59c86d")
 	)
-	(text "Gigabit Ethernet"
+	(text "Ethernet"
 		(exclude_from_sim no)
-		(at 168.148 46.482 0)
+		(at 113.792 54.102 0)
 		(effects
 			(font
 				(size 17.78 17.78)
