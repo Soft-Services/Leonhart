@@ -30086,6 +30086,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 214.63) (xy 293.37 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09270c0e-f52d-4838-8f1b-e3fe3f9bfa17")
+	)
+	(wire
+		(pts
 			(xy 208.28 232.41) (xy 204.47 232.41)
 		)
 		(stroke
@@ -30943,16 +30953,6 @@
 			(type default)
 		)
 		(uuid "4924f6b7-bba7-4436-a19e-7f01fc089f3c")
-	)
-	(wire
-		(pts
-			(xy 283.21 214.63) (xy 293.37 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49c61bac-cce2-4aee-ba95-2b3ff3722ed6")
 	)
 	(wire
 		(pts
@@ -34364,6 +34364,18 @@
 		)
 		(uuid "dabc2135-bdde-4f2c-9a22-3b22e84b8bfe")
 	)
+	(label "SPI0_IRQ"
+		(at 273.05 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "db32f864-6583-4f97-a312-afb9d1bab8d3")
+	)
 	(label "SoC_CLK_BUF"
 		(at 391.16 128.27 0)
 		(effects
@@ -34692,28 +34704,6 @@
 		(uuid "4ecfbc9f-3744-42b0-bbbb-5339170bf2a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 496.7297 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MDM_SPI0_IRQ"
-		(shape input)
-		(at 283.21 214.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "53ed72dc-22b9-4fbc-99ae-5e7a868c4584")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.6177 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
