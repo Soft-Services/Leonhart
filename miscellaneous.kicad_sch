@@ -871,7 +871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoftServicesFootprintLibrary:1825910-6"
 			(at 270.51 46.99 0)
 			(effects
 				(font
@@ -945,7 +945,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoftServicesFootprintLibrary:1825910-6"
 			(at 331.47 46.99 0)
 			(effects
 				(font
@@ -1085,7 +1085,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoftServicesFootprintLibrary:1825910-6"
 			(at 215.9 46.99 0)
 			(effects
 				(font
@@ -1225,7 +1225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SoftServicesFootprintLibrary:1825910-6"
 			(at 161.29 46.99 0)
 			(effects
 				(font
