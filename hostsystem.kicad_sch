@@ -51610,7 +51610,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a3b50e75-a768-4654-b585-fb7791456205")
 		(property "Reference" "#PWR01016"
 			(at 454.66 228.6 0)
@@ -51621,12 +51620,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD3V3"
-			(at 454.66 219.71 0)
+		(property "Value" "VDD_3V3"
+			(at 450.596 220.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
