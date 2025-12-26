@@ -297,7 +297,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e2459660-886d-4599-a9e6-b9bb7931d0e6")
-		(property "Sheetname" "USB and SD [6]"
+		(property "Sheetname" "USB and MMC [6]"
 			(at 38.1 108.1274 0)
 			(effects
 				(font

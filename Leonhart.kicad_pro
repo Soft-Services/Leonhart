@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -626,7 +626,7 @@
       },
       {
         "diff_pair_gap": 0.12,
-        "diff_pair_width": 0.1,
+        "diff_pair_width": 0.1252,
         "name": "USBA",
         "pcb_color": "rgb(132, 132, 0)",
         "priority": 6,
@@ -901,7 +901,7 @@
     ],
     [
       "e2459660-886d-4599-a9e6-b9bb7931d0e6",
-      "USB and SD [6]"
+      "USB and MMC [6]"
     ],
     [
       "5ce8c427-fcc7-46d6-9710-77fc43565e4a",
