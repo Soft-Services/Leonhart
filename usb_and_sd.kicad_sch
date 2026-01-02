@@ -14460,8 +14460,8 @@
 		(uuid 0d79e3f7-9920-4b29-bc3f-cec61c184b91)
 	)
 	(rectangle
-		(start 731.52 88.9)
-		(end 820.42 271.78)
+		(start 337.82 222.25)
+		(end 426.72 405.13)
 		(stroke
 			(width 0)
 			(type default)
@@ -14572,7 +14572,7 @@
 	)
 	(text "Micro SD + eMMC"
 		(exclude_from_sim no)
-		(at 425.45 54.61 0)
+		(at 384.048 65.278 0)
 		(effects
 			(font
 				(size 20.32 20.32)
@@ -14622,7 +14622,7 @@
 	)
 	(text "eMMC NC Pins"
 		(exclude_from_sim no)
-		(at 734.06 96.012 0)
+		(at 340.36 229.362 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -14635,7 +14635,7 @@
 	)
 	(text "USB A + USB C"
 		(exclude_from_sim no)
-		(at 36.322 55.372 0)
+		(at 33.02 65.786 0)
 		(effects
 			(font
 				(size 20.32 20.32)
@@ -19963,7 +19963,7 @@
 	)
 	(symbol
 		(lib_id "SoftServicesSymbolLibrary:KLMAG2GEUF-B04P")
-		(at 787.4 143.51 0)
+		(at 393.7 276.86 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19972,7 +19972,7 @@
 		(fields_autoplaced yes)
 		(uuid "08b34be4-6340-4a6d-8f92-93f1a347b483")
 		(property "Reference" "U6002"
-			(at 774.7 107.95 0)
+			(at 381 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19980,7 +19980,7 @@
 			)
 		)
 		(property "Value" "KLMAG2GEUF-B04P"
-			(at 774.7 110.49 0)
+			(at 381 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19988,7 +19988,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:LFBGA-153_11.5x13mm_Layout14x14_P0.5mm"
-			(at 787.4 143.51 0)
+			(at 393.7 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19997,7 +19997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 787.4 143.51 0)
+			(at 393.7 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20006,7 +20006,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 787.4 143.51 0)
+			(at 393.7 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)

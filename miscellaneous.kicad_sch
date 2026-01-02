@@ -323,6 +323,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Buttons"
+		(exclude_from_sim no)
+		(at 252.476 27.686 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "c2746200-46a8-453e-b2db-c0cd1d9d2928")
+	)
 	(junction
 		(at 320.04 54.61)
 		(diameter 0)
