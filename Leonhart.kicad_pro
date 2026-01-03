@@ -626,7 +626,7 @@
       },
       {
         "diff_pair_gap": 0.12,
-        "diff_pair_width": 0.1252,
+        "diff_pair_width": 0.1,
         "name": "USBA",
         "pcb_color": "rgb(132, 132, 0)",
         "priority": 6,
