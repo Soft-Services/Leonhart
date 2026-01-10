@@ -67,8 +67,8 @@
 		(uuid "5b56e9d3-8f5e-4a92-8f15-6cecd359d1a3")
 	)
 	(fp_circle
-		(center -3.3 -4)
-		(end -3.2 -3.95)
+		(center -5.15 -2.7)
+		(end -5.05 -2.65)
 		(stroke
 			(width 0.3)
 			(type solid)

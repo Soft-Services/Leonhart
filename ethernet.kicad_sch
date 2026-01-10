@@ -9974,8 +9974,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 25.4 0)
+			(property "Reference" "U5001"
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9983,14 +9983,14 @@
 				)
 			)
 			(property "Value" "HR911130A"
-				(at 0 22.606 0)
+				(at 0 20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "HR911130A:HR911130A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10201,7 +10201,25 @@
 							)
 						)
 					)
-					(number "SH"
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -20.32 90)
+					(length 3.81)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12412,6 +12430,12 @@
 		(uuid "bf6174e0-35bf-40ac-b95b-77f2910d17d5")
 	)
 	(junction
+		(at 513.08 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1e394d8-c3b6-4784-88c0-208ce8ba06f5")
+	)
+	(junction
 		(at 364.49 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14592,6 +14616,16 @@
 			(type default)
 		)
 		(uuid "b7b6e864-27a5-4f2a-aefe-fd886c9b9548")
+	)
+	(wire
+		(pts
+			(xy 513.08 232.41) (xy 515.62 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7db4d90-de93-4855-95b6-5fff5f2477d5")
 	)
 	(wire
 		(pts
@@ -24371,7 +24405,7 @@
 		(pin "7"
 			(uuid "b05ad779-1a04-4ea2-8df5-17b3fb47cfb9")
 		)
-		(pin "SH"
+		(pin "15"
 			(uuid "443a63b0-8036-40c3-90db-65153cb23f4a")
 		)
 		(pin "6"
@@ -24394,6 +24428,9 @@
 		)
 		(pin "14"
 			(uuid "e10621dc-3da5-44da-8412-01b6cf67e91a")
+		)
+		(pin "16"
+			(uuid "b39abb38-6bc9-4379-b91f-033fe45dc203")
 		)
 		(instances
 			(project ""

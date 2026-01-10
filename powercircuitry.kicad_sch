@@ -10807,12 +10807,6 @@
 		(uuid "2b6e95cc-1938-466c-a62e-1254ee1bd386")
 	)
 	(junction
-		(at 581.66 397.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d310cb3-334a-44e9-a81d-47dcf4567318")
-	)
-	(junction
 		(at 480.06 293.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12155,12 +12149,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9a9c238-8e64-420c-b2d8-c192949af4d9")
-	)
-	(junction
-		(at 581.66 410.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db7193b3-8807-4dcb-a7f6-0f7feab59b34")
 	)
 	(junction
 		(at 414.02 190.5)
@@ -14634,16 +14622,6 @@
 	)
 	(wire
 		(pts
-			(xy 594.36 410.21) (xy 594.36 407.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d6dce3a-d1da-4cf2-b81e-6f06ac35147e")
-	)
-	(wire
-		(pts
 			(xy 392.43 219.71) (xy 392.43 223.52)
 		)
 		(stroke
@@ -15031,16 +15009,6 @@
 			(type default)
 		)
 		(uuid "499da85d-894f-4496-b301-9d67dd714bb9")
-	)
-	(wire
-		(pts
-			(xy 581.66 397.51) (xy 594.36 397.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49d76853-d765-471d-a2a5-c9f6256c876d")
 	)
 	(wire
 		(pts
@@ -16081,16 +16049,6 @@
 			(type default)
 		)
 		(uuid "6306b49c-fdaa-470d-81be-e44424c2ff3d")
-	)
-	(wire
-		(pts
-			(xy 594.36 397.51) (xy 594.36 400.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63451587-7c86-4c84-b230-17a0c83ef681")
 	)
 	(wire
 		(pts
@@ -18711,16 +18669,6 @@
 			(type default)
 		)
 		(uuid "ac2dfc7d-127f-4cfc-b567-e78518fe74b9")
-	)
-	(wire
-		(pts
-			(xy 581.66 410.21) (xy 594.36 410.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac356fdd-21e7-432e-96ec-c041e18bd6fc")
 	)
 	(wire
 		(pts
@@ -22026,76 +21974,6 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
 					(reference "#FLG03025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 594.36 403.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "016d5464-a158-4f09-98b6-b635ef3f5cda")
-		(property "Reference" "C3050"
-			(at 598.17 402.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 598.17 405.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 595.3252 407.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 594.36 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 594.36 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a61ab4b8-9cc7-4428-a5f1-6c06d3fffaac")
-		)
-		(pin "1"
-			(uuid "b0aa1d54-566a-44ce-9f7b-37018c188ea1")
-		)
-		(instances
-			(project "Leonhart"
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/13a7821e-2ee3-4360-911d-96166c961e5a"
-					(reference "C3050")
 					(unit 1)
 				)
 			)
