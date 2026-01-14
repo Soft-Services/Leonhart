@@ -12013,18 +12013,6 @@
 		)
 		(uuid b3c3e58c-233f-4fc9-a60c-059a6cae1e7f)
 	)
-	(text "LQM18PN3R3MGHD"
-		(exclude_from_sim no)
-		(at 353.314 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "3f483d54-8511-48dc-8b96-5e6e0d93df4f")
-	)
 	(text "Pull Up/Down Resistors"
 		(exclude_from_sim no)
 		(at 437.388 86.36 0)
@@ -23058,7 +23046,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3u"
+		(property "Value" "2.2u"
 			(at 354.33 154.94 90)
 			(effects
 				(font
@@ -23066,7 +23054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "SoftServicesFootprintLibrary:CVH201610A-2R2M"
 			(at 354.33 157.48 0)
 			(effects
 				(font
