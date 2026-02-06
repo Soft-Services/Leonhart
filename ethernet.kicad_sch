@@ -16756,7 +16756,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#" ""
+		(property "JLCPCB Part#" " C23631"
 			(at 427.99 307.34 0)
 			(effects
 				(font
