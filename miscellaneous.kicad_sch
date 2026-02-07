@@ -755,9 +755,33 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 64.135 20.955)
+		(end 146.05 81.915)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 427bc7e5-3846-40e6-a383-f893fa476189)
+	)
+	(rectangle
+		(start 154.94 20.955)
+		(end 378.46 73.025)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7c6dcf8f-6973-45da-88cd-4100ee8781ac)
+	)
 	(text "Buttons"
 		(exclude_from_sim no)
-		(at 252.476 27.686 0)
+		(at 252.476 28.194 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -767,57 +791,69 @@
 		)
 		(uuid "c2746200-46a8-453e-b2db-c0cd1d9d2928")
 	)
+	(text "Status LEDs"
+		(exclude_from_sim no)
+		(at 102.362 28.702 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "fec787b4-d5af-4ae5-b08f-3daffbfc129a")
+	)
 	(junction
-		(at 320.04 54.61)
+		(at 327.66 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d59f3cb-ed4b-4fe2-bf5e-a589ed430526")
 	)
 	(junction
-		(at 153.67 54.61)
+		(at 161.29 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31ed5a8a-daad-4219-8826-9b25e1ebe847")
 	)
 	(junction
-		(at 227.33 52.07)
+		(at 234.95 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32f87594-d246-4557-8b8a-edb4b69323a6")
 	)
 	(junction
-		(at 260.35 54.61)
+		(at 267.97 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a21920b-5707-4230-95e6-79c20e36f1cd")
 	)
 	(junction
-		(at 281.94 52.07)
+		(at 289.56 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b103768-6fa2-4c05-959a-067d3788a85d")
 	)
 	(junction
-		(at 205.74 54.61)
+		(at 213.36 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86682ceb-669f-42d2-bc35-dc1b7cc29508")
 	)
 	(junction
-		(at 342.9 52.07)
+		(at 350.52 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a750742b-148c-4d11-84d4-79d9552c68a8")
 	)
 	(junction
-		(at 175.26 52.07)
+		(at 182.88 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e123b10d-47f3-4bf1-b9af-aa11e763d082")
 	)
 	(wire
 		(pts
-			(xy 227.33 52.07) (xy 232.41 52.07)
+			(xy 234.95 53.34) (xy 240.03 53.34)
 		)
 		(stroke
 			(width 0)
@@ -837,7 +873,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 52.07) (xy 336.55 52.07)
+			(xy 350.52 53.34) (xy 344.17 53.34)
 		)
 		(stroke
 			(width 0)
@@ -847,7 +883,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 54.61) (xy 153.67 57.15)
+			(xy 161.29 55.88) (xy 161.29 58.42)
 		)
 		(stroke
 			(width 0)
@@ -867,7 +903,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 52.07) (xy 281.94 52.07)
+			(xy 283.21 53.34) (xy 289.56 53.34)
 		)
 		(stroke
 			(width 0)
@@ -877,7 +913,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 52.07) (xy 287.02 52.07)
+			(xy 289.56 53.34) (xy 294.64 53.34)
 		)
 		(stroke
 			(width 0)
@@ -887,7 +923,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 54.61) (xy 227.33 52.07)
+			(xy 234.95 55.88) (xy 234.95 53.34)
 		)
 		(stroke
 			(width 0)
@@ -897,7 +933,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 52.07) (xy 210.82 52.07)
+			(xy 213.36 53.34) (xy 218.44 53.34)
 		)
 		(stroke
 			(width 0)
@@ -907,7 +943,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 57.15) (xy 260.35 54.61)
+			(xy 267.97 58.42) (xy 267.97 55.88)
 		)
 		(stroke
 			(width 0)
@@ -917,7 +953,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 54.61) (xy 342.9 52.07)
+			(xy 350.52 55.88) (xy 350.52 53.34)
 		)
 		(stroke
 			(width 0)
@@ -927,7 +963,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 54.61) (xy 175.26 52.07)
+			(xy 182.88 55.88) (xy 182.88 53.34)
 		)
 		(stroke
 			(width 0)
@@ -947,7 +983,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 52.07) (xy 265.43 52.07)
+			(xy 267.97 53.34) (xy 273.05 53.34)
 		)
 		(stroke
 			(width 0)
@@ -957,7 +993,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 54.61) (xy 175.26 54.61)
+			(xy 176.53 55.88) (xy 182.88 55.88)
 		)
 		(stroke
 			(width 0)
@@ -967,7 +1003,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 54.61) (xy 281.94 54.61)
+			(xy 283.21 55.88) (xy 289.56 55.88)
 		)
 		(stroke
 			(width 0)
@@ -977,7 +1013,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 57.15) (xy 205.74 54.61)
+			(xy 213.36 58.42) (xy 213.36 55.88)
 		)
 		(stroke
 			(width 0)
@@ -987,7 +1023,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 52.07) (xy 153.67 52.07)
+			(xy 166.37 53.34) (xy 161.29 53.34)
 		)
 		(stroke
 			(width 0)
@@ -997,7 +1033,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 54.61) (xy 210.82 54.61)
+			(xy 213.36 55.88) (xy 218.44 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1007,7 +1043,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 54.61) (xy 227.33 54.61)
+			(xy 228.6 55.88) (xy 234.95 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1057,7 +1093,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 54.61) (xy 265.43 54.61)
+			(xy 267.97 55.88) (xy 273.05 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1077,7 +1113,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 52.07) (xy 180.34 52.07)
+			(xy 182.88 53.34) (xy 187.96 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1087,7 +1123,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 52.07) (xy 320.04 54.61)
+			(xy 327.66 53.34) (xy 327.66 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1097,7 +1133,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 54.61) (xy 320.04 57.15)
+			(xy 327.66 55.88) (xy 327.66 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1107,7 +1143,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 54.61) (xy 281.94 52.07)
+			(xy 289.56 55.88) (xy 289.56 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1117,7 +1153,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 54.61) (xy 158.75 54.61)
+			(xy 161.29 55.88) (xy 166.37 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1127,7 +1163,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 54.61) (xy 326.39 54.61)
+			(xy 327.66 55.88) (xy 334.01 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1137,7 +1173,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 52.07) (xy 320.04 52.07)
+			(xy 334.01 53.34) (xy 327.66 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1157,7 +1193,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 54.61) (xy 342.9 54.61)
+			(xy 344.17 55.88) (xy 350.52 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1167,7 +1203,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 52.07) (xy 347.98 52.07)
+			(xy 350.52 53.34) (xy 355.6 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1177,7 +1213,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 52.07) (xy 153.67 54.61)
+			(xy 161.29 53.34) (xy 161.29 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1187,7 +1223,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 52.07) (xy 175.26 52.07)
+			(xy 176.53 53.34) (xy 182.88 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1197,7 +1233,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 54.61) (xy 205.74 52.07)
+			(xy 213.36 55.88) (xy 213.36 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1227,7 +1263,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 52.07) (xy 227.33 52.07)
+			(xy 228.6 53.34) (xy 234.95 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1237,7 +1273,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 54.61) (xy 260.35 52.07)
+			(xy 267.97 55.88) (xy 267.97 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1247,7 +1283,7 @@
 	)
 	(global_label "PWR_BTN"
 		(shape input)
-		(at 180.34 52.07 0)
+		(at 187.96 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1257,7 +1293,7 @@
 		)
 		(uuid "243ce2fe-5dbe-4313-b88b-7f4b9f7bb8ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.8523 52.07 0)
+			(at 199.4723 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1327,7 @@
 	)
 	(global_label "MCU_PORz"
 		(shape input)
-		(at 232.41 52.07 0)
+		(at 240.03 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1301,7 +1337,7 @@
 		)
 		(uuid "7bd5e5ef-da20-4a3c-becb-83f1361fd6ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.3133 52.07 0)
+			(at 252.9333 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1313,7 +1349,7 @@
 	)
 	(global_label "USER_BTN"
 		(shape input)
-		(at 287.02 52.07 0)
+		(at 294.64 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1323,7 +1359,7 @@
 		)
 		(uuid "b4914450-0e44-48f5-91f3-d3a2f278da2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 299.4999 52.07 0)
+			(at 307.1199 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,7 +1393,7 @@
 	)
 	(global_label "MGM_RESETn"
 		(shape input)
-		(at 347.98 52.07 0)
+		(at 355.6 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1367,7 +1403,7 @@
 		)
 		(uuid "f78833e5-d6fc-4f34-ad72-f323840fdb5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 362.9997 52.07 0)
+			(at 370.6197 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1415,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 57.15 0)
+		(at 213.36 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1388,7 +1424,7 @@
 		(fields_autoplaced yes)
 		(uuid "021027ff-0378-4723-ac69-64a5e33cbf68")
 		(property "Reference" "#PWR07002"
-			(at 205.74 63.5 0)
+			(at 213.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1397,7 +1433,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 62.23 0)
+			(at 213.36 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +1441,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 57.15 0)
+			(at 213.36 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,7 +1450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 57.15 0)
+			(at 213.36 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1423,7 +1459,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 57.15 0)
+			(at 213.36 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1445,7 +1481,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_MEC_5E")
-		(at 270.51 54.61 0)
+		(at 278.13 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1454,7 +1490,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c961b76-bd9d-472a-b718-17f0479a373e")
 		(property "Reference" "SW7003"
-			(at 270.51 44.45 0)
+			(at 278.13 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1498,7 @@
 			)
 		)
 		(property "Value" "SW_MEC_5E"
-			(at 270.51 46.99 0)
+			(at 278.13 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1470,7 +1506,7 @@
 			)
 		)
 		(property "Footprint" "SoftServicesFootprintLibrary:1825910-6"
-			(at 270.51 46.99 0)
+			(at 278.13 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1515,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 270.51 46.99 0)
+			(at 278.13 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,7 +1524,7 @@
 			)
 		)
 		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 270.51 54.61 0)
+			(at 278.13 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1497,7 +1533,7 @@
 			)
 		)
 		(property "JLCPCB Part#" "C428628"
-			(at 270.51 54.61 0)
+			(at 278.13 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,7 +1641,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_MEC_5E")
-		(at 331.47 54.61 0)
+		(at 339.09 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1614,7 +1650,7 @@
 		(fields_autoplaced yes)
 		(uuid "24bd23b5-3106-4932-bfe7-f1cc2e2b1d3d")
 		(property "Reference" "SW7004"
-			(at 331.47 44.45 0)
+			(at 339.09 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1622,7 +1658,7 @@
 			)
 		)
 		(property "Value" "SW_MEC_5E"
-			(at 331.47 46.99 0)
+			(at 339.09 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1630,7 +1666,7 @@
 			)
 		)
 		(property "Footprint" "SoftServicesFootprintLibrary:1825910-6"
-			(at 331.47 46.99 0)
+			(at 339.09 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1639,7 +1675,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 331.47 46.99 0)
+			(at 339.09 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,7 +1684,7 @@
 			)
 		)
 		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 331.47 54.61 0)
+			(at 339.09 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,7 +1693,7 @@
 			)
 		)
 		(property "JLCPCB Part#" "C428628"
-			(at 331.47 54.61 0)
+			(at 339.09 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +1806,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Blue"
 			(at 133.35 67.6274 90)
 			(effects
 				(font
@@ -1815,7 +1851,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#" ""
+		(property "JLCPCB Part#" "C165977"
 			(at 129.54 64.77 0)
 			(effects
 				(font
@@ -1840,7 +1876,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 260.35 57.15 0)
+		(at 267.97 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1849,7 +1885,7 @@
 		(fields_autoplaced yes)
 		(uuid "5989e9c4-4708-4249-8d88-3794b507896c")
 		(property "Reference" "#PWR07003"
-			(at 260.35 63.5 0)
+			(at 267.97 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +1894,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 62.23 0)
+			(at 267.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,7 +1902,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 57.15 0)
+			(at 267.97 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,7 +1911,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 57.15 0)
+			(at 267.97 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,7 +1920,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 57.15 0)
+			(at 267.97 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,7 +2025,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Green"
 			(at 106.68 67.6274 90)
 			(effects
 				(font
@@ -2034,7 +2070,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#" ""
+		(property "JLCPCB Part#" "C165979"
 			(at 102.87 64.77 0)
 			(effects
 				(font
@@ -2137,7 +2173,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_MEC_5E")
-		(at 215.9 54.61 0)
+		(at 223.52 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2146,7 +2182,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f9b3b19-c4f8-4b34-9d02-e2cddf38db06")
 		(property "Reference" "SW7002"
-			(at 215.9 44.45 0)
+			(at 223.52 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2190,7 @@
 			)
 		)
 		(property "Value" "SW_MEC_5E"
-			(at 215.9 46.99 0)
+			(at 223.52 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +2198,7 @@
 			)
 		)
 		(property "Footprint" "SoftServicesFootprintLibrary:1825910-6"
-			(at 215.9 46.99 0)
+			(at 223.52 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2207,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 215.9 46.99 0)
+			(at 223.52 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,7 +2216,7 @@
 			)
 		)
 		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 215.9 54.61 0)
+			(at 223.52 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,7 +2225,7 @@
 			)
 		)
 		(property "JLCPCB Part#" "C428628"
-			(at 215.9 54.61 0)
+			(at 223.52 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2321,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 57.15 0)
+		(at 161.29 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2294,7 +2330,7 @@
 		(fields_autoplaced yes)
 		(uuid "998d9083-dc6d-4876-a20d-1d58ce5085b7")
 		(property "Reference" "#PWR07001"
-			(at 153.67 63.5 0)
+			(at 161.29 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,7 +2339,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 62.23 0)
+			(at 161.29 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +2347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 57.15 0)
+			(at 161.29 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,7 +2356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 57.15 0)
+			(at 161.29 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +2365,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 57.15 0)
+			(at 161.29 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2368,7 +2404,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 80.01 67.6274 90)
 			(effects
 				(font
@@ -2413,7 +2449,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#" ""
+		(property "JLCPCB Part#" "C165980"
 			(at 76.2 64.77 0)
 			(effects
 				(font
@@ -2438,7 +2474,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_MEC_5E")
-		(at 163.83 54.61 0)
+		(at 171.45 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2447,7 +2483,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba81a6f8-2834-4b00-b63a-81b5334b2faa")
 		(property "Reference" "SW7001"
-			(at 163.83 44.45 0)
+			(at 171.45 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2455,7 +2491,7 @@
 			)
 		)
 		(property "Value" "SW_MEC_5E"
-			(at 163.83 46.99 0)
+			(at 171.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +2499,7 @@
 			)
 		)
 		(property "Footprint" "SoftServicesFootprintLibrary:1825910-6"
-			(at 163.83 46.99 0)
+			(at 171.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,7 +2508,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 163.83 46.99 0)
+			(at 171.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2481,7 +2517,7 @@
 			)
 		)
 		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 163.83 54.61 0)
+			(at 171.45 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +2526,7 @@
 			)
 		)
 		(property "JLCPCB Part#" "C428628"
-			(at 163.83 54.61 0)
+			(at 171.45 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,7 +2556,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 320.04 57.15 0)
+		(at 327.66 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2529,7 +2565,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd56315a-2c14-4ce2-9f1f-9d77b007fe4a")
 		(property "Reference" "#PWR07004"
-			(at 320.04 63.5 0)
+			(at 327.66 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,7 +2574,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 320.04 62.23 0)
+			(at 327.66 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,7 +2582,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 320.04 57.15 0)
+			(at 327.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,7 +2591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 57.15 0)
+			(at 327.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +2600,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 320.04 57.15 0)
+			(at 327.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
