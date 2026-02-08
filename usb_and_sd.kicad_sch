@@ -14790,18 +14790,6 @@
 		)
 		(uuid "652d17cf-74d1-49a5-adbe-77b97aef1aee")
 	)
-	(text "GPIO0_71"
-		(exclude_from_sim no)
-		(at 405.638 193.802 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "6c05e071-0a9b-4870-a292-9a242cc7dd0f")
-	)
 	(text "RB520S30T1G"
 		(exclude_from_sim no)
 		(at 544.83 367.284 0)
@@ -15546,6 +15534,10 @@
 	(no_connect
 		(at 648.97 191.77)
 		(uuid "0e46ec1a-f737-43a6-b220-8f8c11fbadee")
+	)
+	(no_connect
+		(at 391.16 198.12)
+		(uuid "3f5a0b05-4c39-4132-8b4b-1176a70b2f7f")
 	)
 	(no_connect
 		(at 101.6 182.88)
@@ -16474,16 +16466,6 @@
 			(type default)
 		)
 		(uuid "386399b2-243a-49ad-a16f-29c32b419162")
-	)
-	(wire
-		(pts
-			(xy 391.16 198.12) (xy 400.05 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38a14841-0ceb-4bc1-94ac-53341e4407db")
 	)
 	(wire
 		(pts
@@ -20115,28 +20097,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BOOT_LED"
-		(shape input)
-		(at 400.05 198.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a995e449-29d3-44f8-b6ea-6275ef5e4446")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 412.3485 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)

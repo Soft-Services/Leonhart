@@ -12154,10 +12154,22 @@
 		(uuid "21658cb8-bc3b-451b-8ab8-30dbcf5ab700")
 	)
 	(junction
+		(at 435.61 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "220359cc-4dc5-405f-b101-ba371c70f789")
+	)
+	(junction
 		(at 370.84 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "271c2cb3-59af-4a77-9a17-13cbb318d07a")
+	)
+	(junction
+		(at 458.47 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27e7b280-5fba-4a60-877e-28dbbf929b0d")
 	)
 	(junction
 		(at 410.21 275.59)
@@ -12166,7 +12178,7 @@
 		(uuid "287d2728-f1d1-482d-9e42-5aa148b55bed")
 	)
 	(junction
-		(at 458.47 161.29)
+		(at 458.47 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bef58be-d55d-4090-90b1-099279e7f5b3")
@@ -12202,6 +12214,12 @@
 		(uuid "3c8cbc8c-0945-4e2c-884b-f8238d5dc214")
 	)
 	(junction
+		(at 435.61 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cad8dad-379a-436e-a97c-b181182da5fd")
+	)
+	(junction
 		(at 189.23 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12218,6 +12236,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "574a5b33-9e31-4572-8aa5-eb86682703b0")
+	)
+	(junction
+		(at 468.63 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c59a22e-96a2-4e2e-98ee-97c270476fc3")
 	)
 	(junction
 		(at 368.3 157.48)
@@ -12298,6 +12322,12 @@
 		(uuid "848bf6fd-c988-438f-b67c-49ab8052ea96")
 	)
 	(junction
+		(at 447.04 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "854e90f5-e991-4f2e-a2e1-e019ccec0688")
+	)
+	(junction
 		(at 187.96 339.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12322,7 +12352,7 @@
 		(uuid "9d33c761-5f07-43e6-b0cc-c65af0a257f2")
 	)
 	(junction
-		(at 468.63 161.29)
+		(at 468.63 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dcf2f18-42de-4755-ace3-04101dbac891")
@@ -12332,6 +12362,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ef08872-d449-4105-8b4e-93189326ee5e")
+	)
+	(junction
+		(at 447.04 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fbff0c6-e194-44f6-98cc-f4808029087c")
 	)
 	(junction
 		(at 435.61 241.3)
@@ -12484,6 +12520,18 @@
 		(uuid "db0e275d-3374-4b77-926a-f1a6d0fef2d8")
 	)
 	(junction
+		(at 424.18 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e33103a4-ff0b-4b08-ab77-7ef33ec7e867")
+	)
+	(junction
+		(at 478.79 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8656c2a-5271-48eb-a7b6-6b68fc365f20")
+	)
+	(junction
 		(at 256.54 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12494,6 +12542,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed9cacc1-b7ff-4fe1-a3eb-fbb615799df4")
+	)
+	(junction
+		(at 435.61 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee3db36c-e6a9-4acc-a29f-313078165a23")
 	)
 	(junction
 		(at 359.41 142.24)
@@ -12518,6 +12572,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f780c113-f6c9-4d63-9bff-bfc52563c86c")
+	)
+	(junction
+		(at 447.04 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd5e7a6a-1104-43fc-9fad-0857c3683cdf")
+	)
+	(junction
+		(at 424.18 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe98c9a8-c41f-4402-9dc4-4f07de07caad")
 	)
 	(no_connect
 		(at 111.76 224.79)
@@ -12694,6 +12760,16 @@
 			(type default)
 		)
 		(uuid "0b314e87-d5e7-4a4b-9a70-c9224ea7e711")
+	)
+	(wire
+		(pts
+			(xy 435.61 133.35) (xy 501.65 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b964904-1f34-4c48-b0f9-c2da2811ff1f")
 	)
 	(wire
 		(pts
@@ -12887,6 +12963,16 @@
 	)
 	(wire
 		(pts
+			(xy 468.63 121.92) (xy 468.63 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b7659e6-8702-4470-a1f4-7b6179d9bf45")
+	)
+	(wire
+		(pts
 			(xy 468.63 104.14) (xy 468.63 105.41)
 		)
 		(stroke
@@ -12914,6 +13000,16 @@
 			(type default)
 		)
 		(uuid "1f4d5f2b-f500-41db-a2de-b9cb37e52c3b")
+	)
+	(wire
+		(pts
+			(xy 458.47 149.86) (xy 458.47 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f526c2-dc44-4e4b-ac81-c13ff462d744")
 	)
 	(wire
 		(pts
@@ -12947,13 +13043,13 @@
 	)
 	(wire
 		(pts
-			(xy 458.47 113.03) (xy 458.47 125.73)
+			(xy 478.79 118.11) (xy 478.79 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25503536-2fa3-422c-ab16-40178774a55b")
+		(uuid "24e6958c-adb1-4b35-a57a-1afc69a671a7")
 	)
 	(wire
 		(pts
@@ -12994,16 +13090,6 @@
 			(type default)
 		)
 		(uuid "2784a238-014e-4c59-a13c-8b6d2a1aa4a8")
-	)
-	(wire
-		(pts
-			(xy 478.79 113.03) (xy 478.79 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27e6c7bd-2cc6-4037-ba1e-03c61d41f46c")
 	)
 	(wire
 		(pts
@@ -13067,6 +13153,16 @@
 	)
 	(wire
 		(pts
+			(xy 424.18 105.41) (xy 424.18 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bdc212a-6d45-432c-a9fc-13bf959639a6")
+	)
+	(wire
+		(pts
 			(xy 256.54 157.48) (xy 256.54 161.29)
 		)
 		(stroke
@@ -13087,7 +13183,7 @@
 	)
 	(wire
 		(pts
-			(xy 478.79 161.29) (xy 478.79 160.02)
+			(xy 478.79 151.13) (xy 478.79 149.86)
 		)
 		(stroke
 			(width 0)
@@ -13124,6 +13220,16 @@
 			(type default)
 		)
 		(uuid "2f7a7698-d5f8-4b4e-8064-83ddbf84cc11")
+	)
+	(wire
+		(pts
+			(xy 468.63 113.03) (xy 468.63 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30246b51-62c1-4684-a1ca-666a8c92ef3a")
 	)
 	(wire
 		(pts
@@ -13164,16 +13270,6 @@
 			(type default)
 		)
 		(uuid "328e8843-9597-4ba1-8db2-f10c37e347ce")
-	)
-	(wire
-		(pts
-			(xy 458.47 160.02) (xy 458.47 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "337cf686-971b-403d-acdd-8957aec24020")
 	)
 	(wire
 		(pts
@@ -13277,6 +13373,16 @@
 	)
 	(wire
 		(pts
+			(xy 435.61 104.14) (xy 435.61 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c73916f-960a-4e9c-a5cf-eef4c0dfb81f")
+	)
+	(wire
+		(pts
 			(xy 377.19 106.68) (xy 377.19 109.22)
 		)
 		(stroke
@@ -13294,6 +13400,16 @@
 			(type default)
 		)
 		(uuid "3de43d6c-6cdc-444f-9363-7e42f6c876cd")
+	)
+	(wire
+		(pts
+			(xy 458.47 113.03) (xy 458.47 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e01958e-7a95-4c20-8b0a-9dcac54b31ed")
 	)
 	(wire
 		(pts
@@ -13354,6 +13470,16 @@
 			(type default)
 		)
 		(uuid "438f2f42-406e-40b4-94e4-5e260d49eac9")
+	)
+	(wire
+		(pts
+			(xy 435.61 151.13) (xy 435.61 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "446a8089-2e38-411e-941e-6cc0ac6214b3")
 	)
 	(wire
 		(pts
@@ -13434,6 +13560,26 @@
 			(type default)
 		)
 		(uuid "4afce2ad-2d97-4788-ad20-babbe117be85")
+	)
+	(wire
+		(pts
+			(xy 435.61 113.03) (xy 435.61 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2e7f4c-eaeb-4213-83cf-8731b6012f7f")
+	)
+	(wire
+		(pts
+			(xy 447.04 151.13) (xy 447.04 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5712da-c1a5-4a86-8cbb-5c9df1cf427e")
 	)
 	(wire
 		(pts
@@ -13647,6 +13793,16 @@
 	)
 	(wire
 		(pts
+			(xy 478.79 113.03) (xy 478.79 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d5bcabc-67c0-4808-af65-8808bc615eae")
+	)
+	(wire
+		(pts
 			(xy 313.69 128.27) (xy 346.71 128.27)
 		)
 		(stroke
@@ -13697,6 +13853,16 @@
 	)
 	(wire
 		(pts
+			(xy 424.18 137.16) (xy 501.65 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66368604-9d2c-4f98-877a-bbc988b53434")
+	)
+	(wire
+		(pts
 			(xy 543.56 265.43) (xy 543.56 200.66)
 		)
 		(stroke
@@ -13734,6 +13900,16 @@
 			(type default)
 		)
 		(uuid "6ae01b8c-aa44-4049-8029-fd688b8af304")
+	)
+	(wire
+		(pts
+			(xy 424.18 151.13) (xy 435.61 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b5ecdcd-4baf-4358-bcb9-55b206b22852")
 	)
 	(wire
 		(pts
@@ -13777,7 +13953,7 @@
 	)
 	(wire
 		(pts
-			(xy 468.63 161.29) (xy 478.79 161.29)
+			(xy 468.63 151.13) (xy 478.79 151.13)
 		)
 		(stroke
 			(width 0)
@@ -13804,6 +13980,16 @@
 			(type default)
 		)
 		(uuid "79eabd86-6dee-4d95-b4a5-7d0230199ac0")
+	)
+	(wire
+		(pts
+			(xy 447.04 129.54) (xy 447.04 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d698631-a322-4a0d-9bca-922a1b6e0696")
 	)
 	(wire
 		(pts
@@ -13897,16 +14083,6 @@
 	)
 	(wire
 		(pts
-			(xy 478.79 147.32) (xy 478.79 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8326ccd1-fbdc-4b1f-a242-4051edf891ab")
-	)
-	(wire
-		(pts
 			(xy 223.52 349.25) (xy 223.52 339.09)
 		)
 		(stroke
@@ -13914,16 +14090,6 @@
 			(type default)
 		)
 		(uuid "832aa506-400c-49fd-9514-f762bf563ac5")
-	)
-	(wire
-		(pts
-			(xy 501.65 147.32) (xy 478.79 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83381a8d-cd00-42da-a897-d6ed0fa34a5b")
 	)
 	(wire
 		(pts
@@ -13974,6 +14140,16 @@
 			(type default)
 		)
 		(uuid "86824288-560f-4218-ac23-c1f534556adb")
+	)
+	(wire
+		(pts
+			(xy 447.04 104.14) (xy 447.04 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86cb0f93-7ecd-4c15-a006-00f7efc5be61")
 	)
 	(wire
 		(pts
@@ -14127,6 +14303,16 @@
 	)
 	(wire
 		(pts
+			(xy 435.61 104.14) (xy 447.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a7fc23-6686-4926-bb3d-83bcfe2f092a")
+	)
+	(wire
+		(pts
 			(xy 111.76 190.5) (xy 236.22 190.5)
 		)
 		(stroke
@@ -14134,6 +14320,16 @@
 			(type default)
 		)
 		(uuid "95e14169-91dc-4fdd-ad96-f87daebb4c19")
+	)
+	(wire
+		(pts
+			(xy 458.47 125.73) (xy 458.47 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96394562-73d6-4870-b97b-976cf6273017")
 	)
 	(wire
 		(pts
@@ -14197,7 +14393,7 @@
 	)
 	(wire
 		(pts
-			(xy 468.63 160.02) (xy 468.63 161.29)
+			(xy 468.63 149.86) (xy 468.63 151.13)
 		)
 		(stroke
 			(width 0)
@@ -14217,7 +14413,7 @@
 	)
 	(wire
 		(pts
-			(xy 458.47 161.29) (xy 458.47 162.56)
+			(xy 424.18 151.13) (xy 424.18 152.4)
 		)
 		(stroke
 			(width 0)
@@ -14307,16 +14503,6 @@
 	)
 	(wire
 		(pts
-			(xy 468.63 113.03) (xy 468.63 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4a7234c-74e1-4e89-9901-398df4d53c46")
-	)
-	(wire
-		(pts
 			(xy 251.46 223.52) (xy 271.78 223.52)
 		)
 		(stroke
@@ -14354,6 +14540,16 @@
 			(type default)
 		)
 		(uuid "a6c5e99d-941a-406a-91d7-f0d1b03c9c05")
+	)
+	(wire
+		(pts
+			(xy 424.18 113.03) (xy 424.18 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6fe255b-c48f-4778-a9ff-61d66cc397f1")
 	)
 	(wire
 		(pts
@@ -14407,6 +14603,16 @@
 	)
 	(wire
 		(pts
+			(xy 447.04 129.54) (xy 501.65 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a89a195f-961e-417b-85d8-41b85829e051")
+	)
+	(wire
+		(pts
 			(xy 137.16 334.01) (xy 144.78 334.01)
 		)
 		(stroke
@@ -14414,6 +14620,16 @@
 			(type default)
 		)
 		(uuid "a8c590af-7d91-4fb4-91df-0271fe5975aa")
+	)
+	(wire
+		(pts
+			(xy 435.61 151.13) (xy 447.04 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7ec52c-4c28-4f2a-aa93-3124053fdd41")
 	)
 	(wire
 		(pts
@@ -14667,6 +14883,16 @@
 	)
 	(wire
 		(pts
+			(xy 447.04 151.13) (xy 458.47 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb8bfe5b-3e67-4876-8e36-d299b83b5900")
+	)
+	(wire
+		(pts
 			(xy 168.91 119.38) (xy 298.45 119.38)
 		)
 		(stroke
@@ -14727,13 +14953,13 @@
 	)
 	(wire
 		(pts
-			(xy 458.47 139.7) (xy 458.47 152.4)
+			(xy 424.18 137.16) (xy 424.18 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0f80a29-cf95-4703-87ef-01012155ed2a")
+		(uuid "c0446580-b371-43ab-af80-6e08e38f08a8")
 	)
 	(wire
 		(pts
@@ -14827,6 +15053,16 @@
 	)
 	(wire
 		(pts
+			(xy 424.18 151.13) (xy 424.18 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e71389-9aec-4eb3-bb5b-645ccea6609a")
+	)
+	(wire
+		(pts
 			(xy 247.65 238.76) (xy 247.65 245.11)
 		)
 		(stroke
@@ -14877,16 +15113,6 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 143.51) (xy 468.63 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc915e04-e60c-456a-a3ed-863198054c08")
-	)
-	(wire
-		(pts
 			(xy 406.4 213.36) (xy 406.4 236.22)
 		)
 		(stroke
@@ -14927,6 +15153,16 @@
 	)
 	(wire
 		(pts
+			(xy 447.04 113.03) (xy 447.04 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce924f5b-8ff7-4591-9798-3f2d66e4e157")
+	)
+	(wire
+		(pts
 			(xy 410.21 236.22) (xy 406.4 236.22)
 		)
 		(stroke
@@ -14934,6 +15170,16 @@
 			(type default)
 		)
 		(uuid "cfc29098-4c70-4449-86d0-c5a8c74907d2")
+	)
+	(wire
+		(pts
+			(xy 447.04 104.14) (xy 458.47 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d03aff39-02be-4ef8-ad26-97c2f55aadc0")
 	)
 	(wire
 		(pts
@@ -15077,13 +15323,23 @@
 	)
 	(wire
 		(pts
-			(xy 458.47 161.29) (xy 468.63 161.29)
+			(xy 458.47 151.13) (xy 468.63 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e4cc573c-3fac-464f-b5c6-b4ca7268851b")
+	)
+	(wire
+		(pts
+			(xy 424.18 104.14) (xy 435.61 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e636cfcd-82cf-4018-b135-d8dea855b944")
 	)
 	(wire
 		(pts
@@ -15227,16 +15483,6 @@
 	)
 	(wire
 		(pts
-			(xy 468.63 143.51) (xy 468.63 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee94aa62-ff03-4c07-bdc6-079347f0cabe")
-	)
-	(wire
-		(pts
 			(xy 406.4 213.36) (xy 488.95 213.36)
 		)
 		(stroke
@@ -15357,16 +15603,6 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 139.7) (xy 458.47 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6c8accc-4252-4be9-a5f0-816bb3eb334a")
-	)
-	(wire
-		(pts
 			(xy 448.31 198.12) (xy 488.95 198.12)
 		)
 		(stroke
@@ -15414,6 +15650,16 @@
 			(type default)
 		)
 		(uuid "fa4db06c-b4e1-44e1-b580-eda389a6241a")
+	)
+	(wire
+		(pts
+			(xy 435.61 133.35) (xy 435.61 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7547e8-990e-42bf-8f73-260c5627dd56")
 	)
 	(wire
 		(pts
@@ -15792,7 +16038,7 @@
 		(uuid "86a268e5-e26a-4f41-94cd-e8b988548282")
 	)
 	(label "ETH_RX_CTL"
-		(at 501.65 147.32 180)
+		(at 501.65 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15840,7 +16086,7 @@
 		(uuid "94bca495-ea80-49e5-9283-233d0ebf301c")
 	)
 	(label "ETH_RD2"
-		(at 501.65 139.7 180)
+		(at 501.65 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15900,7 +16146,7 @@
 		(uuid "a5201f93-9151-4aa1-af04-6ae1f6bc2332")
 	)
 	(label "ETH_RXC"
-		(at 501.65 143.51 180)
+		(at 501.65 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16857,7 +17103,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 458.47 162.56 0)
+		(at 424.18 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16866,7 +17112,7 @@
 		(fields_autoplaced yes)
 		(uuid "1247e121-f9c3-4a4a-965d-29235fdad4ca")
 		(property "Reference" "#PWR05019"
-			(at 458.47 168.91 0)
+			(at 424.18 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16875,7 +17121,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 458.47 167.64 0)
+			(at 424.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16883,7 +17129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 458.47 162.56 0)
+			(at 424.18 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16892,7 +17138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 458.47 162.56 0)
+			(at 424.18 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16901,7 +17147,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 458.47 162.56 0)
+			(at 424.18 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18991,6 +19237,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 458.47 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49b468bd-bc7c-4d66-bfc8-ae733d8c8945")
+		(property "Reference" "R5035"
+			(at 461.01 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 461.01 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 456.692 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 458.47 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 458.47 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0811a7e7-761d-4eda-839f-db1ac5e57b51")
+		)
+		(pin "2"
+			(uuid "854c88b6-8218-48a3-89ab-6869fe024c59")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/6c7f2037-3077-4980-ab71-7ff032fdfd6e"
+					(reference "R5035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 397.51 102.87 0)
 		(mirror y)
@@ -19499,7 +19815,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 468.63 156.21 0)
+		(at 435.61 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19508,7 +19824,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dd6e374-bc67-4d37-8ad2-dc1cf1c741fa")
 		(property "Reference" "R5006"
-			(at 471.17 154.9399 0)
+			(at 438.15 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19516,8 +19832,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 471.17 157.4799 0)
+		(property "Value" "4.7k"
+			(at 438.15 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19526,7 +19842,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 466.852 156.21 90)
+			(at 433.832 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19535,7 +19851,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 468.63 156.21 0)
+			(at 435.61 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19544,7 +19860,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 468.63 156.21 0)
+			(at 435.61 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19552,12 +19868,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#" "C106235"
-			(at 468.63 156.21 0)
+		(property "JLCPCB Part#" ""
+			(at 438.15 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -19737,7 +20054,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 458.47 156.21 0)
+		(at 447.04 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19746,7 +20063,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c134adc-77d5-48be-b215-c192c467edd6")
 		(property "Reference" "R5005"
-			(at 461.01 154.9399 0)
+			(at 449.58 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19754,8 +20071,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 461.01 157.4799 0)
+		(property "Value" "4.7k"
+			(at 449.58 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19764,7 +20081,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 456.692 156.21 90)
+			(at 445.262 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19773,7 +20090,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 458.47 156.21 0)
+			(at 447.04 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19782,7 +20099,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 458.47 156.21 0)
+			(at 447.04 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19790,12 +20107,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#" "C106235"
-			(at 458.47 156.21 0)
+		(property "JLCPCB Part#" ""
+			(at 449.58 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -21745,6 +22063,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 435.61 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "82578f60-fda6-4d90-b485-87d3a2137504")
+		(property "Reference" "R5033"
+			(at 438.15 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 438.15 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 433.832 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 435.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 435.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73b0872f-2897-4364-9fde-329e96b8a89a")
+		)
+		(pin "2"
+			(uuid "ca8a96a9-81b2-4d46-bd87-423f27cc4403")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/6c7f2037-3077-4980-ab71-7ff032fdfd6e"
+					(reference "R5033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 410.21 110.49 0)
 		(mirror y)
@@ -22080,6 +22468,76 @@
 			(project ""
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/6c7f2037-3077-4980-ab71-7ff032fdfd6e"
 					(reference "#PWR05002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 447.04 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "95e73d41-653e-4e87-bc1b-905d87ee2d52")
+		(property "Reference" "R5032"
+			(at 449.58 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 449.58 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 445.262 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 447.04 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 447.04 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42f325c8-2591-41f9-bbaf-3f59d23d3966")
+		)
+		(pin "2"
+			(uuid "97227051-f89e-48fc-af7f-0f740816a201")
+		)
+		(instances
+			(project ""
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/6c7f2037-3077-4980-ab71-7ff032fdfd6e"
+					(reference "R5032")
 					(unit 1)
 				)
 			)
@@ -23617,6 +24075,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 468.63 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1bc56d7-47cc-4dba-9bf6-65e60ee0a5bf")
+		(property "Reference" "R5036"
+			(at 471.17 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 471.17 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 466.852 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 468.63 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 468.63 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24a2a58b-0e82-490c-948c-b21e15c1eaa7")
+		)
+		(pin "2"
+			(uuid "cdc25c1e-d160-4fb6-ae3b-cc60b6631653")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/6c7f2037-3077-4980-ab71-7ff032fdfd6e"
+					(reference "R5036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 368.3 166.37 0)
 		(unit 1)
@@ -23774,12 +24302,82 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 478.79 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c81adb0c-93e8-46c5-9e27-7e2f66b8b89e")
+		(property "Reference" "R5037"
+			(at 481.33 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 481.33 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 477.012 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 478.79 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 478.79 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de5ddfed-8e2f-4e87-82bf-022734eef999")
+		)
+		(pin "2"
+			(uuid "3f888b88-a144-4392-b08b-c96a3f4977cb")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/6c7f2037-3077-4980-ab71-7ff032fdfd6e"
+					(reference "R5037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 468.63 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c90b68b1-0e86-4df3-ab8f-b4586ce97aac")
 		(property "Reference" "R5002"
@@ -23791,7 +24389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "R"
 			(at 471.17 110.4899 0)
 			(effects
 				(font
@@ -23827,7 +24425,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#" "C105871"
+		(property "JLCPCB Part#" ""
 			(at 468.63 109.22 0)
 			(effects
 				(font
@@ -24010,7 +24608,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ce2fb273-5c39-44fa-89bd-40065e739e8e")
 		(property "Reference" "R5001"
@@ -24022,7 +24620,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "R"
 			(at 461.01 110.4899 0)
 			(effects
 				(font
@@ -24058,7 +24656,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#" "C105871"
+		(property "JLCPCB Part#" ""
 			(at 458.47 109.22 0)
 			(effects
 				(font
@@ -25203,7 +25801,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 478.79 156.21 0)
+		(at 424.18 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25212,7 +25810,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4900a9e-3ad7-4212-adcd-ca1c0ebdf8ff")
 		(property "Reference" "R5007"
-			(at 481.33 154.9399 0)
+			(at 426.72 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25220,8 +25818,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 481.33 157.4799 0)
+		(property "Value" "4.7k"
+			(at 426.72 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25230,7 +25828,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 477.012 156.21 90)
+			(at 422.402 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25239,7 +25837,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 478.79 156.21 0)
+			(at 424.18 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25248,7 +25846,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 478.79 156.21 0)
+			(at 424.18 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25256,12 +25854,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#" "C106235"
-			(at 478.79 156.21 0)
+		(property "JLCPCB Part#" ""
+			(at 426.72 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -25484,6 +26083,76 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/6c7f2037-3077-4980-ab71-7ff032fdfd6e"
 					(reference "#PWR05011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 424.18 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "ffc4e986-3e66-4098-9dc4-f37e207777a3")
+		(property "Reference" "R5034"
+			(at 426.72 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 426.72 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 422.402 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 424.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 424.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2d6677c-678a-4822-9a65-f03520e3fbde")
+		)
+		(pin "2"
+			(uuid "f0a7bfd7-95ea-4bf9-8a43-17423d826d0a")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/6c7f2037-3077-4980-ab71-7ff032fdfd6e"
+					(reference "R5034")
 					(unit 1)
 				)
 			)

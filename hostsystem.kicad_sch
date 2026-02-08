@@ -29633,12 +29633,12 @@
 		(uuid "4d83ce30-e905-49a0-855f-1c0a39c35423")
 	)
 	(no_connect
-		(at 547.37 292.1)
-		(uuid "4e8586a9-e67a-4dac-ad64-396501e3f69a")
+		(at 293.37 231.14)
+		(uuid "4ddb8959-e459-4bab-a1bc-f91416e8d44c")
 	)
 	(no_connect
-		(at 293.37 231.14)
-		(uuid "5346f6fc-f262-4814-90f0-9778cda2547b")
+		(at 547.37 292.1)
+		(uuid "4e8586a9-e67a-4dac-ad64-396501e3f69a")
 	)
 	(no_connect
 		(at 547.37 330.2)
@@ -29827,10 +29827,6 @@
 	(no_connect
 		(at 365.76 217.17)
 		(uuid "bd03ea3a-cc28-4021-b4ca-77b85379b094")
-	)
-	(no_connect
-		(at 325.12 330.2)
-		(uuid "c21d1d81-db19-428c-92a6-6ceef5cceb88")
 	)
 	(no_connect
 		(at 546.1 415.29)
@@ -30799,6 +30795,16 @@
 			(type default)
 		)
 		(uuid "419d16f3-7776-4dda-b7bf-78f8a1a987ff")
+	)
+	(wire
+		(pts
+			(xy 307.34 330.2) (xy 325.12 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41dfd9e3-57f3-409e-b606-93e487a3dbd5")
 	)
 	(wire
 		(pts
@@ -34577,6 +34583,28 @@
 		(uuid "0e43e1ec-db7a-4b8a-aeb6-3f8d84f4575a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 440.9101 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BOOT_LED"
+		(shape input)
+		(at 307.34 330.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b40cca9-3e6a-4b29-9c73-8438283663b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.0415 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
