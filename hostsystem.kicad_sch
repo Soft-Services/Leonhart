@@ -29107,6 +29107,12 @@
 		(uuid "0f9e2556-6d1e-4efd-8303-58bad768fa62")
 	)
 	(junction
+		(at 104.14 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "125f1d7f-af7c-4d3f-9e0c-2940117d6e64")
+	)
+	(junction
 		(at 584.2 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -29453,6 +29459,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7d68c05-a3b5-48e8-9b29-e2ea087c1a20")
+	)
+	(junction
+		(at 90.17 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1fd0727-edc7-497a-9bdd-07bd4fd14821")
 	)
 	(junction
 		(at 469.9 436.88)
@@ -30605,6 +30617,16 @@
 			(type default)
 		)
 		(uuid "2f13883c-2e92-4066-b6a6-b64c7256f248")
+	)
+	(wire
+		(pts
+			(xy 86.36 146.05) (xy 90.17 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2b64d3-74c0-4451-855f-7e001ca72f7d")
 	)
 	(wire
 		(pts
@@ -32625,6 +32647,16 @@
 			(type default)
 		)
 		(uuid "ba57709d-63f0-49a1-9bc3-42f9bd751f3f")
+	)
+	(wire
+		(pts
+			(xy 101.6 160.02) (xy 104.14 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb068821-1ce6-496c-988f-0fcbb2ec6ced")
 	)
 	(wire
 		(pts
@@ -48192,6 +48224,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 86.36 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d3f19a1-4f07-446a-8245-44486b4ff2a6")
+		(property "Reference" "TP1003"
+			(at 83.058 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 83.058 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 86.36 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 86.36 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" ""
+			(at 86.36 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "586b0be6-e98c-42de-bf8f-6161ddef35d4")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5bbf73b3-d883-47e7-ac01-c5b0358ac807"
+					(reference "TP1003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 533.4 180.34 0)
 		(unit 1)
@@ -55313,6 +55418,78 @@
 			(project ""
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5bbf73b3-d883-47e7-ac01-c5b0358ac807"
 					(reference "C1006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0f4b14d-5a9e-4b93-8dd0-61ef2206e2b5")
+		(property "Reference" "TP1004"
+			(at 92.202 158.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 92.202 161.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 101.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" ""
+			(at 101.6 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "807643f1-2957-4cc4-9e78-8ade59f47fa9")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5bbf73b3-d883-47e7-ac01-c5b0358ac807"
+					(reference "TP1004")
 					(unit 1)
 				)
 			)
