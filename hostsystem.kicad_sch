@@ -29881,10 +29881,6 @@
 		(uuid "dda1621d-da66-4cb3-8ed3-bb576d2f437c")
 	)
 	(no_connect
-		(at 325.12 332.74)
-		(uuid "dfc7dec3-01f7-4067-97fc-507fbed08e29")
-	)
-	(no_connect
 		(at 133.35 243.84)
 		(uuid "e0e4fb75-6ba6-4227-91ad-81463bf3735c")
 	)
@@ -31860,6 +31856,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 332.74) (xy 325.12 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83708cef-89c5-4bf4-b6df-5bf505c84ae6")
+	)
+	(wire
+		(pts
 			(xy 553.72 165.1) (xy 553.72 176.53)
 		)
 		(stroke
@@ -32890,6 +32896,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 332.74) (xy 299.72 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd28a51-96b0-49e5-b62b-0cff42d0da7b")
+	)
+	(wire
+		(pts
 			(xy 308.61 356.87) (xy 325.12 356.87)
 		)
 		(stroke
@@ -33701,6 +33717,18 @@
 			(justify left bottom)
 		)
 		(uuid "26d28429-7dbb-43a7-ac25-c1fa878e9b58")
+	)
+	(label "MGM_RESETn_SoC"
+		(at 308.61 332.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "27326053-79bf-4084-8a98-6014960f88b5")
 	)
 	(label "BOOTMODE2"
 		(at 408.94 293.37 0)
@@ -34704,6 +34732,28 @@
 		(uuid "3123df25-6191-478d-8124-de4a04227477")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.9383 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MGM_RESETn"
+		(shape input)
+		(at 297.18 332.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39c3d62d-512f-455e-b584-16e1fe24ed98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.1603 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42101,6 +42151,81 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5bbf73b3-d883-47e7-ac01-c5b0358ac807"
 					(reference "#PWR01006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 303.53 332.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ffe6f59-c1b5-4988-92a5-34a631c03848")
+		(property "Reference" "R1048"
+			(at 303.53 335.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 303.53 338.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 303.53 334.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 303.53 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 303.53 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C114877"
+			(at 303.53 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "56937f01-d433-4165-86fb-6b45d5c024bd")
+		)
+		(pin "1"
+			(uuid "639c730c-6830-4586-8409-9c4f544d193d")
+		)
+		(instances
+			(project ""
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/5bbf73b3-d883-47e7-ac01-c5b0358ac807"
+					(reference "R1048")
 					(unit 1)
 				)
 			)
