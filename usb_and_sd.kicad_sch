@@ -20301,7 +20301,7 @@
 				)
 			)
 		)
-		(property "Value" "KLMAG2GEUF-B04P"
+		(property "Value" "SDINBDG4-16G"
 			(at 381 243.84 0)
 			(effects
 				(font
@@ -20336,7 +20336,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#" "C2920514"
+		(property "JLCPCB Part#" "C2830396"
 			(at 393.7 276.86 0)
 			(effects
 				(font
@@ -27929,7 +27929,7 @@
 				)
 			)
 		)
-		(property "Value" "KLMAG2GEUF-B04P"
+		(property "Value" "SDINBDG4-16G"
 			(at 655.574 170.18 0)
 			(effects
 				(font
@@ -27964,7 +27964,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#" "C2920514"
+		(property "JLCPCB Part#" "C2830396"
 			(at 618.49 173.99 0)
 			(effects
 				(font
