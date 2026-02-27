@@ -1,0 +1,216 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MEM2052-00-195-00-A"
+   (description "9 (8 + 1) Position Card Connector Secure Digital - microSD Surface Mount, Right Angle Gold")
+   (family "CON")
+   (package "MEM20520019500A")
+   (attribute "Datasheet Link" "https://gct.co/files/drawings/MEM2052.pdf")
+   (attribute "Geometry.Height" "2.2mm")
+   (attribute "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)")
+   (attribute "Manufacturer_Part_Number" "MEM2052-00-195-00-A")
+   (attribute "Mouser Part Number" "640-MEM20520019500A")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/MEM2052-00-195-00-A?qs=Jm2GQyTW%2Fbh7Ze6LKWKWwA%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "MEM2052-00-195-00-A")
+    (pin "DAT2" 1 PS)
+    (pin "CD/DAT3" 2 PS)
+    (pin "CMD" 3 PS)
+    (pin "VDD" 4 PS)
+    (pin "CLK" 5 PS)
+    (pin "VSS" 6 PS)
+    (pin "DAT0" 7 PS)
+    (pin "DAT1" 8 PS)
+    (pin "CD_PIN" 9 PS)
+    (pin "GND_1" G1 PS)
+    (pin "GND_2" G2 PS)
+    (pin "GND_3" G3 PS)
+    (pin "GND_4" G4 PS)
+   )
+  )
+  (symbol "MEM2052-00-195-00-A"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1200 100) (pt 1200 -700) (pt 200 -700) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "MEM20520019500A"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.275 9.115)
+      (pt 8.275 9.115)
+      (pt 8.275 -8.875)
+      (pt -8.275 -8.875)
+      (pt -8.275 9.115))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -7.015 7.625)
+      (pt 6.985 7.625)
+      (pt 6.985 -7.615)
+      (pt 3.325 -7.615)
+      (pt 3.325 -6.625)
+      (pt -7.015 -6.625)
+      (pt -7.015 7.595))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.985 7.625)
+      (pt 6.985 7.625)
+      (pt 6.985 -4.995))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -5.015 -6.625)
+      (pt 3.325 -6.625)
+      (pt 3.325 -7.615)
+      (pt 4.985 -7.615))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -6.015 7.625)
+      (pt -7.015 7.625)
+      (pt -7.015 -3.995))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.615 7.625)
+      (pt -0.415 7.625))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 1.905 -7.695)
+      (arc (pt 1.905 -7.695) (pt 1.855 -7.795) (pt 1.955 -7.695) (start 180.0) (sweep 90.0))
+      (pt 1.905 -7.795)
+      (arc (pt 1.905 -7.795) (pt 1.855 -7.795) (pt 1.955 -7.695) (start 180.0) (sweep -90.0))
+      (pt 1.905 -7.695))))
+   (leg 1 (pt 1.905 -3.635) (padstack 0))
+   (leg 2 (pt 0.805 -3.235) (padstack 0))
+   (leg 3 (pt -0.295 -3.635) (padstack 0))
+   (leg 4 (pt -1.395 -3.835) (padstack 0))
+   (leg 5 (pt -2.495 -3.635) (padstack 0))
+   (leg 6 (pt -3.595 -3.835) (padstack 0))
+   (leg 7 (pt -4.695 -3.635) (padstack 0))
+   (leg 8 (pt -5.795 -3.635) (padstack 0))
+   (leg 9 (pt -3.585 7.595) (padstack 9))
+   (leg G1 (pt 6.575 -6.925) (padstack 10))
+   (leg G2 (pt -6.575 -5.925) (padstack 11))
+   (leg G3 (pt -5.035 7.225) (padstack 12))
+   (leg G4 (pt 0.715 7.225) (padstack 13))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.800 1.500 0 0 90.000))
+   )
+   (padstack 9
+    (plated false)
+    (pad (layer TCOP) (rectf 1.000 1.040 0 0 90.000))
+   )
+   (padstack 10
+    (plated false)
+    (pad (layer TCOP) (rectf 1.400 1.900 0 0 90.000))
+   )
+   (padstack 11
+    (plated false)
+    (pad (layer TCOP) (rectf 1.400 1.900 0 0 90.000))
+   )
+   (padstack 12
+    (plated false)
+    (pad (layer TCOP) (rectf 1.200 1.400 0 0 90.000))
+   )
+   (padstack 13
+    (plated false)
+    (pad (layer TCOP) (rectf 1.300 1.400 0 0 90.000))
+   )
+   (model "MEM2052-00-195-00-A.stp"
+    (euler 90 0 0)
+    (offset 0.029999999329447746 -7.610000133514404 0)
+   )
+  )
+ )
+)

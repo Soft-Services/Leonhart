@@ -1,0 +1,19 @@
+.MEM2052-00-195-00-A :1 ;9 (8 + 1) Position Card Connector Secure Digital - microSD Surface Mount, Right Angle Gold
+MEM20520019500A
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=G1 11=G2 12=G3 13=G4
+*PLB 1="DAT2" 2="CD/DAT3" 3="CMD" 4="VDD" 5="CLK" 6="VSS" 7="DAT0" 8="DAT1" 9="CD PIN" 10="GND_1" 11="GND_2" 12="GND_3" 13="GND_4"
+*MXP 13
+*DFN MEM2052-00-195-00-A
+~!Manufacturer_Name (GCT (GLOBAL CONNECTOR TECHNOLOGY))
+~!Manufacturer_Part_Number (MEM2052-00-195-00-A)
+~!Mouser Part Number (640-MEM20520019500A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/GCT/MEM2052-00-195-00-A?qs=Jm2GQyTW%2Fbh7Ze6LKWKWwA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://gct.co/files/drawings/MEM2052.pdf)
+~!Height (2.2mm)
+~!3D_Model (MEM2052-00-195-00-A)
+MEM2052-00-195-00-A
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 
