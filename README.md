@@ -15,7 +15,7 @@ The goal of this design was to build a fully functional Linux system that utiliz
 - 16 GB eMMC storage (HS200)
 - MicroSD interface
 - Ethernet (RGMII PHY)
-- 32kB EEPROM
+- 32kbit EEPROM
 - USB-A host port
 - USB-C power input
 - SoC JTAG/MGM240P SWD TagConnect debug interfaces
