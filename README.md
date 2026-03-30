@@ -47,3 +47,17 @@ This allowed for successful validation of:
 - SoC boot
 - DDR initialization
 - eMMC communication
+
+## Hardware Photos
+<p align="centre">
+  <img src="images/3d_top.jpg" width="400"/>
+</p>
+<p align="centre">
+  <img src="images/3d_bottom.jpg" width="400"/>
+</p>
+<p align="centre">
+  <img src="images/top.jpg" width="400"/>
+</p>
+<p align="centre">
+  <img src="images/bottom.jpg" width="400"/>
+</p>
