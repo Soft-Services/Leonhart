@@ -78,12 +78,7 @@
           "width": 0.161
         }
       ],
-      "drc_exclusions": [
-        [
-          "unconnected_items|140072500|103796500|f177eb23-ae7c-4726-a74c-bf7dc75d173a|f177eb23-ae7c-4726-a74c-bf7dc75d173a",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -762,7 +757,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Manufacturing/Gerbers/",
-      "pos_files": "Manufacturing/Assembly/",
+      "pos_files": "Manufacturing/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -821,7 +816,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,

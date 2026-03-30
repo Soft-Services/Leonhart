@@ -30671,7 +30671,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f562825a-70bf-47d2-85b9-07b062102065")
 		(property "Reference" "R6027"
