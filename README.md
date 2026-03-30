@@ -50,10 +50,10 @@ This allowed for successful validation of:
 
 ## Hardware Photos
 <p align="centre">
-  <img src="images/3d_top.jpg" length="100"/>
-  <img src="images/3d_bottom.jpg" length="100"/>
+  <img src="images/3d_top.jpg" width="42%"/>
+  <img src="images/3d_bottom.jpg" width="42%"/>
 </p>
 <p align="centre">
-  <img src="images/bottom.jpg" length="100"/>
-  <img src="images/top.jpg" length="100"/>
+  <img src="images/bottom.jpg" width="42%"/>
+  <img src="images/top.jpg" width="42%"/>
 </p>
