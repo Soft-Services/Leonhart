@@ -29,6 +29,7 @@ The goal of this design was to build a fully functional Linux system that utiliz
 - eMMC detected and operating at HS200
 - 25 MHz CMOS oscillator and dual channel buffer
 - EEPROM communication
+- USB-A controller
 
 ### In Progress / Issues
 - 5V -> 3.3V buck converter footprint issue. Separate 3.3V injection used to power board
@@ -47,6 +48,8 @@ This allowed for successful validation of:
 - SoC boot
 - DDR initialization
 - eMMC communication
+
+Linux boot strategy: USB-A -> DDR -> eMMC -> DDR -> boot
 
 ## Hardware Photos
 <p align="centre">
