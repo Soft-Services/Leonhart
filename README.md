@@ -30,14 +30,17 @@ The goal of this design was to build a fully functional Linux system that utiliz
 - 25 MHz CMOS oscillator and dual channel buffer
 - EEPROM communication
 - USB-A controller
+- Linux boot
 
 ### In Progress / Issues
 - 5V -> 3.3V buck converter footprint issue. Separate 3.3V injection used to power board
 - USB-C sending incorrect voltage
 - Ethernet PHY not yet operational (most likely configuration issue)
+- Linux boot on power up may have to wait until Rev B because of bodged power up sequencing
 
 ## Bring-Up Notes
 
+Progress Update #1 
 During initial bring-up, a bench PSU was used and a large current draw was observed, which was then found out to be an issue with the 5V -> 3.3V buck converter footprint.
 
 A temporary workaround involved:
