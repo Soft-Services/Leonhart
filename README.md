@@ -51,6 +51,10 @@ This allowed for successful validation of:
 
 Linux boot strategy: USB-A -> DDR -> eMMC -> DDR -> boot
 
+Progress Update #2
+- Linux booted with Arago distribution
+- Rootfs and U-Boot files copied to eMMC
+
 ## Hardware Photos
 <p align="centre">
   <img src="images/3d_top.jpg" width="42%"/>
