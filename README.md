@@ -57,6 +57,11 @@ Linux boot strategy: USB-A -> DDR -> eMMC -> DDR -> boot
 Progress Update #2
 - Successfully booted Linux (Arago distribution)
 - Rootfs and U-Boot files copied to eMMC
+- Successfully able to boot from eMMC
+
+<p align="centre">
+  <img src="images/RevALinuxProgress1.png" width="42%"/>
+</p>
 
 ## Hardware Photos
 <p align="centre">
