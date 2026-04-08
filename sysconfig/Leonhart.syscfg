@@ -17,12 +17,16 @@ const powerDomains = scripting.addModule("/ti/corePinmux/powerDomains");
 powerDomains.VDDSHV0                = "3.3 V";
 powerDomains.VDDSHV1                = "3.3 V";
 powerDomains["VDDS_DDR-VDDS_DDR_C"] = "1.2 V";
+powerDomains.VDDSHV_CANUART         = "3.3 V";
 
 /**
  * These are the peripherals and settings in this configuration
  */
 const DDRSS1                       = scripting.addPeripheral("DDRSS");
 DDRSS1.$name                       = "MyDDRSS1";
+DDRSS1.BG1.$used                   = false;
+DDRSS1.CKE1.$used                  = false;
+DDRSS1.ODT1.$used                  = false;
 const GPIO1                        = scripting.addPeripheral("GPIO");
 GPIO1["0"].$used                   = false;
 GPIO1["1"].$used                   = false;
@@ -35,7 +39,8 @@ GPIO1["6"].$assign                 = "OSPI0_D3";
 GPIO1["6"].$used                   = true;
 GPIO1["7"].$assign                 = "OSPI0_D4";
 GPIO1["7"].$used                   = true;
-GPIO1["8"].$used                   = false;
+GPIO1["8"].$assign                 = "OSPI0_D5";
+GPIO1["8"].$used                   = true;
 GPIO1["9"].$used                   = false;
 GPIO1["10"].$used                  = false;
 GPIO1["11"].$used                  = false;
@@ -440,12 +445,10 @@ DDRSS1.ALERT_n.$suggestSolution     = "DDR0_ALERT_n";
 DDRSS1.BA0.$suggestSolution         = "DDR0_BA0";
 DDRSS1.BA1.$suggestSolution         = "DDR0_BA1";
 DDRSS1.BG0.$suggestSolution         = "DDR0_BG0";
-DDRSS1.BG1.$suggestSolution         = "DDR0_BG1";
 DDRSS1.CAS_n.$suggestSolution       = "DDR0_CAS_n";
 DDRSS1.CK0.$suggestSolution         = "DDR0_CK0";
 DDRSS1.CK0_n.$suggestSolution       = "DDR0_CK0_n";
 DDRSS1.CKE0.$suggestSolution        = "DDR0_CKE0";
-DDRSS1.CKE1.$suggestSolution        = "DDR0_CKE1";
 DDRSS1.CS0_n.$suggestSolution       = "DDR0_CS0_n";
 DDRSS1.CS1_n.$suggestSolution       = "DDR0_CS1_n";
 DDRSS1.DM0.$suggestSolution         = "DDR0_DM0";
@@ -471,7 +474,6 @@ DDRSS1.DQS0_n.$suggestSolution      = "DDR0_DQS0_n";
 DDRSS1.DQS1.$suggestSolution        = "DDR0_DQS1";
 DDRSS1.DQS1_n.$suggestSolution      = "DDR0_DQS1_n";
 DDRSS1.ODT0.$suggestSolution        = "DDR0_ODT0";
-DDRSS1.ODT1.$suggestSolution        = "DDR0_ODT1";
 DDRSS1.PAR.$suggestSolution         = "DDR0_PAR";
 DDRSS1.RAS_n.$suggestSolution       = "DDR0_RAS_n";
 DDRSS1.RESET0_n.$suggestSolution    = "DDR0_RESET0_n";

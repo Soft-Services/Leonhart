@@ -37,10 +37,12 @@ The goal of this design was to build a fully functional Linux system that utiliz
 - USB-C sending incorrect voltage
 - Ethernet PHY not yet operational (most likely configuration issue)
 - Linux boot on power up may have to wait until Rev B because of bodged power up sequencing
+- On board MGM240P UART and SWD pinout is incorrect
 
 ## Bring-Up Notes
 
 Progress Update #1 
+
 During initial bring-up, a bench PSU was used and a large current draw was observed, which was then found out to be an issue with the 5V -> 3.3V buck converter footprint.
 
 A temporary workaround involved:
@@ -58,6 +60,15 @@ Progress Update #2
 - Successfully booted Linux (Arago distribution)
 - Rootfs and U-Boot files copied to eMMC
 - Successfully able to boot from eMMC
+
+Progress Update #3
+- Modified prebuilt ti-am625-sk.dts file with only UART pinmux (UART5) for my custom board, and build .dtb file from that, then copied it to eMMC
+- Tested UART5 communication with Sparkfun Things Matter MGM240P and saw output on SOC UART terminal
+
+Next steps:
+- Get full communication with off-board MGM240P
+- Boot Silicon Labs network stack
+- Run Zigbee NCP and Thread RCP
 
 <p align="centre">
   <img src="images/RevALinuxProgress1.png" width="42%"/>
