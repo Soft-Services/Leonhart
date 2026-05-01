@@ -3233,7 +3233,7 @@
 		)
 		(uuid "1b43221c-80d1-44bc-ad0f-b32a82cadc91")
 	)
-	(label "MGM_UART_TXD"
+	(label "MGM_UART_RXD"
 		(at 220.98 80.01 180)
 		(effects
 			(font
@@ -3330,7 +3330,7 @@
 		(uuid "3e930887-b231-4ef6-aa07-a9166bb5d222")
 	)
 	(label "MGM_SPI0_MISO"
-		(at 166.37 148.59 0)
+		(at 166.37 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3474,7 +3474,7 @@
 		(uuid "eaf91c33-9bef-4ee5-ae70-ffaa85c7c8a4")
 	)
 	(label "MGM_SPI0_MOSI"
-		(at 166.37 146.05 0)
+		(at 166.37 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3581,7 +3581,7 @@
 	)
 	(global_label "SPI0_MISO"
 		(shape input)
-		(at 204.47 148.59 0)
+		(at 204.47 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3591,7 +3591,7 @@
 		)
 		(uuid "7e2620de-213b-44c3-a7d3-2003ed7264a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.3128 148.59 0)
+			(at 217.3128 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +3625,7 @@
 	)
 	(global_label "SPI0_MOSI"
 		(shape input)
-		(at 204.47 146.05 0)
+		(at 204.47 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3635,7 +3635,7 @@
 		)
 		(uuid "97dafdbe-63f2-4674-ad9c-f3bdbf9943b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.3128 146.05 0)
+			(at 217.3128 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)

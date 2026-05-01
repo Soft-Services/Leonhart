@@ -43477,7 +43477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical"
+		(property "Footprint" "Connector:Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical"
 			(at 185.42 431.8 0)
 			(effects
 				(font
