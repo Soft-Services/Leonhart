@@ -13453,16 +13453,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 130.81) (xy 210.82 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "438f2f42-406e-40b4-94e4-5e260d49eac9")
-	)
-	(wire
-		(pts
 			(xy 435.61 151.13) (xy 435.61 149.86)
 		)
 		(stroke
@@ -14463,16 +14453,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 130.81) (xy 226.06 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a37caa57-78f7-45ec-9fc4-702edfa69e05")
-	)
-	(wire
-		(pts
 			(xy 464.82 251.46) (xy 464.82 252.73)
 		)
 		(stroke
@@ -15300,16 +15280,6 @@
 			(type default)
 		)
 		(uuid "e4298ff2-c759-45bd-8514-24034cb59d4d")
-	)
-	(wire
-		(pts
-			(xy 203.2 129.54) (xy 203.2 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e45d1f38-a0f6-4e47-b521-e038ebb6237e")
 	)
 	(wire
 		(pts
@@ -21883,72 +21853,6 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 203.2 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f7051f8-b258-404c-a905-54fd05ccb73c")
-		(property "Reference" "#PWR05010"
-			(at 203.2 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD_1V8"
-			(at 203.2 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 203.2 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e58fd11b-c9c8-4829-85b0-69b0a539df25")
-		)
-		(instances
-			(project ""
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/6c7f2037-3077-4980-ab71-7ff032fdfd6e"
-					(reference "#PWR05010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
 		(at 396.24 93.98 0)
 		(mirror y)
 		(unit 1)
@@ -24476,73 +24380,6 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/6c7f2037-3077-4980-ab71-7ff032fdfd6e"
 					(reference "#PWR05009")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 214.63 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "d9fca0b6-5d7c-44ef-8c28-e22f55969162")
-		(property "Reference" "R5038"
-			(at 214.63 128.016 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 214.376 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 214.63 132.588 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 214.63 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b30d94e5-68c1-4477-b702-895d108c2b92")
-		)
-		(pin "1"
-			(uuid "5c4edbdf-a591-49c1-a47e-92b872d5fe39")
-		)
-		(instances
-			(project ""
-				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/6c7f2037-3077-4980-ab71-7ff032fdfd6e"
-					(reference "R5038")
 					(unit 1)
 				)
 			)
