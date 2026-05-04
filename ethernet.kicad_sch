@@ -5,6 +5,113 @@
 	(uuid "72bcebf7-11bf-49ce-887b-d151772c4219")
 	(paper "A1")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -12274,6 +12381,12 @@
 		(uuid "60c6d729-53f0-4b95-8b79-bb7fa7771b4e")
 	)
 	(junction
+		(at 278.13 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "623734e6-e02c-456f-af66-340a53cc3d3e")
+	)
+	(junction
 		(at 351.79 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12308,6 +12421,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75e23390-517d-461f-9bcf-e07ff14d488a")
+	)
+	(junction
+		(at 278.13 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7905269f-2c89-4c98-921d-5991d0061821")
 	)
 	(junction
 		(at 204.47 323.85)
@@ -13603,6 +13722,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 157.48) (xy 269.24 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c66bedf-1e5e-46a2-97ee-1c58ec7efc5a")
+	)
+	(wire
+		(pts
 			(xy 548.64 275.59) (xy 548.64 208.28)
 		)
 		(stroke
@@ -14353,6 +14482,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 130.81) (xy 295.91 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9774496a-beb1-4dfe-bba2-1b4b0139db5d")
+	)
+	(wire
+		(pts
 			(xy 468.63 104.14) (xy 478.79 104.14)
 		)
 		(stroke
@@ -14563,6 +14702,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 157.48) (xy 381 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86e65fb-c529-45f6-a26e-0b8ea9b8fafd")
+	)
+	(wire
+		(pts
 			(xy 447.04 129.54) (xy 501.65 129.54)
 		)
 		(stroke
@@ -14603,7 +14752,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 157.48) (xy 269.24 157.48)
+			(xy 293.37 157.48) (xy 278.13 157.48)
 		)
 		(stroke
 			(width 0)
@@ -14983,7 +15132,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 130.81) (xy 295.91 130.81)
+			(xy 251.46 130.81) (xy 278.13 130.81)
 		)
 		(stroke
 			(width 0)
@@ -18039,7 +18188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD3V3_ETH"
+		(property "Value" "DVDD3V3_ETH"
 			(at 267.97 314.96 0)
 			(effects
 				(font
@@ -19308,6 +19457,73 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/6c7f2037-3077-4980-ab71-7ff032fdfd6e"
 					(reference "C5008")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 278.13 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58761cd0-cce8-4633-a2d8-9b1cfac2da81")
+		(property "Reference" "TP5002"
+			(at 280.67 152.9079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 280.67 155.4479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 283.21 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 283.21 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 278.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1dae3d0-3679-472e-9722-c6c32f0f20e7")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/6c7f2037-3077-4980-ab71-7ff032fdfd6e"
+					(reference "TP5002")
 					(unit 1)
 				)
 			)
@@ -23166,7 +23382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SoftServicesFootprintLibrary:CVH201610A-2R2M"
+		(property "Footprint" "DFE252012P-2R2M=P2:DFE2HCAH1R0MJ0L"
 			(at 354.33 157.48 0)
 			(effects
 				(font
@@ -23580,10 +23796,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c30df966-bb4f-4414-8368-280258fe6e5f")
 		(property "Reference" "C5018"
-			(at 372.11 165.0999 0)
+			(at 372.11 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23592,7 +23807,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 372.11 167.6399 0)
+			(at 372.11 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23600,7 +23815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 369.2652 170.18 0)
 			(effects
 				(font
@@ -23627,12 +23842,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#" " C106859"
-			(at 368.3 166.37 0)
+		(property "JLCPCB Part#" "C1779"
+			(at 364.998 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -24320,6 +24536,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 382.27 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d70d6915-df89-47da-85b4-cb93c28a8b40")
+		(property "Reference" "TP5001"
+			(at 387.35 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 387.35 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 382.27 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 382.27 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 382.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d1fd525-3198-49b2-9ab2-99c3304835a0")
+		)
+		(instances
+			(project ""
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/6c7f2037-3077-4980-ab71-7ff032fdfd6e"
+					(reference "TP5001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 383.54 127 0)
 		(unit 1)
@@ -24599,6 +24882,73 @@
 			(project "Leonhart"
 				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/6c7f2037-3077-4980-ab71-7ff032fdfd6e"
 					(reference "#PWR05032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 278.13 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e47cb563-1895-425b-8a66-86d381c49781")
+		(property "Reference" "TP5003"
+			(at 280.67 126.2379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 280.67 128.7779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 283.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 283.21 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 278.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0f8cf98-baf9-43d8-b7d2-97e478d62da3")
+		)
+		(instances
+			(project "Leonhart"
+				(path "/b43b7bca-e50d-42ec-8ff0-e0016dfefe0a/6c7f2037-3077-4980-ab71-7ff032fdfd6e"
+					(reference "TP5003")
 					(unit 1)
 				)
 			)
