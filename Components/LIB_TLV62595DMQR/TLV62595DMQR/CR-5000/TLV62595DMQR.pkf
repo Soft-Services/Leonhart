@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "TLV62595DMQR"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "TLV62595DMQR")
+        (spec "default")
+    )
+)

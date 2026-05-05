@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TLV62595DMQR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TLV62595DMQR" (!) = "", "TLV62595DMQR", "Other", "595-TLV62595DMQR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV62595DMQR?qs=IS%252B4QmGtzzrUF%252B1uc1ZRLQ%3D%3D", "TLV62595DMQR", "https://www.arrow.com/en/products/tlv62595dmqr/texas-instruments?region=nac", "Conv DC-DC 2.5V to 5.5V Synchronous Step Down Single-Out 0.6V to 4V 4A 6-Pin VSON-HR T/R", "https://www.ti.com/lit/ds/symlink/tlv62595.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1622796971373&ref_url=https%253A%252F%252Fwww.digikey.in%252F", "1 mm"
+END_PART
+
+END.

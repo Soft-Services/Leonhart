@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TLV62595DMQR
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=6
+Version=1.4
+Released=2021-06-04 09:21:03
+Downloaded=2026-05-05 18:03:27
+3D=Y

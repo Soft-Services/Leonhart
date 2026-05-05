@@ -1,0 +1,18 @@
+.TLV62595DMQR :1 ;Conv DC-DC 2.5V to 5.5V Synchronous Step Down Single-Out 0.6V to 4V 4A 6-Pin VSON-HR T/R
+TLV62595DMQR
+*STM IC
+*NGS
+*PLB 1="EN" 2="PG" 3="FB" 4="GND" 5="SW" 6="VIN"
+*MXP 6
+*DFN TLV62595DMQR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TLV62595DMQR)
+~!Mouser Part Number (595-TLV62595DMQR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV62595DMQR?qs=IS%252B4QmGtzzrUF%252B1uc1ZRLQ%3D%3D)
+~!Arrow Part Number (TLV62595DMQR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tlv62595dmqr/texas-instruments?region=nac)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/tlv62595.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1622796971373&ref_url=https%253A%252F%252Fwww.digikey.in%252F)
+~!Height (1mm)
+~!3D_Model (TLV62595DMQR)
+TLV62595DMQR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

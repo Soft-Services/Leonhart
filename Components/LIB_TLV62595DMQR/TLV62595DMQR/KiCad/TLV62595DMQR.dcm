@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV62595DMQR
+D Conv DC-DC 2.5V to 5.5V Synchronous Step Down Single-Out 0.6V to 4V 4A 6-Pin VSON-HR T/R
+K
+F https://www.ti.com/lit/ds/symlink/tlv62595.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1622796971373&ref_url=https%253A%252F%252Fwww.digikey.in%252F
+$ENDCMP
+#
+#End Doc Library

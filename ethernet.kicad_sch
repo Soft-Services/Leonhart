@@ -23695,6 +23695,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part#" " C106254"
+			(at 168.91 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ea900bb8-c2f6-40c0-9d72-6526a102f13e")
 		)
@@ -24063,6 +24071,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" " C106254"
+			(at 383.54 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -25396,7 +25412,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#" ""
+		(property "JLCPCB Part#" "C106231"
 			(at 247.65 248.92 0)
 			(effects
 				(font
