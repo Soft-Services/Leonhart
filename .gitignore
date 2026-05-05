@@ -29,6 +29,8 @@ fp-info-cache
 *.dsn
 *.ses
 
+*.DS_Store
+
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
 
