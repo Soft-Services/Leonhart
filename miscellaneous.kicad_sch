@@ -1381,7 +1381,7 @@
 			)
 		)
 	)
-	(global_label "MGM_PA08"
+	(global_label "MGM_PB01"
 		(shape input)
 		(at 64.77 73.66 180)
 		(fields_autoplaced yes)
@@ -1393,7 +1393,7 @@
 		)
 		(uuid "ca2df131-6eaf-41bc-ade4-b4cf34a1a943")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.8668 73.66 0)
+			(at 51.6854 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
