@@ -106145,8 +106145,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "MGM SWD"
-		(at 122.55 76.66 0)
+	(gr_text "MGM-DBG"
+		(at 122.29 76.66 0)
 		(layer "F.SilkS")
 		(uuid "49da9c78-7cd8-4105-8557-c7d12a8dcf46")
 		(effects
@@ -106429,6 +106429,18 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "AM62-JTAG"
+		(at 131.16 133.74 0)
+		(layer "F.SilkS")
+		(uuid "e09f294d-fd77-4d3d-a0e3-7d3d28f34bd6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
 			)
 			(justify left bottom)
 		)
