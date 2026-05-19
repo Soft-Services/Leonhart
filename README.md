@@ -7,6 +7,9 @@ The goal of this design was to build a fully functional Linux system that utiliz
 <p align="centre">
   <img src="images/3d_top.jpg" width="600"/>
 </p>
+<p align="centre">
+  <img src="images/revb3d_top.jpg" width="600"/>
+</p>
 
 ## Key Features
 - TI AM6231 SoC
