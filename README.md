@@ -4,9 +4,12 @@ Leonhart is a custom embedded Linux board based on the Texas Instruments AM6231 
 
 The goal of this design was to build a fully functional Linux system that utilizes the on board Silicon Labs MGM240P module to host Zigbee and Thread networks simultaneously for smart homes.
 
+## Rev A
 <p align="centre">
   <img src="images/3d_top.jpg" width="600"/>
 </p>
+
+## Rev B
 <p align="centre">
   <img src="images/revb3d_top.jpg" width="600"/>
 </p>
