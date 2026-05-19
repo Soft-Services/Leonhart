@@ -19,7 +19,6 @@ The goal of this design was to build a fully functional Linux system that utiliz
 - 2 GB DDR4
 - SiLabs MGM240P RF module
 - 16 GB eMMC storage (HS200)
-- MicroSD interface
 - Ethernet (RGMII PHY)
 - 32kbit EEPROM
 - USB-A host port
