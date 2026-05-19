@@ -39,6 +39,13 @@ The goal of this design was to build a fully functional Linux system that utiliz
 - Linux boot on power up may have to wait until Rev B because of bodged power up sequencing
 - On board MGM240P UART and SWD pinout is incorrect
 
+## Rev B Progress
+### Fixed from Rev A
+- MGM240P pinout now correct and can be flashed to via Silicon Labs J-Link debugger
+- Buck converter footprint now correct and no power bodging required
+- Ethernet and SSH works
+- Linux boot on power up now works
+
 ## Bring-Up Notes
 
 Progress Update #1 

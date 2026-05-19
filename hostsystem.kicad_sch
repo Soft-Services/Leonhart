@@ -28483,18 +28483,6 @@
 		(uuid 97db031e-002d-4314-b727-08293f6d7ddc)
 	)
 	(rectangle
-		(start 433.705 203.835)
-		(end 518.795 255.27)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a6e3c0bd-b2cb-4bba-be2a-e09731ccedc2)
-	)
-	(rectangle
 		(start 54.61 283.21)
 		(end 207.01 365.76)
 		(stroke
@@ -28735,18 +28723,6 @@
 			)
 		)
 		(uuid "b05b09dc-5f93-45db-bcd4-3255454e6188")
-	)
-	(text "UART+SPI Header Options"
-		(exclude_from_sim no)
-		(at 473.964 209.55 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 1.016)
-				(bold yes)
-			)
-		)
-		(uuid "bbc02860-5198-475c-bb38-958b1a37554e")
 	)
 	(text "XRCGB25M000F3M00R0"
 		(exclude_from_sim no)
