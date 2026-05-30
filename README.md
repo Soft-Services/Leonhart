@@ -81,10 +81,15 @@ Progress Update #4
 - Had issue with USB C power showing incorrect voltage for 5V rail (2.2V), so I used the bench power supply for dummy power. I have found that the bodged 3.3V injection setup causes the 2.2V at the USB C VBUS pins, which prevents USB C from sending power. Without the bodged setup (correct 5V->3.3V buck converter footprint) in the next revision, USB C power should work as intended
 - Created new Rev B branch and started revisions
 
+Progress Update #5 (Rev B)
+- Confirmed gigabit Ethernet works and SSH works
+- Linux able to boot from power up
+- Confirmed onboard MGM240P communication and flashing works
+- Confirmed UART hardware flow with MGM240P works
+- Need to fix NCP and RCP firmware communication with CPC daemon
+
 Next steps:
-- Get full communication with off-board MGM240P
-- Boot Silicon Labs network stack
-- Run Zigbee NCP and Thread RCP
+- Flash Multiprotocol RCP/NCP (Thread and Zigbee) stack to MGM240P and have successful communication with host CPCD
 
 <p align="centre">
   <img src="images/RevALinuxProgress1.png" width="42%"/>
