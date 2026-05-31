@@ -88,8 +88,12 @@ Progress Update #5 (Rev B)
 - Confirmed UART hardware flow with MGM240P works
 - Need to fix NCP and RCP firmware communication with CPC daemon
 
+Progress Update #6 (Rev B)
+- Successfully flashed Multiprotocol RCP/NCP (Thread and Zigbee) stack to MGM240P and had successful communication with host CPCD
+
 Next steps:
-- Flash Multiprotocol RCP/NCP (Thread and Zigbee) stack to MGM240P and have successful communication with host CPCD
+- Create Zigbee and Thread networks with simple IoT devices
+- Maybe try to start Matter integration
 
 <p align="centre">
   <img src="images/RevALinuxProgress1.png" width="42%"/>
