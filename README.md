@@ -90,6 +90,7 @@ Progress Update #5 (Rev B)
 
 Progress Update #6 (Rev B)
 - Successfully flashed Multiprotocol RCP/NCP (Thread and Zigbee) stack to MGM240P and had successful communication with host CPCD
+- Successfully proved full Thread network chain (RCP(MGM) <-> (CPCD <-> OTBR)(AM6231)). Needed to rebuild TI Arago Linux image with multicast routing enabled
 
 Next steps:
 - Create Zigbee and Thread networks with simple IoT devices
