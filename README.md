@@ -115,8 +115,13 @@ Current working demo path is:
 The ESP32 commissions onto the Thread network through Leonhart, then registers its Matter operational service through SRP, then can be controlled from chip-tool over the LAN
 
 
+The following screenshots shows a script that displays the status' of the Zigbee and Thread networks and services:
+
 <p align="centre">
-  <img src="images/RevALinuxProgress1.png" width="42%"/>
+  <img src="images/mp-status1.png" width="42%"/>
+</p>
+<p align="centre">
+  <img src="images/mp-status2.png" width="42%"/>
 </p>
 
 ## Hardware Photos
