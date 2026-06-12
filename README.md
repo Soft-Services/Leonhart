@@ -118,10 +118,10 @@ The ESP32 commissions onto the Thread network through Leonhart, then registers i
 The following screenshots shows a script that displays the status' of the Zigbee and Thread networks and services:
 
 <p align="centre">
-  <img src="images/mp-statusA.png" width="42%"/>
+  <img src="images/mp-statusA.png" width="70%"/>
 </p>
 <p align="centre">
-  <img src="images/mp-statusB.png" width="42%"/>
+  <img src="images/mp-statusB.png" width="70%"/>
 </p>
 
 ## Hardware Photos
