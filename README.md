@@ -115,10 +115,6 @@ Current working demo path is:
 The ESP32 commissions onto the Thread network through Leonhart, then registers its Matter operational service through SRP, then can be controlled from chip-tool over the LAN
 
 
-Next steps:
-- Create Zigbee and Thread networks with simple IoT devices
-- Maybe try to start Matter integration
-
 <p align="centre">
   <img src="images/RevALinuxProgress1.png" width="42%"/>
 </p>
