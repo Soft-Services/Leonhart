@@ -121,7 +121,7 @@ The following screenshots shows a script that displays the status' of the Zigbee
   <img src="images/mp-status1.png" width="42%"/>
 </p>
 <p align="centre">
-  <img src="images/mp-status2.png" width="42%"/>
+  <img src="images/mp-status1.png" width="42%"/>
 </p>
 
 ## Hardware Photos
