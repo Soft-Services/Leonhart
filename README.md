@@ -61,13 +61,14 @@ Leonhart currently demonstrates Matter-over-Thread control and early Zigbee-to-M
   <img src="images/hardwareblockdiagram.drawio.png" width="100%"/>
 </p>
 
+## Hardware Revisions
 
-## Rev A
+### Rev A
 <p align="centre">
   <img src="images/3d_top.jpg" width="600"/>
 </p>
 
-## Rev B
+### Rev B
 <p align="centre">
   <img src="images/revb3d_top.jpg" width="600"/>
 </p>
