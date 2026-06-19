@@ -53,6 +53,14 @@ Leonhart currently demonstrates Matter-over-Thread control and early Zigbee-to-M
 - SoC JTAG/MGM240P SWD TagConnect debug interfaces
 - SPI and UART header pins for extra peripherals
 
+### Hardware Block Diagram
+
+<br>
+
+<p align="center">
+  <img src="images/hardwareblockdiagram.drawio.png" width="65%"/>
+</p>
+
 
 ## Rev A
 <p align="centre">
