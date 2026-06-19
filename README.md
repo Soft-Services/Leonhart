@@ -137,22 +137,6 @@ Progress Update #7 (Rev B)
 - Made all Zigbee (zigbeed, zigbee-pty-bridge, Z3Gateway), Thread (OTBR, otbr-agent) and CPCD run on reboot, and successfully confirmed services correctly restart and devices reconnect
 - Successfully proved Matter-over-Thread control with ESP32C6 running a Matter light example
 
-Current working demo path is:
-
-	Ubuntu PC running chip-tool
-        	    |
-        	    |  (Ethernet)
-        	    V
-		 Leonhart
-		    |- Linux
-		    |- cpcd
-		    |- otbr-agent/OTBR
-       		    |- MGM240P multiprotocol radio
-		    		  |
-		    		  |  (Thread)
-		    		  V
-			 ESP32-C6 Matter Light
-
 The ESP32 commissions onto the Thread network through Leonhart, then registers its Matter operational service through SRP, then can be controlled from chip-tool over the LAN
 
 Next steps
