@@ -29,10 +29,12 @@ Rev B is currently functional. Working features include:
 - Matter-over-Thread device control using chip-tool
 - Zigbee device control through Matter chip-tool commands using a simple FIFO-based Matter bridge
 
-The current working demo
+### Current Demo
+
+Leonhart currently demonstrates Matter-over-Thread control and early Zigbee-to-Matter bridge functionality through the onboard MGM240P radio.
 
 <p align="center">
-  <img src="images/leonhartdemodrawing.drawio.png" width="75%"/>
+  <img src="images/leonhartdemodrawing.drawio.png" width="65%"/>
 </p>
 
 
