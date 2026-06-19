@@ -68,36 +68,29 @@ Leonhart currently demonstrates Matter-over-Thread control and early Zigbee-to-M
   <img src="images/3d_top.jpg" width="600"/>
 </p>
 
+Rev A was the initial bring-up revision. It successfully validated the core AM6231 Linux system, including PMIC rail sequencing, U-Boot over UART, DDR4 initialization, eMMC HS200 operation, EEPROM communication, USB-A, clocks, and Linux boot.
+
+Main issues found in Rev A:
+- Incorrect 5 V to 3.3 V buck converter footprint, requiring external 3.3 V injection
+- USB-C power issue caused by the bodged power setup
+- Ethernet PHY not operational
+- Linux boot on power-up affected by bodged power sequencing
+- Incorrect MGM240P UART and SWD pinout
+
 ### Rev B
 <p align="centre">
   <img src="images/revb3d_top.jpg" width="600"/>
 </p>
 
+Rev B fixed the major hardware issues from Rev A and is the current functional revision.
 
-## Rev A Progress
-### Working
-- PMIC rails come up correctly
-- U-Boot boot via UART
-- DDR initialization and simple read/write commands
-- eMMC detected and operating at HS200
-- 25 MHz CMOS oscillator and dual channel buffer
-- EEPROM communication
-- USB-A controller
-- Linux boot
-
-### In Progress / Issues
-- 5V -> 3.3V buck converter footprint issue. Separate 3.3V injection used to power board
-- USB-C sending incorrect voltage
-- Ethernet PHY not yet operational (most likely configuration issue)
-- Linux boot on power up may have to wait until Rev B because of bodged power up sequencing
-- On board MGM240P UART and SWD pinout is incorrect
-
-## Rev B Progress
-### Fixed from Rev A
+Main fixes and validated features in Rev B:
 - MGM240P pinout now correct and can be flashed to via Silicon Labs J-Link debugger
-- Buck converter footprint now correct and no power bodging required
-- Ethernet and SSH works
-- Linux boot on power up now works
+- Ethernet and SSH are now operational
+- Correct 5V -> 3.3V buck converter footprint
+- USB-C power works without bodged power supply
+- Linux boots from power up
+- UART communication with hardware flow control works between the AM6231 and MGM240P
 
 ## Bring-Up Notes
 
