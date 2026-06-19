@@ -32,7 +32,7 @@ Rev B is currently functional. Working features include:
 The current working demo
 
 <p align="center">
-  <img src="images/leonhartdemo.drawio.png" width="75%"/>
+  <img src="images/leonhartdemodrawing.drawio.png" width="75%"/>
 </p>
 
 
