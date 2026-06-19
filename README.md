@@ -2,7 +2,39 @@
 ## Overview
 Leonhart is a custom embedded Linux board based on the Texas Instruments AM6231 SoC.
 
-The goal of this design was to build a fully functional Linux system that utilizes the on board Silicon Labs MGM240P module to host Zigbee and Thread networks simultaneously for smart homes. Specifically to make not just Matter-over-Thread devices capable with Matter controllers such as Google Home, Amazon Alexa, and Apple HomePod, in hopes of preventing legacy Zigbee devices from becoming obsolete.
+The board is a smart-home gateway capable of running Linux and hosting Thread and Zigbee networks simultaneously using the Silicon Labs MGM240P radio module. The goal is to provide support for Matter-over-Thread devices while also bridging Zigbee devices into modern Matter-based ecosystems such as Google Home, Amazon Alexa, and Apple Home.
+
+## Project Goals
+
+The main goals of Leonhart are:
+- Build a fully functional custom embedded Linux system
+- Run Zigbee+Thread RCP firmware on MGM240P
+- Thread Border Router functionality
+- Zigbee network stack to communicate with radio
+- Support multi protocol through Silicon Labs CPC
+- Create a compact, local and open Linux-based alternative to separate Zigbee hubs and Thread border routers
+
+## Current Status
+
+Rev B is currently functional. Working features include:
+- Linux boot from eMMC
+- Ethernet and SSH
+- USB-C powered boot
+- Multiprotocol firmware flashed to MGM240P
+- UART communication between Linux host and MGM240P with hardware flow control
+- Silicon Labs CPC daemon communication
+- OpenThread Border Router operation
+- Thread and Zigbee network formation
+- Automatic startup of Zigbee, OTBR and CPC services
+- Matter-over-Thread device control using chip-tool
+- Zigbee device control through Matter chip-tool commands using a simple FIFO-based Matter bridge
+
+The current working demo
+
+<p align="center">
+  <img src="images/LeonhartDemo.drawio.png" width="75%"/>
+</p>
+
 
 ## Rev A
 <p align="centre">
