@@ -31,7 +31,8 @@ Rev B is currently functional. Working features include:
 
 ### Current Demo
 
-Leonhart currently demonstrates Matter-over-Thread control and early Zigbee-to-Matter bridge functionality through the onboard MGM240P radio.
+Leonhart currently demonstrates Matter-over-Thread control and early Zigbee-to-Matter bridge functionality using the onboard MGM240P radio.
+
 
 <p align="center">
   <img src="images/leonhartdemodrawing.drawio.png" width="65%"/>
