@@ -39,6 +39,20 @@ Leonhart currently demonstrates Matter-over-Thread control and early Zigbee-to-M
   <img src="images/leonhartdemodrawing.drawio.png" width="65%"/>
 </p>
 
+## Hardware Architecture
+
+### Key Features
+- TI AM6231 SoC
+- 2 GB DDR4
+- SiLabs MGM240P RF module
+- 16 GB eMMC storage (HS200)
+- Ethernet (RGMII PHY)
+- 32kbit EEPROM
+- USB-A host port
+- USB-C power input
+- SoC JTAG/MGM240P SWD TagConnect debug interfaces
+- SPI and UART header pins for extra peripherals
+
 
 ## Rev A
 <p align="centre">
@@ -50,17 +64,6 @@ Leonhart currently demonstrates Matter-over-Thread control and early Zigbee-to-M
   <img src="images/revb3d_top.jpg" width="600"/>
 </p>
 
-## Key Features
-- TI AM6231 SoC
-- 2 GB DDR4
-- SiLabs MGM240P RF module
-- 16 GB eMMC storage (HS200)
-- Ethernet (RGMII PHY)
-- 32kbit EEPROM
-- USB-A host port
-- USB-C power input
-- SoC JTAG/MGM240P SWD TagConnect debug interfaces
-- SPI and UART header pins for extra peripherals
 
 ## Rev A Progress
 ### Working
