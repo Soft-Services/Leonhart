@@ -4,6 +4,11 @@ Leonhart is a custom embedded Linux board based on the Texas Instruments AM6231 
 
 The board is a smart-home gateway capable of running Linux and hosting Thread and Zigbee networks simultaneously using the Silicon Labs MGM240P radio module. The goal is to provide support for Matter-over-Thread devices while also bridging Zigbee devices into modern Matter-based ecosystems such as Google Home, Amazon Alexa, and Apple Home.
 
+## Why This Matters
+Many existing smart homes rely on Zigbee devices, while newer smart-home ecosystems are increasingly moving towards Matter and Thread. Replacing Zigbee devices to keep up with Matter-based ecosystems is wasteful, expensive and unnecessary.
+
+Leonhart was created to support both worlds at once. Hosting a Thread network for newer Matter-over-Thread devices, while also hosting a Zigbee network and allowing for communication with legacy Zigbee devices. The long-term goal is to bridge Zigbee devices into Matter-based ecosystems, allowing older devices to remain useful alongside newer smart-home standards.
+
 ## Project Goals
 
 The main goals of Leonhart are:
